@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | TheFaberTale — Our Story & Craftsmanship</title>
+  <meta name="description" content="Learn about TheFaberTale — our passion for handcrafted furniture and décor, our artisan process, and our commitment to sustainable craftsmanship from Vadodara.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation"></nav>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel"></div>
+  </header>
+  <script src="js/critical.js"></script>
+
+  <!-- Search Modal -->
+  <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Search Products</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="search-input-wrap" style="position:relative;">
+            <input type="text" id="searchInput" placeholder="Search by name, category, or tags..." aria-label="Search products">
+            <iconify-icon class="search-icon" icon="mdi:magnify"></iconify-icon>
+            <div id="searchResults"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow" style="color:var(--accent);font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;font-weight:600;" data-aos="fade-up">About Us</p>
+        <h1 data-aos="fade-up" data-aos-delay="100">Our Story</h1>
+        <p data-aos="fade-up" data-aos-delay="200">The passion behind every handcrafted piece</p>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+            <div style="border-radius:var(--radius-lg);overflow:hidden;">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=800&q=80" alt="Artisan at work in workshop" style="width:100%;height:auto;min-height:380px;object-fit:cover;">
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div style="padding-left:20px;">
+              <p class="eyebrow" style="font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:12px;">The Beginning</p>
+              <h2>Born from a Love for Natural Beauty</h2>
+              <p style="margin-top:16px;">TheFaberTale was founded with a singular vision: to transform raw, natural materials into extraordinary pieces of functional art. Based in Vadodara, Gujarat, we are a collective of skilled artisans who find inspiration in the organic textures of wood, the flowing elegance of resin, and the timeless beauty of stone.</p>
+              <p style="margin-top:12px;">Every piece in our collection begins with a conversation — between the artisan and the material. We don't force designs; we discover them within each unique slab of wood, each naturally formed root, each raw stone. This philosophy ensures that no two TheFaberTale creations are ever alike.</p>
+              <p style="margin-top:12px;">Our name, "FaberTale," draws from the Latin word <em>faber</em> — meaning craftsman, maker, artisan. Each piece we create tells the tale of its maker and the natural material it was born from.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section style="background:var(--light);">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="eyebrow">What Drives Us</p>
+          <h2>Our Core Values</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="50">
+            <div style="text-align:center;padding:32px 20px;">
+              <iconify-icon icon="mdi:hand-heart-outline" style="font-size:2.8rem;color:var(--accent);margin-bottom:16px;display:block;"></iconify-icon>
+              <h3 style="font-size:1.15rem;margin-bottom:10px;">Artisan Craftsmanship</h3>
+              <p style="font-size:0.9rem;">Every piece is meticulously handcrafted by skilled artisans who pour their passion and expertise into each creation.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div style="text-align:center;padding:32px 20px;">
+              <iconify-icon icon="mdi:leaf-circle-outline" style="font-size:2.8rem;color:var(--accent);margin-bottom:16px;display:block;"></iconify-icon>
+              <h3 style="font-size:1.15rem;margin-bottom:10px;">Sustainability First</h3>
+              <p style="font-size:0.9rem;">We source reclaimed and sustainably harvested materials, ensuring our art doesn't come at the cost of the environment.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div style="text-align:center;padding:32px 20px;">
+              <iconify-icon icon="mdi:diamond-stone" style="font-size:2.8rem;color:var(--accent);margin-bottom:16px;display:block;"></iconify-icon>
+              <h3 style="font-size:1.15rem;margin-bottom:10px;">Uncompromising Quality</h3>
+              <p style="font-size:0.9rem;">From material selection to final finish, every step undergoes rigorous quality checks to ensure pieces that last generations.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div style="text-align:center;padding:32px 20px;">
+              <iconify-icon icon="mdi:palette-outline" style="font-size:2.8rem;color:var(--accent);margin-bottom:16px;display:block;"></iconify-icon>
+              <h3 style="font-size:1.15rem;margin-bottom:10px;">Unique Design</h3>
+              <p style="font-size:0.9rem;">Nature ensures no two pieces of wood or stone are identical, making every TheFaberTale creation a one-of-a-kind masterpiece.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div style="text-align:center;padding:32px 20px;">
+              <iconify-icon icon="mdi:account-group-outline" style="font-size:2.8rem;color:var(--accent);margin-bottom:16px;display:block;"></iconify-icon>
+              <h3 style="font-size:1.15rem;margin-bottom:10px;">Community Support</h3>
+              <p style="font-size:0.9rem;">We work with local artisans and craftsmen, supporting traditional skills and providing fair livelihood opportunities.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div style="text-align:center;padding:32px 20px;">
+              <iconify-icon icon="mdi:star-shooting-outline" style="font-size:2.8rem;color:var(--accent);margin-bottom:16px;display:block;"></iconify-icon>
+              <h3 style="font-size:1.15rem;margin-bottom:10px;">Customer Delight</h3>
+              <p style="font-size:0.9rem;">From consultation to delivery, we ensure a seamless experience that matches the premium quality of our products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background:var(--dark);text-align:center;">
+      <div class="container" data-aos="fade-up">
+        <p class="eyebrow" style="color:var(--accent);font-size:0.75rem;letter-spacing:3px;text-transform:uppercase;font-weight:600;margin-bottom:12px;">Ready to Transform Your Space?</p>
+        <h2 style="color:var(--white);margin-bottom:20px;">Let's Create Something Beautiful Together</h2>
+        <p style="color:rgba(255,255,255,0.65);max-width:550px;margin:0 auto 28px;">Browse our collection or reach out for a custom piece tailored to your vision.</p>
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="products.html" class="hero-cta">
+            Browse Products <iconify-icon icon="mdi:arrow-right"></iconify-icon>
+          </a>
+          <a href="contact.html" class="hero-cta" style="background:transparent;border:2px solid var(--accent);">
+            Contact Us <iconify-icon icon="mdi:arrow-right"></iconify-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FABs -->
+  <div class="fab-container">
+    <a class="set-url-target" rel="noopener" target="_blank" href="#" aria-label="Chat on WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 258" width="28" height="28">
+        <path fill="#fff" d="M67.663 221.823l4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346c61.385 0 111.609-50.224 111.609-111.609c0-29.297-11.39-57.201-32.527-78.338c-21.137-21.137-49.041-32.527-78.338-32.527c-61.385 0-111.609 50.224-111.609 111.609c0 20.926 5.814 41.157 16.744 58.597l2.093 3.488l-8.37 30.527l31.71-7.186z"/>
+        <path fill="#25d366" d="M219.033 37.668C195.316 13.951 162.531 0 129.048 0C57.898 0 .698 57.2.698 128.35c0 22.696 5.814 44.464 17.209 63.743L0 258l67.663-17.673c18.605 10.115 39.676 15.462 61.385 15.462h.047c71.103 0 128.35-57.247 128.35-128.35c0-33.53-13.951-66.315-37.668-90.032z"/>
+        <path fill="#fff" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561s11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716s-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64"/>
+      </svg>
+    </a>
+  </div>
+  <div class="Call-fab-container">
+    <a rel="noopener" href="tel:+917016738803" aria-label="Call us"><iconify-icon icon="mdi:phone" style="color:#fff;font-size:1.4rem;"></iconify-icon></a>
+  </div>
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><iconify-icon icon="mdi:chevron-up"></iconify-icon></a>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/product-manager.js"></script>
+</body>
+</html>

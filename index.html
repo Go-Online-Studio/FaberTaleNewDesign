@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheFaberTale | Handcrafted Furniture & Décor Artifacts</title>
+  <meta name="description" content="Discover handcrafted furniture and decorative artifacts at TheFaberTale. Premium tables, beds, lights, benches, chairs, mirrors, pots, and artisan pieces from Vadodara.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪑</text></svg>">
+</head>
+<body>
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation"></nav>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel"></div>
+  </header>
+  <script src="js/critical.js"></script>
+
+  <!-- Search Modal -->
+  <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Search Products</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="search-input-wrap" style="position:relative;">
+            <input type="text" id="searchInput" placeholder="Search by name, category, or tags..." aria-label="Search products">
+            <iconify-icon class="search-icon" icon="mdi:magnify"></iconify-icon>
+            <div id="searchResults"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===== STATIC HERO BANNER ===== -->
+    <section class="hero-static" id="heroSection">
+      <img class="hero-static-bg" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1920&q=80" alt="Modern living room with artisan furniture">
+      <div class="hero-static-overlay"></div>
+      <div class="hero-static-content" data-aos="fade-up">
+        <p class="hero-static-eyebrow">Handcrafted Furniture & Décor</p>
+        <h1>Make Your <span style="color:var(--accent)">Art</span> at Home</h1>
+        <p class="hero-static-sub">Each piece tells a story of craftsmanship and natural elegance</p>
+        <a href="products.html" class="hero-cta">Explore Collection <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+      </div>
+    </section>
+
+    <!-- ===== GSAP HORIZONTAL PRODUCT SCROLL ===== -->
+    <section class="product-scroll-section" id="productScrollSection">
+
+      <div class="scroll-sidebar">
+        <h2>PRODUCTS</h2>
+        <p class="scroll-sidebar-sub">EXPLORE OUR COLLECTION</p>
+        <ul id="scrollSidebarLinks">
+          <!-- Populated by JS -->
+        </ul>
+      </div>
+
+      <div class="scroll-container" id="scrollContainer">
+        <!-- Populated by JS — one card per category -->
+      </div>
+
+    </section>
+
+    <!-- ===== SMALL ABOUT SECTION ===== -->
+    <section class="about-strip" id="aboutStrip">
+      <div class="container-fluid g-0">
+        <div class="row align-items-center g-0">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="about-strip-image">
+              <img loading="lazy" src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=900&q=80" alt="Artisan crafting furniture">
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="about-strip-content">
+              <p class="eyebrow" style="color:var(--accent);">About TheFaberTale</p>
+              <h2>Passionate About Furniture Design</h2>
+              <p>At TheFaberTale, we believe every piece of furniture should tell a story. Our artisans transform raw natural materials into functional art that brings warmth and character to your home.</p>
+              <p>From live-edge dining tables to papermesh lamps, every creation is handcrafted with love in Vadodara, Gujarat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- WhatsApp FAB -->
+  <div class="fab-container">
+    <a class="set-url-target" rel="noopener" target="_blank" href="#" aria-label="Chat on WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 258" width="28" height="28"><path fill="#fff" d="M67.663 221.823l4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346c61.385 0 111.609-50.224 111.609-111.609c0-29.297-11.39-57.201-32.527-78.338c-21.137-21.137-49.041-32.527-78.338-32.527c-61.385 0-111.609 50.224-111.609 111.609c0 20.926 5.814 41.157 16.744 58.597l2.093 3.488l-8.37 30.527l31.71-7.186z"/><path fill="#25d366" d="M219.033 37.668C195.316 13.951 162.531 0 129.048 0C57.898 0 .698 57.2.698 128.35c0 22.696 5.814 44.464 17.209 63.743L0 258l67.663-17.673c18.605 10.115 39.676 15.462 61.385 15.462h.047c71.103 0 128.35-57.247 128.35-128.35c0-33.53-13.951-66.315-37.668-90.032z"/><path fill="#fff" d="M96.678 74.148c-2.386-5.303-4.897-5.41-7.166-5.503c-1.858-.08-3.982-.074-6.104-.074c-2.124 0-5.575.799-8.492 3.984c-2.92 3.188-11.148 10.892-11.148 26.561s11.413 30.813 13.004 32.94c1.593 2.123 22.033 35.307 54.405 48.073c26.904 10.609 32.379 8.499 38.218 7.967c5.84-.53 18.844-7.702 21.497-15.139c2.655-7.436 2.655-13.81 1.859-15.142c-.796-1.327-2.92-2.124-6.105-3.716s-18.844-9.298-21.763-10.361c-2.92-1.062-5.043-1.592-7.167 1.597c-2.124 3.184-8.223 10.356-10.082 12.48c-1.857 2.129-3.716 2.394-6.9.801c-3.187-1.598-13.444-4.957-25.613-15.806c-9.468-8.442-15.86-18.867-17.718-22.056c-1.858-3.184-.199-4.91 1.398-6.497c1.431-1.427 3.186-3.719 4.78-5.578c1.588-1.86 2.118-3.187 3.18-5.311c1.063-2.126.531-3.986-.264-5.579c-.798-1.593-6.987-17.343-9.819-23.64"/></svg>
+    </a>
+  </div>
+  <div class="Call-fab-container">
+    <a rel="noopener" href="tel:+917016738803" aria-label="Call us"><iconify-icon icon="mdi:phone" style="color:#fff;font-size:1.4rem;"></iconify-icon></a>
+  </div>
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><iconify-icon icon="mdi:chevron-up"></iconify-icon></a>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/product-manager.js"></script>
+
+  <script>
+    // ===== CATEGORY IMAGES & DESCRIPTIONS =====
+    const CATEGORY_IMAGES = {
+      "Beds": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "Tables": "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?auto=format&fit=crop&w=800&q=80",
+      "Lights": "https://images.unsplash.com/photo-1669800933233-97b994ffb380?auto=format&fit=crop&w=800&q=80",
+      "Benches": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=800&q=80",
+      "Chairs": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80",
+      "Mirrors": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80",
+      "Pots/Vases": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=800&q=80",
+      "Artifacts": "https://images.unsplash.com/photo-1544967082-d9d25d867d66?auto=format&fit=crop&w=800&q=80"
+    };
+
+    // ===== BUILD PRODUCT SCROLL CARDS FROM JSON =====
+    async function buildProductScroll() {
+      try {
+        const res = await fetch('products.json');
+        const data = await res.json();
+        const categories = data.categories;
+        const container = document.getElementById('scrollContainer');
+        const sidebarLinks = document.getElementById('scrollSidebarLinks');
+        if (!container || !sidebarLinks) return;
+
+        // Build sidebar links
+        sidebarLinks.innerHTML = categories.map(cat =>
+          `<li><a href="products.html?category=${encodeURIComponent(cat.name)}">${cat.name.toUpperCase()}</a></li>`
+        ).join('');
+
+        // Build cards
+        container.innerHTML = categories.map(cat => {
+          const img = CATEGORY_IMAGES[cat.name] || '';
+          return `
+            <a class="scroll-card" href="products.html?category=${encodeURIComponent(cat.name)}" id="scroll-card-${cat.name.replace(/[^a-zA-Z]/g, '')}">
+              <div class="scroll-card-image" style="background-image:url('${img}');"></div>
+              <div class="scroll-card-content">
+                <h3>${cat.name.toUpperCase()}</h3>
+                <span class="scroll-card-explore">EXPLORE <iconify-icon icon="mdi:arrow-right"></iconify-icon></span>
+              </div>
+            </a>`;
+        }).join('');
+
+        // ===== GSAP HORIZONTAL SCROLL =====
+        gsap.registerPlugin(ScrollTrigger);
+        let mm = gsap.matchMedia();
+
+        mm.add("(min-width: 769px)", () => {
+          gsap.to(container, {
+            x: () => -(container.scrollWidth - window.innerWidth) + "px",
+            ease: "none",
+            scrollTrigger: {
+              trigger: ".product-scroll-section",
+              pin: true,
+              scrub: 1,
+              end: () => "+=" + (container.scrollWidth - window.innerWidth)
+            }
+          });
+        });
+
+        mm.add("(max-width: 768px)", () => {
+          let cards = gsap.utils.toArray(".scroll-card");
+          cards.forEach(card => {
+            gsap.from(card, {
+              y: 50,
+              opacity: 0,
+              duration: 0.8,
+              scrollTrigger: {
+                trigger: card,
+                start: "top 85%",
+                toggleActions: "play none none reverse"
+              }
+            });
+          });
+        });
+
+        // Debounced resize
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(() => ScrollTrigger.refresh(), 250);
+        });
+
+      } catch (e) {
+        console.error('Error building product scroll:', e);
+      }
+    }
+
+    buildProductScroll();
+  </script>
+</body>
+</html>

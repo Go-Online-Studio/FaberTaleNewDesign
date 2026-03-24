@@ -420,6 +420,11 @@
   #mainNavbar .navbar-brand img {
     height: 34px;
   }
+  #mainNavbar .navbar-brand {
+    margin: auto;
+    position: relative;
+    /* transform: translateX(25px); */
+  }
 
   /* Page Headers */
   .page-header {

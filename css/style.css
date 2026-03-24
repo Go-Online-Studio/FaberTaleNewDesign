@@ -634,6 +634,12 @@ right: 29px;
 
 
 /* Search Modal */
+.modal {
+  z-index: 1057;
+}
+.modal-backdrop{
+  z-index: 1056;
+}
 .search-modal .modal-content {
   border: none;
   border-radius: var(--radius-lg);

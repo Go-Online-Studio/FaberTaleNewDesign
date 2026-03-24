@@ -31,6 +31,10 @@
     {
       "name": "Artifacts",
       "subcategories": ["All Artifacts"]
+    },
+    {
+      "name": "Partitions",
+      "subcategories": ["All Partitions"]
     }
   ],
   "products": [
@@ -42,8 +46,8 @@
       "description": "A majestic canopy bed frame handcrafted from solid teak wood with elegant carved posts and a warm natural finish. Designed to be the centrepiece of your bedroom.",
       "images": [
         "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80",
-        "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=600&q=80"
+        "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&q=80",
+        "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=600&q=80"
       ],
       "tags": ["canopy", "teak", "bedroom", "handcrafted"]
     },
@@ -54,9 +58,9 @@
       "subcategory": "Canopy Bed",
       "description": "A rustic canopy bed made from reclaimed wood with a beautifully weathered patina. Raw natural beauty meets comfortable modern living.",
       "images": [
-        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80",
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
-        "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=600&q=80"
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80",
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&q=80",
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80"
       ],
       "tags": ["canopy", "rustic", "reclaimed", "bedroom"]
     },
@@ -67,9 +71,9 @@
       "subcategory": "Dining Table",
       "description": "A stunning live-edge dining table featuring a vibrant turquoise resin river flowing through naturally contoured walnut slabs. Seats six comfortably.",
       "images": [
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
         "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80"
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
       ],
       "tags": ["resin", "dining", "walnut", "live-edge", "epoxy"]
     },
@@ -80,9 +84,9 @@
       "subcategory": "Dining Table",
       "description": "A classic solid wood dining table crafted from premium sheesham with a hand-rubbed oil finish that highlights exquisite grain patterns.",
       "images": [
-        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
-        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
       ],
       "tags": ["dining", "sheesham", "solid-wood", "classic"]
     },
@@ -93,9 +97,9 @@
       "subcategory": "Center Table",
       "description": "An elegant center table with a natural marble top set on a sculptural wooden base. The contrast of stone and wood creates a sophisticated focal point.",
       "images": [
-        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
-        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1592078615290-033ee584e277?w=600&q=80"
       ],
       "tags": ["center-table", "marble", "wooden-base", "living-room"]
     },
@@ -107,8 +111,8 @@
       "description": "A mesmerizing round center table featuring deep blue and turquoise resin art encapsulated within a solid wood frame.",
       "images": [
         "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
-        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80"
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80"
       ],
       "tags": ["center-table", "resin", "round", "epoxy", "blue"]
     },
@@ -120,8 +124,8 @@
       "description": "A rare petrified wood side table where ancient wood has been naturally transformed into stone over millions of years. The polished top reveals mesmerizing fossil patterns.",
       "images": [
         "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
-        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80"
       ],
       "tags": ["side-table", "petrified", "fossil", "rare"]
     },
@@ -132,9 +136,9 @@
       "subcategory": "Side Table",
       "description": "A charming hand-carved log side table made from a solid tree trunk section, polished to reveal stunning natural rings and textures.",
       "images": [
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80"
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
+        "https://images.unsplash.com/photo-1592078615290-033ee584e277?w=600&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80"
       ],
       "tags": ["side-table", "log", "carved", "natural"]
     },
@@ -145,8 +149,8 @@
       "subcategory": "Console Table",
       "description": "A dramatic console table crafted from a naturally formed teak root system, mounted on a sleek metal base. Each piece is a unique sculptural statement.",
       "images": [
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
         "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
         "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80"
       ],
       "tags": ["console", "teak-root", "sculptural", "entryway"]
@@ -159,8 +163,8 @@
       "description": "A beautifully weathered console table featuring reclaimed wood with a natural patina, supported by hand-forged iron legs.",
       "images": [
         "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
-        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
-        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80"
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80"
       ],
       "tags": ["console", "rustic", "reclaimed", "iron-legs"]
     },
@@ -171,9 +175,9 @@
       "subcategory": "Live Edge",
       "description": "An organic live-edge table crafted from a single slab of seasoned teak wood, finished with a natural oil that highlights the wood's warm golden tones.",
       "images": [
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
         "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
-        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80"
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
       ],
       "tags": ["live-edge", "slab", "teak", "natural", "organic"]
     },
@@ -184,9 +188,9 @@
       "subcategory": "Papermesh Floor",
       "description": "A statement floor lamp wrapped in hand-layered papier-mâché with intricate texture work. Emits a warm, diffused glow through the organic surface.",
       "images": [
-        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
         "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
-        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80"
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
       ],
       "tags": ["papermesh", "floor-lamp", "handmade", "textured"]
     },
@@ -197,9 +201,9 @@
       "subcategory": "Papermesh Hanging",
       "description": "A delicate hanging pendant crafted from layered papier-mâché in an organic bell shape. Casts beautiful shadow patterns on surrounding walls.",
       "images": [
-        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
-        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
-        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80"
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80"
       ],
       "tags": ["papermesh", "pendant", "hanging", "shadows"]
     },
@@ -210,9 +214,9 @@
       "subcategory": "Wooden Floor",
       "description": "A contemporary wooden tripod floor lamp with hand-turned legs and a natural linen drum shade. Warm ambient lighting for bedside or living spaces.",
       "images": [
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
         "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
-        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
-        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80"
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
       ],
       "tags": ["wooden", "tripod", "floor-lamp", "linen"]
     },
@@ -223,9 +227,9 @@
       "subcategory": "Wooden Hanging",
       "description": "A beautifully woven rattan pendant light that casts intricate shadow patterns. Handmade using traditional weaving techniques for bohemian interiors.",
       "images": [
-        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
-        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
-        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80",
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80"
       ],
       "tags": ["rattan", "pendant", "woven", "bohemian"]
     },
@@ -236,9 +240,9 @@
       "subcategory": "Wooden Hanging",
       "description": "A cluster of three bamboo pendant lights in varying sizes, each handwoven to create a warm, natural glow. Sustainable and stylish.",
       "images": [
-        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
-        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
-        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80"
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80",
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80"
       ],
       "tags": ["bamboo", "cluster", "pendant", "sustainable"]
     },
@@ -249,9 +253,9 @@
       "subcategory": "Papermesh",
       "description": "A unique accent bench featuring a papier-mâché sculpted seat on a solid wood frame. A functional art piece for entryways and reading nooks.",
       "images": [
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80"
       ],
       "tags": ["papermesh", "bench", "accent", "sculpted"]
     },
@@ -262,9 +266,9 @@
       "subcategory": "Wood",
       "description": "A solid wooden bench crafted from reclaimed railway sleeper wood with a natural weathered finish. Perfect for rustic and industrial interiors.",
       "images": [
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
       ],
       "tags": ["wood", "bench", "rustic", "reclaimed", "railway-sleeper"]
     },
@@ -275,9 +279,9 @@
       "subcategory": "Wood",
       "description": "An organic live-edge bench carved from a single slab of acacia, set on minimalist metal legs. Each piece showcases the wood's natural contours.",
       "images": [
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80"
       ],
       "tags": ["live-edge", "bench", "acacia", "metal-legs"]
     },
@@ -288,9 +292,9 @@
       "subcategory": "All Chairs",
       "description": "A beautifully sculpted accent chair in solid teak with a woven cane seat back. Classic mid-century design meets artisan craftsmanship.",
       "images": [
-        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+        "https://images.unsplash.com/photo-1567538096-425216f1f4fb?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80"
       ],
       "tags": ["chair", "teak", "cane", "accent", "mid-century"]
     },
@@ -301,9 +305,9 @@
       "subcategory": "All Chairs",
       "description": "A handcrafted lounge chair made from steam-bent solid wood with ergonomic curves. The natural grain serves as the only decoration this piece needs.",
       "images": [
-        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+        "https://images.unsplash.com/photo-1567538096-425216f1f4fb?w=600&q=80",
         "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
-        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80"
       ],
       "tags": ["chair", "lounge", "steam-bent", "ergonomic"]
     },
@@ -328,8 +332,8 @@
       "description": "An elegant arched mirror with a hand-carved wooden frame featuring subtle floral motifs. A timeless piece inspired by traditional craftsmanship.",
       "images": [
         "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
-        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
-        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
       ],
       "tags": ["mirror", "hanging", "arched", "carved", "wooden"]
     },
@@ -355,7 +359,7 @@
       "images": [
         "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
         "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80"
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
       ],
       "tags": ["papermesh", "vase", "sculptural", "tall"]
     },
@@ -366,9 +370,9 @@
       "subcategory": "Papermesh",
       "description": "A round planter pot made from papier-mâché with a textured matte finish. Lightweight yet robust, perfect for indoor display.",
       "images": [
-        "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=600&q=80",
-        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
-        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80"
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80"
       ],
       "tags": ["papermesh", "pot", "round", "planter", "matte"]
     },
@@ -379,9 +383,9 @@
       "subcategory": "Wood",
       "description": "A hand-turned wooden vase crafted from a single block of mango wood. The natural grain patterns swirl beautifully around its classic silhouette.",
       "images": [
-        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
         "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80"
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80"
       ],
       "tags": ["wood", "vase", "turned", "mango-wood"]
     },
@@ -392,9 +396,9 @@
       "subcategory": "Wood",
       "description": "An organic root wood vase crafted from naturally formed teak root. The flowing, irregular edges celebrate nature's raw artistry.",
       "images": [
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80",
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
         "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
-        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80"
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
       ],
       "tags": ["wood", "vase", "root", "teak", "organic"]
     },
@@ -405,9 +409,9 @@
       "subcategory": "All Artifacts",
       "description": "A contemporary abstract sculpture cast in solid bronze with a rich patina finish. Its fluid, organic form creates a captivating focal point.",
       "images": [
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80",
-        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
-        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80"
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80",
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80"
       ],
       "tags": ["bronze", "abstract", "sculpture", "patina"]
     },
@@ -418,9 +422,9 @@
       "subcategory": "All Artifacts",
       "description": "An exquisite hand-carved stone sculpture depicting an abstract human form. Crafted from natural sandstone with unique textural variations.",
       "images": [
-        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80",
-        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80"
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80",
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80"
       ],
       "tags": ["stone", "carved", "figure", "sandstone"]
     },
@@ -431,9 +435,9 @@
       "subcategory": "All Artifacts",
       "description": "A striking ceramic tower sculpture with stacked geometric forms, finished in matte charcoal glaze. Bridges art and décor for modern spaces.",
       "images": [
-        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80",
-        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80"
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80",
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80",
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80"
       ],
       "tags": ["ceramic", "tower", "geometric", "modern"]
     },
@@ -444,9 +448,9 @@
       "subcategory": "All Artifacts",
       "description": "A large handwoven macramé wall hanging crafted from natural cotton rope, featuring intricate knot patterns and flowing fringe details.",
       "images": [
-        "https://images.unsplash.com/photo-1572375992501-4b0892d50c69?w=600&q=80",
-        "https://images.unsplash.com/photo-1762463463899-40311a52a5d2??w=600&q=80",
-        "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80"
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80",
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80"
       ],
       "tags": ["macrame", "wall-hanging", "cotton", "handwoven"]
     },
@@ -457,9 +461,9 @@
       "subcategory": "All Artifacts",
       "description": "A pair of natural agate crystal bookends with polished faces revealing stunning internal banding patterns in warm amber and white tones.",
       "images": [
-        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
-        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80"
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80",
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80"
       ],
       "tags": ["crystal", "agate", "bookends", "natural"]
     },
@@ -470,9 +474,9 @@
       "subcategory": "All Artifacts",
       "description": "A stunning wall art installation made from collected driftwood pieces, arranged in an organic flowing pattern. Naturally weathered coastal beauty.",
       "images": [
-        "https://images.unsplash.com/photo-1762463463899-40311a52a5d2??w=600&q=80",
-        "https://images.unsplash.com/photo-1572375992501-4b0892d50c69?w=600&q=80",
-        "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80"
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80",
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80",
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80"
       ],
       "tags": ["driftwood", "wall-art", "coastal", "installation"]
     },
@@ -483,11 +487,817 @@
       "subcategory": "All Artifacts",
       "description": "A hand-hammered copper vase with a rich patina that develops beautifully over time. Warm golden reflections add artisan character.",
       "images": [
-        "https://images.unsplash.com/photo-1749101950816-86d8cd7657b7?w=600&q=80",
+        "https://images.unsplash.com/photo-1544441518-1e4334f593b4?w=600&q=80",
+        "https://images.unsplash.com/photo-1580130281320-0efa0a519e29?w=600&q=80",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80"
+      ],
+      "tags": ["copper", "hammered", "vase", "patina"]
+    },
+    {
+      "id": "partition-carved-teak",
+      "name": "Carved Teak Partition",
+      "category": "Partitions",
+      "subcategory": "All Partitions",
+      "description": "A beautiful three-panel room divider handcrafted from solid teak with intricate floral carvings. Perfect for creating elegant zones in your living space.",
+      "images": [
+        "https://images.unsplash.com/photo-1600566752355-325d9b158223?w=600&q=80",
+        "https://images.unsplash.com/photo-1615529182904-142323f4da9b?w=600&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80"
+      ],
+      "tags": ["partition", "teak", "carved", "room-divider"]
+    },
+    {
+      "id": "canopy-bed-minimalist",
+      "name": "Minimalist Canopy Bed",
+      "category": "Beds",
+      "subcategory": "Canopy Bed",
+      "description": "A sleek, minimalist canopy bed with a slim black metal frame and a solid oak base. Modern elegance for a contemporary bedroom.",
+      "images": [
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&q=80",
+        "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80",
+        "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=600&q=80"
+      ],
+      "tags": ["canopy", "minimalist", "metal", "oak"]
+    },
+    {
+      "id": "canopy-bed-boho",
+      "name": "Bohemian Canopy Bed",
+      "category": "Beds",
+      "subcategory": "Canopy Bed",
+      "description": "A handcrafted bamboo canopy bed with woven rattan details. Bring a tropical, relaxed vibe to your sanctuary.",
+      "images": [
+        "https://images.unsplash.com/photo-1522771731535-6eaa837b132c?w=600&q=80",
+        "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=600&q=80",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=600&q=80"
+      ],
+      "tags": ["canopy", "boho", "bamboo", "rattan"]
+    },
+    {
+      "id": "canopy-bed-vintage",
+      "name": "Vintage Mahogany Canopy Bed",
+      "category": "Beds",
+      "subcategory": "Canopy Bed",
+      "description": "An ornate mahogany canopy bed with hand-carved floral details and a polished antique finish. A timeless heirloom piece.",
+      "images": [
+        "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
+        "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&q=80"
+      ],
+      "tags": ["canopy", "mahogany", "vintage", "carved"]
+    },
+    {
+      "id": "dining-table-oak-classic",
+      "name": "Classic Oak Dining Table",
+      "category": "Tables",
+      "subcategory": "Dining Table",
+      "description": "A sturdy dining table made from thick slabs of solid European oak. Simple, functional, and built to last generations.",
+      "images": [
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
+      ],
+      "tags": ["dining", "oak", "classic", "solid-wood"]
+    },
+    {
+      "id": "dining-table-round-teak",
+      "name": "Round Teak Dining Table",
+      "category": "Tables",
+      "subcategory": "Dining Table",
+      "description": "A beautiful round dining table in natural teak wood, featuring a central pedestal base and a sunburst grain pattern.",
+      "images": [
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80"
+      ],
+      "tags": ["dining", "teak", "round", "pedestal"]
+    },
+    {
+      "id": "dining-table-industrial",
+      "name": "Industrial Reclaimed Table",
+      "category": "Tables",
+      "subcategory": "Dining Table",
+      "description": "A rugged dining table combining reclaimed factory wood with heavy-duty cast iron legs. Perfect for modern lofts.",
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80"
+      ],
+      "tags": ["dining", "industrial", "reclaimed", "metal"]
+    },
+    {
+      "id": "center-table-nesting-wood",
+      "name": "Nesting Wooden Coffee Tables",
+      "category": "Tables",
+      "subcategory": "Center Table",
+      "description": "A versatile set of two nesting coffee tables handcrafted from acacia wood with slim metal frames. Space-saving and stylish.",
+      "images": [
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1592078615290-033ee584e277?w=600&q=80"
+      ],
+      "tags": ["center-table", "nesting", "acacia", "set"]
+    },
+    {
+      "id": "center-table-live-edge-small",
+      "name": "Petite Live Edge Coffee Table",
+      "category": "Tables",
+      "subcategory": "Center Table",
+      "description": "A small live-edge coffee table made from a cross-section of a cedar log, featuring natural cracks filled with gold resin.",
+      "images": [
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1592078615290-033ee584e277?w=600&q=80",
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80"
+      ],
+      "tags": ["center-table", "live-edge", "cedar", "gold-resin"]
+    },
+    {
+      "id": "center-table-concrete-wood",
+      "name": "Concrete & Wood Center Table",
+      "category": "Tables",
+      "subcategory": "Center Table",
+      "description": "A modern center table featuring a polished concrete top set into a warm walnut wood frame. A bold mix of materials.",
+      "images": [
+        "https://images.unsplash.com/photo-1592078615290-033ee584e277?w=600&q=80",
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80"
+      ],
+      "tags": ["center-table", "concrete", "walnut", "modern"]
+    },
+    {
+      "id": "side-table-geometric",
+      "name": "Geometric Carved Side Table",
+      "category": "Tables",
+      "subcategory": "Side Table",
+      "description": "A block-style side table with hand-carved geometric patterns on all sides. Made from solid mango wood with a dark ebony finish.",
+      "images": [
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80"
+      ],
+      "tags": ["side-table", "carved", "geometric", "ebony"]
+    },
+    {
+      "id": "side-table-brass-inlay",
+      "name": "Brass Inlay Side Table",
+      "category": "Tables",
+      "subcategory": "Side Table",
+      "description": "A sophisticated side table in rich sheesham wood featuring delicate brass inlay work in a botanical pattern.",
+      "images": [
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80"
+      ],
+      "tags": ["side-table", "brass-inlay", "sheesham", "botanical"]
+    },
+    {
+      "id": "side-table-terrazzo",
+      "name": "Terrazzo Top Side Table",
+      "category": "Tables",
+      "subcategory": "Side Table",
+      "description": "A playful side table with a custom terrazzo top and a simple tripod base in light oak. Adds a pop of texture to any corner.",
+      "images": [
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+      ],
+      "tags": ["side-table", "terrazzo", "oak", "tripod"]
+    },
+    {
+      "id": "console-table-sculptural",
+      "name": "Sculptural Root Console",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A console table featuring an intricately twisted driftwood base with a thick tempered glass top. Nature's sculpture for your hallway.",
+      "images": [
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80"
+      ],
+      "tags": ["console", "driftwood", "glass-top", "hallway"]
+    },
+    {
+      "id": "console-table-modern-linear",
+      "name": "Linear Walnut Console",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A minimalist console table with clean lines and a floating shelf design. Handcrafted from premium American walnut with a satin finish.",
+      "images": [
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+      ],
+      "tags": ["console", "walnut", "minimalist", "linear"]
+    },
+    {
+      "id": "console-table-bone-inlay",
+      "name": "Bone Inlay Console Table",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A stunning console table featuring traditional bone inlay in a classic chevron pattern. A luxurious statement piece for any entryway.",
+      "images": [
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80"
+      ],
+      "tags": ["console", "bone-inlay", "chevron", "entryway"]
+    },
+    {
+      "id": "live-edge-dining-slab",
+      "name": "Grand Live Edge Dining Slab",
+      "category": "Tables",
+      "subcategory": "Live Edge",
+      "description": "An immense dining table crafted from a single slab of centuries-old mahogany. The natural live edge is preserved in its raw glory.",
+      "images": [
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80"
+      ],
+      "tags": ["live-edge", "mahogany", "dining", "statement"]
+    },
+    {
+      "id": "live-edge-desk",
+      "name": "Live Edge Walnut Desk",
+      "category": "Tables",
+      "subcategory": "Live Edge",
+      "description": "A beautiful workspace featuring a live-edge walnut top and a custom-built wooden organizer shelf. Inspiring and organic.",
+      "images": [
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80",
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80"
+      ],
+      "tags": ["live-edge", "desk", "walnut", "workspace"]
+    },
+    {
+      "id": "live-edge-entry-table",
+      "name": "Live Edge Entryway Table",
+      "category": "Tables",
+      "subcategory": "Live Edge",
+      "description": "A narrow live-edge entryway table made from cherry wood with natural knots and grain variations. Mounted on slim pin legs.",
+      "images": [
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80"
+      ],
+      "tags": ["live-edge", "cherry", "entryway", "pin-legs"]
+    },
+    {
+      "id": "live-edge-bar-counter",
+      "name": "Live Edge Bar Counter",
+      "category": "Tables",
+      "subcategory": "Live Edge",
+      "description": "A thick, rustic live-edge bar counter made from reclaimed timber. Perfect for home bars or kitchen islands with a rustic touch.",
+      "images": [
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
+        "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&q=80",
+        "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?w=600&q=80"
+      ],
+      "tags": ["live-edge", "reclaimed", "bar", "rustic"]
+    },
+    {
+      "id": "light-papermesh-floor-tall",
+      "name": "Tall Papermesh Floor Lamp",
+      "category": "Lights",
+      "subcategory": "Papermesh Floor",
+      "description": "An extra-tall floor lamp with a tapered papermesh shade and a reclaimed wood base. A striking presence for high-ceiling rooms.",
+      "images": [
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
+      ],
+      "tags": ["papermesh", "floor-lamp", "tall", "sculptural"]
+    },
+    {
+      "id": "light-papermesh-floor-globular",
+      "name": "Globular Papermesh Lamp",
+      "category": "Lights",
+      "subcategory": "Papermesh Floor",
+      "description": "A low-set globular floor lamp wrapped in translucent papermesh. Emits a soft, moon-like glow perfect for relaxation areas.",
+      "images": [
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80"
+      ],
+      "tags": ["papermesh", "floor-lamp", "globular", "soft-light"]
+    },
+    {
+      "id": "light-papermesh-floor-organic",
+      "name": "Organic Column Floor Lamp",
+      "category": "Lights",
+      "subcategory": "Papermesh Floor",
+      "description": "A column-style floor lamp with irregular, organic papermesh folds. Each piece has a unique textural footprint.",
+      "images": [
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80"
+      ],
+      "tags": ["papermesh", "floor-lamp", "column", "textural"]
+    },
+    {
+      "id": "light-papermesh-floor-twin",
+      "name": "Twin Papermesh Floor Set",
+      "category": "Lights",
+      "subcategory": "Papermesh Floor",
+      "description": "A pair of complementary floor lamps in different heights, both featuring handcrafted papermesh shades and oak bases.",
+      "images": [
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
+      ],
+      "tags": ["papermesh", "floor-lamp", "set", "twin"]
+    },
+    {
+      "id": "light-papermesh-hanging-ovoid",
+      "name": "Ovoid Papermesh Pendant",
+      "category": "Lights",
+      "subcategory": "Papermesh Hanging",
+      "description": "A large ovoid pendant light made from layered white papermesh. Lightweight and ethereal, it floats beautifully in mid-air.",
+      "images": [
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80"
+      ],
+      "tags": ["papermesh", "hanging", "ovoid", "pendant"]
+    },
+    {
+      "id": "light-papermesh-hanging-cluster",
+      "name": "Papermesh Pendant Cluster",
+      "category": "Lights",
+      "subcategory": "Papermesh Hanging",
+      "description": "A cluster of three small papermesh pendants on varying cord lengths. Creates a dynamic lighting installation for dining areas.",
+      "images": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80",
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80"
+      ],
+      "tags": ["papermesh", "hanging", "cluster", "dining"]
+    },
+    {
+      "id": "light-papermesh-hanging-flat",
+      "name": "Flat Disc Papermesh Light",
+      "category": "Lights",
+      "subcategory": "Papermesh Hanging",
+      "description": "A wide, flat disc pendant crafted from textured papermesh. Ideal for low-ceiling spaces requiring a statement piece.",
+      "images": [
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80",
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80"
+      ],
+      "tags": ["papermesh", "hanging", "disc", "minimalist"]
+    },
+    {
+      "id": "light-papermesh-hanging-sculpture",
+      "name": "Sculptural Papermesh Hanging",
+      "category": "Lights",
+      "subcategory": "Papermesh Hanging",
+      "description": "An intricately folded papermesh hanging sculpture that doubles as a light source. A true masterpiece of artisan paper craft.",
+      "images": [
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80"
+      ],
+      "tags": ["papermesh", "hanging", "sculptural", "art-piece"]
+    },
+    {
+      "id": "light-wooden-floor-arc",
+      "name": "Wooden Arc Floor Lamp",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "A graceful arc floor lamp made from steam-bent ash wood with a heavy circular base. Reaches over sofas for perfect reading light.",
+      "images": [
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
+      ],
+      "tags": ["wooden", "floor-lamp", "arc", "ash-wood"]
+    },
+    {
+      "id": "light-wooden-floor-shelf",
+      "name": "Floor Lamp with Wooden Shelves",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "A functional floor lamp featuring three integrated wooden shelves for books or décor items. Space-saving and warm.",
+      "images": [
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80"
+      ],
+      "tags": ["wooden", "floor-lamp", "shelf", "functional"]
+    },
+    {
+      "id": "light-wooden-floor-minimal",
+      "name": "Minimalist Timber Floor Lamp",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "A simple timber beam floor lamp with an integrated LED strip along one side. Pure material beauty in a modern form.",
+      "images": [
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80"
+      ],
+      "tags": ["wooden", "floor-lamp", "minimalist", "LED"]
+    },
+    {
+      "id": "light-wooden-floor-vintage",
+      "name": "Vintage Mahogany Floor Lamp",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "A classic turned mahogany floor lamp with intricate detailing and a pleated silk shade. Timeless elegance.",
+      "images": [
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80",
+        "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600&q=80",
+        "https://images.unsplash.com/photo-1617864674650-111b885860d9?w=600&q=80"
+      ],
+      "tags": ["wooden", "floor-lamp", "mahogany", "vintage"]
+    },
+    {
+      "id": "light-wooden-hanging-slat",
+      "name": "Wooden Slat Pendant",
+      "category": "Lights",
+      "subcategory": "Wooden Hanging",
+      "description": "A horizontal pendant light featuring thin slats of walnut that create a beautiful play of light and shadow.",
+      "images": [
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80"
+      ],
+      "tags": ["wooden", "hanging", "slat", "walnut"]
+    },
+    {
+      "id": "light-wooden-hanging-driftwood",
+      "name": "Driftwood Branch Chandelier",
+      "category": "Lights",
+      "subcategory": "Wooden Hanging",
+      "description": "A unique chandelier made from a large, weather-worn driftwood branch with integrated Edison bulbs. Rustic and sculptural.",
+      "images": [
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80",
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80"
+      ],
+      "tags": ["wooden", "hanging", "driftwood", "chandelier"]
+    },
+    {
+      "id": "light-wooden-hanging-cube",
+      "name": "Oak Cube Pendant Light",
+      "category": "Lights",
+      "subcategory": "Wooden Hanging",
+      "description": "A solid oak cube pendant with a hollowed-out center for the bulb. Minimalist geometry in a warm natural material.",
+      "images": [
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=600&q=80",
+        "https://images.unsplash.com/photo-1524484485831-a927000262b5?w=600&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80"
+      ],
+      "tags": ["wooden", "hanging", "oak", "cube"]
+    },
+    {
+      "id": "bench-papermesh-long",
+      "name": "Long Papermesh Gallery Bench",
+      "category": "Benches",
+      "subcategory": "Papermesh",
+      "description": "An elongated gallery bench with a seamless papermesh surface and a slim metal base. A modern architectural piece.",
+      "images": [
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80"
+      ],
+      "tags": ["papermesh", "bench", "long", "gallery"]
+    },
+    {
+      "id": "bench-papermesh-curve",
+      "name": "Curved Papermesh Bench",
+      "category": "Benches",
+      "subcategory": "Papermesh",
+      "description": "A sculptural bench with a curved papermesh seat designed to complement organic interior spaces. Comfortable and artistic.",
+      "images": [
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
+      ],
+      "tags": ["papermesh", "bench", "curved", "organic"]
+    },
+    {
+      "id": "bench-papermesh-tufted",
+      "name": "Tufted Papermesh Bench",
+      "category": "Benches",
+      "subcategory": "Papermesh",
+      "description": "A unique bench with a 'tufted' papermesh texture that mimics upholstery. A clever play on materials and perception.",
+      "images": [
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80"
+      ],
+      "tags": ["papermesh", "bench", "tufted", "texture"]
+    },
+    {
+      "id": "bench-papermesh-compact",
+      "name": "Compact Papermesh Stool",
+      "category": "Benches",
+      "subcategory": "Papermesh",
+      "description": "A small, sturdy papermesh stool that can be used as a side table or additional seating. Versatile and lightweight.",
+      "images": [
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80"
+      ],
+      "tags": ["papermesh", "stool", "compact", "versatile"]
+    },
+    {
+      "id": "bench-wood-oak",
+      "name": "Solid Oak Entryway Bench",
+      "category": "Benches",
+      "subcategory": "Wood",
+      "description": "A simple and robust entryway bench handcrafted from solid European oak with traditional joinery details.",
+      "images": [
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
+      ],
+      "tags": ["wood", "bench", "oak", "entryway"]
+    },
+    {
+      "id": "bench-wood-slat",
+      "name": "Wooden Slat Garden Bench",
+      "category": "Benches",
+      "subcategory": "Wood",
+      "description": "A horizontal slat bench made from weather-resistant teak wood. Elegant enough for indoors, durable enough for outdoors.",
+      "images": [
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80",
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80"
+      ],
+      "tags": ["wood", "bench", "teak", "slat"]
+    },
+    {
+      "id": "bench-wood-upholstered",
+      "name": "Wooden Bench with Linen Pad",
+      "category": "Benches",
+      "subcategory": "Wood",
+      "description": "A walnut wood bench featuring a slim, hand-sewn linen cushion for added comfort. A soft touch on a hard surface.",
+      "images": [
+        "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
+        "https://images.unsplash.com/photo-1567225557-53c65fdc258d?w=600&q=80",
+        "https://images.unsplash.com/photo-1597072688494-e0a6e8df81cb?w=600&q=80"
+      ],
+      "tags": ["wood", "bench", "linen", "walnut"]
+    },
+    {
+      "id": "chair-rattan-modern",
+      "name": "Modern Rattan Lounge Chair",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A contemporary lounge chair with a handwoven rattan seat and a tapered black metal frame. A perfect blend of texture and geometry.",
+      "images": [
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+        "https://images.unsplash.com/photo-1567538096-425216f1f4fb?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80"
+      ],
+      "tags": ["chair", "rattan", "lounge", "modern"]
+    },
+    {
+      "id": "chair-bench-style",
+      "name": "Wide Wooden Slat Chair",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "An extra-wide accent chair made from solid wood slats, inspired by traditional garden benches but refined for indoor use.",
+      "images": [
+        "https://images.unsplash.com/photo-1567538096-425216f1f4fb?w=600&q=80",
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80"
+      ],
+      "tags": ["chair", "slat", "teak", "wide"]
+    },
+    {
+      "id": "chair-armchair-curved",
+      "name": "Curved Walnut Armchair",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "images": [
+        "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=600&q=80",
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+        "https://images.unsplash.com/photo-1567538096-425216f1f4fb?w=600&q=80"
+      ],
+      "tags": ["chair", "armchair", "walnut", "curved"]
+    },
+    {
+      "id": "mirror-hanging-sunburst",
+      "name": "Sunburst Teak Mirror",
+      "category": "Mirrors",
+      "subcategory": "Hanging",
+      "description": "A dramatic sunburst wall mirror featuring hand-carved teak 'rays' radiating from a central round mirror. A warm focal point.",
+      "images": [
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
+      ],
+      "tags": ["mirror", "hanging", "sunburst", "teak"]
+    },
+    {
+      "id": "mirror-hanging-bamboo",
+      "name": "Woven Bamboo Wall Mirror",
+      "category": "Mirrors",
+      "subcategory": "Hanging",
+      "description": "A lightweight wall mirror set in a broad, intricately woven bamboo frame. Perfect for coastal or bohemian-inspired spaces.",
+      "images": [
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
+      ],
+      "tags": ["mirror", "hanging", "bamboo", "woven"]
+    },
+    {
+      "id": "mirror-hanging-oval-brass",
+      "name": "Oval Brass Inlay Mirror",
+      "category": "Mirrors",
+      "subcategory": "Hanging",
+      "description": "An elegant oval mirror with a dark wood frame featuring delicate brass inlay accents. A touch of vintage glamour.",
+      "images": [
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80"
+      ],
+      "tags": ["mirror", "hanging", "oval", "brass"]
+    },
+    {
+      "id": "mirror-floor-arched",
+      "name": "Grand Arched Floor Mirror",
+      "category": "Mirrors",
+      "subcategory": "Floor",
+      "description": "A massive arched floor mirror with a hand-carved oak frame. Its impressive scale adds a sense of space and light to any large room.",
+      "images": [
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
+      ],
+      "tags": ["mirror", "floor", "arched", "oak"]
+    },
+    {
+      "id": "mirror-floor-minimalist",
+      "name": "Minimalist Timber Floor Mirror",
+      "category": "Mirrors",
+      "subcategory": "Floor",
+      "description": "A contemporary floor mirror with a slim, black-washed timber frame. Clean lines meet natural material for a modern aesthetic.",
+      "images": [
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
+      ],
+      "tags": ["mirror", "floor", "minimalist", "timber"]
+    },
+    {
+      "id": "mirror-floor-rustic-live-edge",
+      "name": "Live Edge Floor Mirror",
+      "category": "Mirrors",
+      "subcategory": "Floor",
+      "description": "A unique floor mirror where the frame is made from two organic live-edge walnut slabs. A raw and powerful statement piece.",
+      "images": [
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80"
+      ],
+      "tags": ["mirror", "floor", "live-edge", "walnut"]
+    },
+    {
+      "id": "mirror-floor-vintage-gold",
+      "name": "Vintage Gold Leaf Floor Mirror",
+      "category": "Mirrors",
+      "subcategory": "Floor",
+      "description": "A grand floor mirror with an ornate carved frame finished in hand-applied gold leaf. Timeless luxury for a classic interior.",
+      "images": [
+        "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
+        "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
+        "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
+      ],
+      "tags": ["mirror", "floor", "vintage", "gold-leaf"]
+    },
+    {
+      "id": "pot-papermesh-tall-fluted",
+      "name": "Tall Fluted Papermesh Vase",
+      "category": "Pots/Vases",
+      "subcategory": "Papermesh",
+      "description": "An elegant, tall vase with a fluted papermesh surface that catches the light beautifully. Ideal for dried botanical arrangements.",
+      "images": [
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
+      ],
+      "tags": ["papermesh", "vase", "fluted", "botanical"]
+    },
+    {
+      "id": "pot-papermesh-mini-set",
+      "name": "Mini Papermesh Pot Set",
+      "category": "Pots/Vases",
+      "subcategory": "Papermesh",
+      "description": "A charming set of three mini papermesh pots in varying neutral tones. Perfect for shelf styling and small succulent displays.",
+      "images": [
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80"
+      ],
+      "tags": ["papermesh", "pot", "set", "mini"]
+    },
+    {
+      "id": "pot-papermesh-textured-bowl",
+      "name": "Textured Papermesh Bowl",
+      "category": "Pots/Vases",
+      "subcategory": "Papermesh",
+      "description": "A wide, shallow bowl with a high-relief papermesh texture. Use as a center piece or a sculptural element on a console table.",
+      "images": [
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
         "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
         "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80"
       ],
-      "tags": ["copper", "hammered", "vase", "patina"]
+      "tags": ["papermesh", "bowl", "textured", "center-piece"]
+    },
+    {
+      "id": "vase-wood-ebony-tall",
+      "name": "Tall Ebony Turned Vase",
+      "category": "Pots/Vases",
+      "subcategory": "Wood",
+      "description": "A dramatic tall vase hand-turned from solid teak with an ebony finish. A bold sculptural piece with a satin-smooth surface.",
+      "images": [
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
+      ],
+      "tags": ["wood", "vase", "ebony", "teak"]
+    },
+    {
+      "id": "vase-wood-carved-floral",
+      "name": "Floral Carved Wooden Pot",
+      "category": "Pots/Vases",
+      "subcategory": "Wood",
+      "description": "A small wooden pot featuring hand-carved floral motifs around its circumference. Made from warm mango wood with a natural wax finish.",
+      "images": [
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80",
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80"
+      ],
+      "tags": ["wood", "pot", "carved", "floral"]
+    },
+    {
+      "id": "vase-wood-asymmetrical",
+      "name": "Asymmetrical Log Vase",
+      "category": "Pots/Vases",
+      "subcategory": "Wood",
+      "description": "A unique vase carved from an asymmetrical section of a cedar log, preserving the natural bark and grain variations.",
+      "images": [
+        "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
+        "https://images.unsplash.com/photo-1581783898377-1c85bf937427?w=600&q=80",
+        "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80"
+      ],
+      "tags": ["wood", "vase", "log", "asymmetrical"]
+    },
+    {
+      "id": "partition-modern-slat",
+      "name": "Modern Slat Room Divider",
+      "category": "Partitions",
+      "subcategory": "All Partitions",
+      "description": "A minimalist room divider featuring vertical wooden slats set in a slim black frame. Provides privacy while maintaining light and airflow.",
+      "images": [
+        "https://images.unsplash.com/photo-1600566752355-325d9b158223?w=600&q=80",
+        "https://images.unsplash.com/photo-1615529182904-142323f4da9b?w=600&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80"
+      ],
+      "tags": ["partition", "slat", "modern", "room-divider"]
+    },
+    {
+      "id": "partition-rattan-boho",
+      "name": "Woven Rattan Partition",
+      "category": "Partitions",
+      "subcategory": "All Partitions",
+      "description": "A lightweight three-panel partition made from natural woven rattan. Adds a warm, bohemian touch to any room.",
+      "images": [
+        "https://images.unsplash.com/photo-1615529182904-142323f4da9b?w=600&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80",
+        "https://images.unsplash.com/photo-1600566752355-325d9b158223?w=600&q=80"
+      ],
+      "tags": ["partition", "rattan", "boho", "woven"]
+    },
+    {
+      "id": "partition-industrial-metal",
+      "name": "Industrial Grid Partition",
+      "category": "Partitions",
+      "subcategory": "All Partitions",
+      "description": "A bold room divider with a blackened metal grid frame and integrated wooden shelves. A perfect fusion of storage and separation.",
+      "images": [
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80",
+        "https://images.unsplash.com/photo-1600566752355-325d9b158223?w=600&q=80",
+        "https://images.unsplash.com/photo-1615529182904-142323f4da9b?w=600&q=80"
+      ],
+      "tags": ["partition", "industrial", "metal", "shelving"]
+    },
+    {
+      "id": "partition-carved-sun",
+      "name": "Sunburst Carved Room Divider",
+      "category": "Partitions",
+      "subcategory": "All Partitions",
+      "description": "A dramatic partition featuring an intricately carved sunburst motif across four panels. Made from solid mango wood with a honey oak finish.",
+      "images": [
+        "https://images.unsplash.com/photo-1600566752355-325d9b158223?w=600&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80",
+        "https://images.unsplash.com/photo-1615529182904-142323f4da9b?w=600&q=80"
+      ],
+      "tags": ["partition", "carved", "sunburst", "mango-wood"]
     }
   ]
 }

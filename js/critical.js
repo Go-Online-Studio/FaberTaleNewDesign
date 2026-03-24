@@ -42,6 +42,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Artifacts",
       subcategories: ["All Artifacts"]
+    },
+    {
+      name: "Partitions",
+      subcategories: ["All Partitions"]
     }
   ];
 
@@ -68,10 +72,10 @@ document.addEventListener("DOMContentLoaded", function () {
     return html;
   }
 
-  // Build Products accordion-style menu
   function buildProductsDropdown() {
     return NAV_CATEGORIES.map(cat => {
       const catLink = `products.html?category=${encodeURIComponent(cat.name)}`;
+      const showViewAll = cat.subcategories.length > 1;
       return `
         <li class="accordion-item-custom">
           <div class="accordion-header-custom">
@@ -80,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
           <div class="accordion-collapse-custom">
             <ul class="submenu-list">
-              <li><a class="submenu-item" href="${catLink}">VIEW ALL</a></li>
+              ${showViewAll ? `<li><a class="submenu-item" href="${catLink}">VIEW ALL</a></li>` : ''}
               ${buildSubcategoryMenu(cat)}
             </ul>
           </div>
@@ -144,13 +148,14 @@ document.addEventListener("DOMContentLoaded", function () {
   function buildMobileCategories() {
     return NAV_CATEGORIES.map(cat => {
       const catId = `mob-${cat.name}`.replace(/[^a-zA-Z0-9]/g, '');
+      const showAllLink = cat.subcategories.length > 1;
       return `<li class="nav-item">
         <a class="nav-link" data-bs-toggle="collapse" href="#${catId}" role="button" aria-expanded="false">
           ${cat.name} <iconify-icon icon="mdi:chevron-down" width="16"></iconify-icon>
         </a>
         <div class="collapse" id="${catId}">
           <ul class="navbar-nav">
-            <li><a class="nav-link ps-3" href="products.html?category=${encodeURIComponent(cat.name)}"><strong>All ${cat.name}</strong></a></li>
+            ${showAllLink ? `<li><a class="nav-link ps-3" href="products.html?category=${encodeURIComponent(cat.name)}"><strong>All ${cat.name}</strong></a></li>` : ''}
             ${buildMobileSubcategory(cat)}
           </ul>
         </div>

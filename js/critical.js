@@ -45,19 +45,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   ];
 
-  // Build subcategory HTML for a given category
+  // Build subcategory HTML for a given category (Vertical Accordion Style)
   function buildSubcategoryMenu(cat) {
     let html = '';
     cat.subcategories.forEach(sub => {
       if (typeof sub === 'string') {
         const link = `products.html?category=${encodeURIComponent(cat.name)}&sub=${encodeURIComponent(sub)}`;
-        html += `<li><a class="dropdown-item" href="${link}">${sub}</a></li>`;
+        html += `<li><a class="submenu-item" href="${link}">${sub.toUpperCase()}</a></li>`;
       } else {
-        // 3rd level: sub has children
-        html += `<li class="dropdown-submenu">
-          <a class="dropdown-item dropdown-toggle" href="products.html?category=${encodeURIComponent(cat.name)}&sub=${encodeURIComponent(sub.name)}">${sub.name}</a>
-          <ul class="dropdown-menu submenu-level-3">
-            ${sub.children.map(child => `<li><a class="dropdown-item" href="products.html?category=${encodeURIComponent(cat.name)}&sub=${encodeURIComponent(sub.name + ' ' + child)}">${child}</a></li>`).join('')}
+        // 3rd level (rare in this accordion, but we handle it)
+        html += `<li class="submenu-inner-item">
+          <div class="submenu-header">
+            <a href="javascript:void(0)" class="prevent-nav">${sub.name.toUpperCase()}</a>
+            <iconify-icon icon="mdi:chevron-down" class="submenu-icon"></iconify-icon>
+          </div>
+          <ul class="submenu-inner-list">
+            ${sub.children.map(child => `<li><a class="submenu-item" href="products.html?category=${encodeURIComponent(cat.name)}&sub=${encodeURIComponent(sub.name + ' ' + child)}">${child.toUpperCase()}</a></li>`).join('')}
           </ul>
         </li>`;
       }
@@ -65,18 +68,23 @@ document.addEventListener("DOMContentLoaded", function () {
     return html;
   }
 
-  // Build Products mega-menu
+  // Build Products accordion-style menu
   function buildProductsDropdown() {
     return NAV_CATEGORIES.map(cat => {
       const catLink = `products.html?category=${encodeURIComponent(cat.name)}`;
-      return `<li class="dropdown-submenu">
-        <a class="dropdown-item dropdown-toggle" href="${catLink}">${cat.name}</a>
-        <ul class="dropdown-menu submenu-level-2">
-          <li><a class="dropdown-item" href="${catLink}"><strong>All ${cat.name}</strong></a></li>
-          <li><hr class="dropdown-divider"></li>
-          ${buildSubcategoryMenu(cat)}
-        </ul>
-      </li>`;
+      return `
+        <li class="accordion-item-custom">
+          <div class="accordion-header-custom">
+            <a class="accordion-link" href="${catLink}">${cat.name.toUpperCase()}</a>
+            <iconify-icon icon="mdi:chevron-down" class="accordion-icon"></iconify-icon>
+          </div>
+          <div class="accordion-collapse-custom">
+            <ul class="submenu-list">
+              <li><a class="submenu-item" href="${catLink}">VIEW ALL</a></li>
+              ${buildSubcategoryMenu(cat)}
+            </ul>
+          </div>
+        </li>`;
     }).join('');
   }
 
@@ -86,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
     navbarEl.innerHTML = `
       <div class="container-fluid nav-shell">
         <a class="navbar-brand" href="index.html" aria-label="TheFaberTale home">
-          <span style="font-size:1.4rem;font-weight:700;letter-spacing:1px;color:var(--dark);">The<span style="color:var(--accent);">Faber</span>Tale</span>
+          <img src="images/FaberTaleBrandLogo.webp" alt="TheFaberTale">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Open menu">
@@ -96,10 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="collapse navbar-collapse" id="desktopNav">
           <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-5">
             <li class="nav-item dropdown mega-dropdown">
-              <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-              <ul class="dropdown-menu mega-menu">
-                <li><a class="dropdown-item" href="products.html"><strong>All Products</strong></a></li>
-                <li><hr class="dropdown-divider"></li>
+              <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products <iconify-icon icon="mdi:chevron-down" class="submenu-icon"></iconify-icon></a>
+              <ul class="dropdown-menu mega-menu accordion-menu">
                 ${buildProductsDropdown()}
               </ul>
             </li>
@@ -176,34 +182,69 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>`;
   }
 
-  // ===== DESKTOP SUBMENU HOVER BEHAVIOR =====
-  const submenus = document.querySelectorAll('.dropdown-submenu');
-  submenus.forEach(item => {
-    item.addEventListener('mouseenter', function () {
-      const sub = this.querySelector('.dropdown-menu');
-      if (sub) sub.classList.add('show');
-    });
-    item.addEventListener('mouseleave', function () {
-      const sub = this.querySelector('.dropdown-menu');
-      if (sub) sub.classList.remove('show');
+  // ===== DESKTOP ACCORDION BEHAVIOR =====
+  const accordionHeaders = document.querySelectorAll('.accordion-header-custom');
+  accordionHeaders.forEach(header => {
+    header.addEventListener('click', function (e) {
+      const item = this.parentElement;
+      const isExpanded = item.classList.contains('active');
+
+      // Close others (one-at-a-time accordion)
+      document.querySelectorAll('.accordion-item-custom').forEach(el => {
+        el.classList.remove('active');
+        const icon = el.querySelector('.accordion-icon');
+        if (icon) icon.setAttribute('icon', 'mdi:chevron-down');
+      });
+
+      if (!isExpanded) {
+        item.classList.add('active');
+        const icon = this.querySelector('.accordion-icon');
+        if (icon) icon.setAttribute('icon', 'mdi:chevron-up');
+      }
+
+      // If clicking the link itself, allow navigation IF it's already expanded or if it's a direct click on the text
+      // But user said "when clicked on dropdown link it should open in same place down"
+      // So we prioritize toggle.
+      if (e.target.classList.contains('accordion-link') && !isExpanded) {
+        e.preventDefault();
+      }
     });
   });
 
-  // Keep the main mega-menu open on hover
+  // Handle nested submenus if any
+  const submenuHeaders = document.querySelectorAll('.submenu-header');
+  submenuHeaders.forEach(header => {
+    header.addEventListener('click', function (e) {
+      e.stopPropagation();
+      const parent = this.parentElement; // .submenu-inner-item
+      const isExpanded = parent.classList.contains('active');
+
+      // Toggle active class
+      parent.classList.toggle('active');
+
+      const icon = this.querySelector('.submenu-icon');
+      if (icon) {
+        icon.setAttribute('icon', !isExpanded ? 'mdi:chevron-up' : 'mdi:chevron-down');
+      }
+
+      // Always prevent default if it's a prevent-nav link or a toggle container
+      if (e.target.classList.contains('prevent-nav') || e.target.closest('.submenu-header')) {
+        e.preventDefault();
+      }
+    });
+  });
+
+  // Keep the main mega-menu open on hover or click
   const megaDropdown = document.querySelector('.mega-dropdown');
   if (megaDropdown) {
-    megaDropdown.addEventListener('mouseenter', function () {
-      const menu = this.querySelector('.mega-menu');
-      if (menu) menu.classList.add('show');
-      const toggle = this.querySelector('.dropdown-toggle');
-      if (toggle) toggle.setAttribute('aria-expanded', 'true');
-    });
-    megaDropdown.addEventListener('mouseleave', function () {
-      const menu = this.querySelector('.mega-menu');
-      if (menu) menu.classList.remove('show');
-      const toggle = this.querySelector('.dropdown-toggle');
-      if (toggle) toggle.setAttribute('aria-expanded', 'false');
-    });
+    // We already have Bootstrap handling the main dropdown toggle
+    // But we might want to prevent it from closing when clicking inside
+    const megaMenu = megaDropdown.querySelector('.mega-menu');
+    if (megaMenu) {
+      megaMenu.addEventListener('click', function (e) {
+        e.stopPropagation();
+      });
+    }
   }
 
   // ===== ACTIVE LINK HANDLING =====
@@ -231,6 +272,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ===== SMOOTH SCROLL FOR ANCHOR LINKS =====
   document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    // Skip Bootstrap components that use href for target IDs (like collapse/tabs)
+    if (link.hasAttribute('data-bs-toggle')) return;
+
     link.addEventListener("click", function (e) {
       const href = this.getAttribute("href");
       if (!href || !href.startsWith("#")) return;

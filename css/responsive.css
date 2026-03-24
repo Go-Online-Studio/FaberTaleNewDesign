@@ -3,6 +3,15 @@
    991px | 767px | 575px
    ======================================== */
 
+
+@media (max-width: 1199.98px) {
+  #mainNavbar .nav-shell {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+
 /* ===== TABLET (max-width: 991px) ===== */
 @media (max-width: 991px) {
   :root {
@@ -41,6 +50,7 @@
   .scroll-sidebar {
     width: 100%;
     height: auto;
+    min-height: unset;
     position: relative;
     padding: 40px 20px 20px;
     z-index: 1;
@@ -87,6 +97,46 @@
 
   .about-strip-image img {
     min-height: 320px;
+  }
+
+  /* About Story Split */
+  .about-story-split {
+    flex-direction: column;
+  }
+
+  .about-story-image {
+    flex: none;
+  }
+
+  .about-story-image img {
+    min-height: 350px;
+  }
+
+  .about-story-content {
+    padding: 40px 24px;
+  }
+
+  /* Contact Split */
+  .contact-split {
+    flex-direction: column;
+  }
+
+  .contact-info-panel {
+    flex: none;
+    padding: 40px 24px;
+  }
+
+  .contact-form-panel {
+    padding: 40px 24px;
+  }
+
+  /* Page Header */
+  .page-header {
+    padding: 120px 0 50px;
+  }
+
+  .products-header-new {
+    padding: 120px 0 40px;
   }
 
   /* Product grid */
@@ -137,15 +187,13 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* Contact */
-  .contact-section .contact-form {
-    padding: 28px;
-  }
-
   /* Footer */
   .footer .footWrap {
     padding: 48px 0 24px;
   }
+  .footWrap>.row {
+    justify-content: space-between;
+}
 }
 
 /* ===== MOBILE LANDSCAPE (max-width: 767px) ===== */
@@ -188,9 +236,20 @@
     font-size: 18px;
   }
 
-  /* Products header */
+  /* Page Headers */
+  .page-header {
+    padding: 100px 0 40px;
+  }
+
+
+  .products-header-new {
+    padding: 100px 0 36px;
+  }
+
+
+  /* Products header (old) */
   .products-header {
-    padding: 80px 0 40px;
+    padding: 100px 0 40px;
   }
 
   .filter-section {
@@ -201,6 +260,24 @@
   .filter-btn {
     padding: 6px 16px;
     font-size: 11px;
+  }
+
+  /* About Story */
+  .about-story-content {
+    padding: 32px 20px;
+  }
+
+  .about-story-image img {
+    min-height: 280px;
+  }
+
+  /* Contact Split */
+  .contact-info-panel {
+    padding: 36px 20px;
+  }
+
+  .contact-form-panel {
+    padding: 36px 20px;
   }
 
   /* Product detail */
@@ -230,17 +307,6 @@
   }
   .showcase-slider-nav {
     top: 30%;
-  }
-
-  /* Page header */
-  .page-header {
-    padding: 100px 0 40px;
-  }
-
-  /* Contact */
-  .contact-section .contact-form {
-    padding: 20px;
-    margin-bottom: 30px;
   }
 
   /* Footer */
@@ -274,6 +340,11 @@
     bottom: 16px;
     width: 40px;
     height: 40px;
+  }
+
+  /* Map */
+  .map-section iframe {
+    height: 300px;
   }
 }
 
@@ -350,7 +421,21 @@
     height: 34px;
   }
 
-  /* Products */
+  /* Page Headers */
+  .page-header {
+    padding: 80px 0 30px;
+  }
+
+
+  .page-header p {
+    font-size: 12px;
+  }
+
+  .products-header-new {
+    padding: 80px 0 28px;
+  }
+
+  /* Products (old) */
   .products-header {
     padding: 70px 0 30px;
   }
@@ -417,7 +502,7 @@
   /* Categories */
   .categories-section .category-card {
     aspect-ratio: 1/1;
-    border-radius: 8px;
+    border-radius: 0;
   }
 
   .categories-section .category-card .category-label {
@@ -461,24 +546,37 @@
     min-height: 280px;
   }
 
+  /* About Story */
+  .about-story-content {
+    padding: 28px 16px;
+  }
+
+  .about-story-image img {
+    min-height: 220px;
+  }
+
+  /* About Values */
+  .about-values-section {
+    padding: 48px 0;
+  }
+
+  .value-card {
+    padding: 28px 20px;
+  }
+
+  /* Contact Split */
+  .contact-info-panel {
+    padding: 28px 16px;
+  }
+
+  .contact-form-panel {
+    padding: 28px 16px;
+  }
+
   /* Gallery */
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 3px;
-  }
-
-  /* Contact */
-  .contact-section .contact-form {
-    padding: 16px;
-  }
-
-  .contact-info-card {
-    padding: 16px 0;
-  }
-
-  .contact-info-card .icon-wrap {
-    width: 40px;
-    height: 40px;
   }
 
   /* Footer */
@@ -498,15 +596,6 @@
     font-size: 10px;
   }
 
-  /* Page header */
-  .page-header {
-    padding: 80px 0 30px;
-  }
-
-  .page-header h1 {
-    font-size: 22px;
-  }
-
   /* WhatsApp modal */
   .whatsapp-modal .options {
     gap: 16px;
@@ -517,7 +606,20 @@
   }
 
   /* Map */
+  .map-section iframe {
+    height: 250px;
+  }
+
   .map-container iframe {
     height: 250px;
+  }
+
+  /* CTA buttons */
+  .btn-primary-cta,
+  .btn-outline-cta {
+    padding: 12px 24px;
+    font-size: 11px;
+    width: 100%;
+    justify-content: center;
   }
 }

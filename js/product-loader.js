@@ -161,6 +161,7 @@ function handleCategoryFilter(e) {
   currentFilter = e.target.dataset.category;
   currentSubFilter = "all";
   generateSubcategoryFilters(currentFilter);
+  updateURLParams(currentFilter, currentSubFilter);
   filterAndDisplayProducts();
 }
 
@@ -168,7 +169,25 @@ function handleSubcategoryFilter(e) {
   document.querySelectorAll(".sub-filter-btn").forEach(btn => btn.classList.remove("active"));
   e.target.classList.add("active");
   currentSubFilter = e.target.dataset.sub;
+  updateURLParams(currentFilter, currentSubFilter);
   filterAndDisplayProducts();
+}
+
+function updateURLParams(category, sub) {
+  const url = new URL(window.location);
+  if (category && category !== "all") {
+    url.searchParams.set("category", category);
+  } else {
+    url.searchParams.delete("category");
+  }
+  
+  if (sub && sub !== "all") {
+    url.searchParams.set("sub", sub);
+  } else {
+    url.searchParams.delete("sub");
+  }
+  
+  window.history.replaceState({}, "", url);
 }
 
 function filterAndDisplayProducts() {

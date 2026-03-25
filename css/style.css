@@ -705,7 +705,7 @@ right: 29px;
   padding: 16px 20px;
   border-bottom: 1px solid var(--grey-light);
   transition: background var(--transition);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 #searchResults .search-result-item:last-child {
@@ -1524,6 +1524,9 @@ right: 29px;
   margin-top: 60px;
   padding-top: 40px;
   border-top: 1px solid var(--grey-light);
+}
+#related-products .eyebrow{
+  text-align: center;
 }
 
 /* ===== ABOUT SECTION ===== */

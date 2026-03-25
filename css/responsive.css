@@ -627,4 +627,7 @@
     width: 100%;
     justify-content: center;
   }
+  #related-products .eyebrow{
+  text-align: left;
+}
 }

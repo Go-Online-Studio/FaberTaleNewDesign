@@ -31,7 +31,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   scroll-padding-top: var(--nav-height);
 }
 
@@ -42,7 +42,11 @@ body {
   color: var(--primary);
   background: var(--white);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+}
+
+main{
+max-width: 100%;
+overflow-x: hidden;
 }
 
 img {

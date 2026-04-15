@@ -222,16 +222,17 @@ function displayProducts(products) {
   if (!grid) return;
 
   if (products.length === 0) {
-    grid.innerHTML = "";
-    if (noResults) noResults.classList.remove("d-none");
-    if (resultsCount) resultsCount.textContent = "";
+    // ... (your existing code)
   } else {
-    if (noResults) noResults.classList.add("d-none");
-    if (resultsCount) {
-      resultsCount.textContent = `Showing ${products.length} ${products.length === 1 ? "product" : "products"}`;
-    }
+    // ... (your existing code)
     grid.innerHTML = products.map(p => createProductCard(p)).join("");
   }
+
+  // ADD THESE LINES TO SYNC ANIMATIONS WITH DYNAMIC CONTENT
+  setTimeout(() => {
+    if (typeof AOS !== "undefined") AOS.refreshHard(); // refreshHard detects new DOM elements
+    if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh(); // Fixes the footer overlap
+  }, 100);
 }
 
 function createProductCard(product) {

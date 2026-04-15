@@ -106,8 +106,12 @@
   <script src="js/script.js"></script>
   <script src="js/product-manager.js"></script>
 
-  <script>
-    // ===== CATEGORY IMAGES & DESCRIPTIONS =====
+  <!-- <script>
+  
+    if (history.scrollRestoration) {
+      history.scrollRestoration = "manual";
+    }
+  
     const CATEGORY_IMAGES = {
       "Beds": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
       "Tables": "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
@@ -119,8 +123,7 @@
       "Artifacts": "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
       "Partitions": "https://i.pinimg.com/1200x/dc/1b/e9/dc1be9511d799fa04d63269281c85aa1.jpg"
     };
-
-    // ===== BUILD PRODUCT SCROLL CARDS FROM JSON =====
+  
     async function buildProductScroll() {
       try {
         const res = await fetch('products.json');
@@ -129,13 +132,11 @@
         const container = document.getElementById('scrollContainer');
         const sidebarLinks = document.getElementById('scrollSidebarLinks');
         if (!container || !sidebarLinks) return;
-
-        // Build sidebar links
+  
         sidebarLinks.innerHTML = categories.map(cat =>
           `<li><a href="products.html?category=${encodeURIComponent(cat.name)}">${cat.name.toUpperCase()}</a></li>`
         ).join('');
-
-        // Build cards
+  
         container.innerHTML = categories.map(cat => {
           const img = CATEGORY_IMAGES[cat.name] || '';
           return `
@@ -147,26 +148,160 @@
               </div>
             </a>`;
         }).join('');
+  
+        requestAnimationFrame(() => {
+          gsap.registerPlugin(ScrollTrigger);
+          
+  
+          ScrollTrigger.clearScrollMemory("manual");
+  
+          let mm = gsap.matchMedia();
+  
+          mm.add("(min-width: 769px)", () => {
+            gsap.to(container, {
+              x: () => -(container.scrollWidth - window.innerWidth) + "px",
+              ease: "none",
+              scrollTrigger: {
+                trigger: ".product-scroll-section",
+                pin: true,
+                start: "top 64px", 
+                scrub: 1,
+                invalidateOnRefresh: true, 
+                end: () => "+=" + (container.scrollWidth - window.innerWidth)
+              }
+            });
+          });
+  
+          mm.add("(max-width: 768px)", () => {
+            let cards = gsap.utils.toArray(".scroll-card");
+            cards.forEach(card => {
+              gsap.from(card, {
+                y: 50,
+                opacity: 0,
+                duration: 0.8,
+                scrollTrigger: {
+                  trigger: card,
+                  start: "top 85%",
+                  toggleActions: "play none none reverse"
+                }
+              });
+            });
+          });
+          
+  
+          ScrollTrigger.refresh();
+        });
+  
+      } catch (e) {
+        console.error('Error building product scroll:', e);
+      }
+    }
+  
+    buildProductScroll();
+  
+  
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) {
+  
+        setTimeout(() => ScrollTrigger.refresh(), 200);
+      }
+    });
+  
+  
+    window.addEventListener('load', () => {
+      ScrollTrigger.refresh();
+    });
+  
+  
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => ScrollTrigger.refresh(), 500);
+    });
+  </script> -->
 
-        // ===== GSAP HORIZONTAL SCROLL =====
+  <script>
+  // 1. THE NUCLEAR SCROLL LOCK
+  // Forces the page to the top on refresh to prevent race conditions with async JSON fetching
+  if (history.scrollRestoration) {
+    history.scrollRestoration = "manual";
+  }
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+
+  // ===== CATEGORY IMAGES & DESCRIPTIONS =====
+  const CATEGORY_IMAGES = {
+    "Beds": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+    "Tables": "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
+    "Lights": "https://i.pinimg.com/736x/d7/31/84/d73184e9258f2ad5b2468ccb4d1ce5f0.jpg",
+    "Benches": "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg",
+    "Chairs": "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
+    "Mirrors": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80",
+    "Pots/Vases": "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg",
+    "Artifacts": "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
+    "Partitions": "https://i.pinimg.com/1200x/dc/1b/e9/dc1be9511d799fa04d63269281c85aa1.jpg"
+  };
+
+  async function buildProductScroll() {
+    try {
+      const res = await fetch('products.json');
+      const data = await res.json();
+      const categories = data.categories;
+      const container = document.getElementById('scrollContainer');
+      const sidebarLinks = document.getElementById('scrollSidebarLinks');
+      if (!container || !sidebarLinks) return;
+
+      sidebarLinks.innerHTML = categories.map(cat =>
+        `<li><a href="products.html?category=${encodeURIComponent(cat.name)}">${cat.name.toUpperCase()}</a></li>`
+      ).join('');
+
+      container.innerHTML = categories.map(cat => {
+        const img = CATEGORY_IMAGES[cat.name] || '';
+        return `
+          <a class="scroll-card" href="products.html?category=${encodeURIComponent(cat.name)}" id="scroll-card-${cat.name.replace(/[^a-zA-Z]/g, '')}">
+            <div class="scroll-card-image" style="background-image:url('${img}');"></div>
+            <div class="scroll-card-content">
+              <h3>${cat.name.toUpperCase()}</h3>
+              <span class="scroll-card-explore">EXPLORE <iconify-icon icon="mdi:arrow-right"></iconify-icon></span>
+            </div>
+          </a>`;
+      }).join('');
+
+      // Wait a tiny fraction for the DOM to paint the new HTML before applying GSAP
+      requestAnimationFrame(() => {
         gsap.registerPlugin(ScrollTrigger);
+        ScrollTrigger.clearScrollMemory("manual");
+
+        const scrollSection = document.querySelector('.product-scroll-section');
         let mm = gsap.matchMedia();
 
-        mm.add("(min-width: 769px)", () => {
+        mm.add("(min-width: 992px)", () => {
+          // 2. THE 100VH COLLAPSE FIX
+          // Lock the height in hard pixels so the browser cannot collapse it when the tab is hidden
+          if (scrollSection) {
+            scrollSection.style.height = (window.innerHeight - 64) + "px";
+          }
+
           gsap.to(container, {
             x: () => -(container.scrollWidth - window.innerWidth) + "px",
             ease: "none",
             scrollTrigger: {
               trigger: ".product-scroll-section",
               pin: true,
-              start: "top +=63.6",
+              anticipatePin: 1, // Tells GSAP to grab the element earlier to prevent jumping
+              start: "top 64px",
               scrub: 1,
+              invalidateOnRefresh: true,
               end: () => "+=" + (container.scrollWidth - window.innerWidth)
             }
           });
         });
 
-        mm.add("(max-width: 768px)", () => {
+        mm.add("(max-width: 991px)", () => {
+          // Release height lock on mobile
+          if (scrollSection) scrollSection.style.height = "auto";
+
           let cards = gsap.utils.toArray(".scroll-card");
           cards.forEach(card => {
             gsap.from(card, {
@@ -181,20 +316,54 @@
             });
           });
         });
+        
+        ScrollTrigger.refresh();
+      });
 
-        // Debounced resize
-        let resizeTimer;
-        window.addEventListener('resize', () => {
-          clearTimeout(resizeTimer);
-          resizeTimer = setTimeout(() => ScrollTrigger.refresh(), 500);
-        });
-
-      } catch (e) {
-        console.error('Error building product scroll:', e);
-      }
+    } catch (e) {
+      console.error('Error building product scroll:', e);
     }
+  }
 
-    buildProductScroll();
-  </script>
+  buildProductScroll();
+
+  // Resize listener to update the hard-pixel height lock if the user resizes the window
+  window.addEventListener("resize", () => {
+    const scrollSection = document.querySelector('.product-scroll-section');
+    if (scrollSection && window.innerWidth > 991) {
+      scrollSection.style.height = (window.innerHeight - 64) + "px";
+    }
+  });
+
+  // 3. THE TRIPLE-TICK TAB WAKER
+  // Browsers heavily throttle background tabs. We fire 3 sequential refreshes to guarantee 
+  // GSAP recalculates only after the browser has fully repainted the DOM.
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && typeof ScrollTrigger !== "undefined") {
+      ScrollTrigger.refresh();
+      setTimeout(() => ScrollTrigger.refresh(), 100);
+      setTimeout(() => ScrollTrigger.refresh(), 350);
+    }
+  });
+
+  // Final catch-all for when all images and fonts have fully loaded
+  window.addEventListener('load', () => {
+    if (typeof ScrollTrigger !== "undefined") {
+       ScrollTrigger.refresh();
+    }
+  });
+
+  // Modern layout shift observer
+  const scrollSectionObj = document.querySelector('.product-scroll-section');
+  if (typeof ResizeObserver !== 'undefined' && typeof ScrollTrigger !== "undefined") {
+    const ro = new ResizeObserver(() => {
+      requestAnimationFrame(() => {
+        ScrollTrigger.refresh();
+      });
+    });
+    if (scrollSectionObj) ro.observe(scrollSectionObj);
+    ro.observe(document.body);
+  }
+</script>
 </body>
 </html>

@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", updateStaticWhatsAppLinks);
   window.addEventListener("load", updateStaticWhatsAppLinks);
 
-  // ===== INITIALIZE AOS =====
+// ===== INITIALIZE AOS =====
   if (typeof AOS !== "undefined") {
     AOS.init({
       once: true,
@@ -166,9 +166,13 @@ document.addEventListener("DOMContentLoaded", function () {
       easing: "ease-out-cubic",
     });
 
+    // When AOS is done setting up its initial states, tell GSAP to recalculate
     setTimeout(() => {
       AOS.refresh();
-    }, 100);
+      if (typeof ScrollTrigger !== "undefined") {
+        ScrollTrigger.refresh();
+      }
+    }, 300); // 300ms gives the DOM enough time to paint the AOS initial states
   }
 
   // ===== DEBOUNCE =====
@@ -187,7 +191,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // ===== RESIZE LISTENER =====
   const handleResize = debounce(function () {
     if (typeof AOS !== "undefined") {
-      AOS.refresh();
+      AOS.refresh(); // AOS recalculates first
+    }
+    // Then GSAP recalculates based on AOS's new layout
+    if (typeof ScrollTrigger !== "undefined") {
+      ScrollTrigger.refresh(); 
     }
   }, CONFIG.debounceDelay);
 

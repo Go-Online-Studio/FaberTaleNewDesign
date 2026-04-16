@@ -10,6 +10,45 @@ let currentSearch = "";
 let allProducts = [];
 let allCategories = [];
 
+/* ---- Iconify icon map for filter buttons ---- */
+const CATEGORY_ICONS = {
+  "Beds":        "mdi:bed-outline",
+  "Tables":      "mdi:table-furniture",
+  "Lights":      "mdi:ceiling-light-outline",
+  "Benches":     "mdi:bench-back",
+  "Chairs":      "solar:chair-2-outline",
+  "Mirrors":     "mdi:mirror",
+  "Pots/Vases":  "mdi:flower-tulip-outline",
+  "Artifacts":   "mdi:diamond-stone",
+  "Partitions":  "mdi:view-column-outline"
+};
+
+const SUBCATEGORY_ICONS = {
+  "All":              "mdi:view-grid-outline",
+  "Canopy Bed":       "mdi:bed-king-outline",
+  "Dining Table":     "mdi:silverware-fork-knife",
+  "Center Table":     "mdi:coffee-outline",
+  "Side Table":       "mdi:table-column",
+  "Console Table":    "mdi:table-row",
+  "Live Edge":        "mdi:tree-outline",
+  "Papermesh Floor":  "mdi:floor-lamp",
+  "Papermesh Hanging":"mdi:ceiling-light",
+  "Wooden Floor":     "mdi:floor-lamp-dual",
+  "Wooden Hanging":   "mdi:chandelier",
+  "Papermesh":        "mdi:palette-outline",
+  "Wood":             "mdi:forest",
+  "All Chairs":       "solar:chair-2-outline",
+  "Hanging":          "fluent-emoji-high-contrast:mirror",
+  "Floor":            "icon-park-twotone:mirror-two",
+  "All Artifacts":    "mdi:puzzle-star-outline",
+  "All Partitions":   "mdi:view-column"
+};
+
+function getIconTag(map, key) {
+  const icon = map[key];
+  return icon ? `<iconify-icon icon="${icon}" style="font-size:1.1em;pointer-events:none;"></iconify-icon>` : '';
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadProductsData();
 });
@@ -71,8 +110,15 @@ function checkURLParams() {
 
   if (category) {
     currentFilter = category;
+    if (sub) {
+      currentSubFilter = sub;
+    }
+    
+    // Generate subcategories explicitly on page load
+    generateSubcategoryFilters(currentFilter);
+    
     setTimeout(() => {
-      document.querySelectorAll(".filter-wipe").forEach(btn => {
+      document.querySelectorAll(".filter-wipe:not(.sub-filter-btn)").forEach(btn => {
         btn.classList.remove("active");
         if (btn.dataset.category === category) {
           btn.classList.add("active");
@@ -81,7 +127,6 @@ function checkURLParams() {
 
       // If subcategory is specified, also filter by it
       if (sub) {
-        currentSubFilter = sub;
         // Update sub-filter buttons if they exist
         document.querySelectorAll(".sub-filter-btn").forEach(btn => {
           btn.classList.remove("active");
@@ -104,7 +149,7 @@ function generateCategoryFilters() {
     container.innerHTML = categories
       .map(cat =>
         `<button class="filter-wipe ${cat === currentFilter ? 'active' : ''}" data-category="${cat}">
-          ${cat}
+          ${getIconTag(CATEGORY_ICONS, cat)}${cat}
         </button>`
       )
       .join("");
@@ -142,11 +187,17 @@ function generateSubcategoryFilters(category) {
     }
   });
 
+  if (subs.length <= 1) {
+    container.innerHTML = "";
+    currentSubFilter = "all";
+    return;
+  }
+
   container.innerHTML = `
     <label class="filter-label" style="margin-top:12px;">Subcategory:</label>
     <div class="filter-buttons">
-      <button class="sub-filter-btn filter-wipe active" data-sub="all">All</button>
-      ${subs.map(s => `<button class="sub-filter-btn filter-wipe ${currentSubFilter === s ? 'active' : ''}" data-sub="${s}">${s}</button>`).join('')}
+      <button class="sub-filter-btn filter-wipe ${currentSubFilter === 'all' || !currentSubFilter ? 'active' : ''}" data-sub="all">${getIconTag(SUBCATEGORY_ICONS, 'All')}All</button>
+      ${subs.map(s => `<button class="sub-filter-btn filter-wipe ${currentSubFilter === s ? 'active' : ''}" data-sub="${s}">${getIconTag(SUBCATEGORY_ICONS, s)}${s}</button>`).join('')}
     </div>`;
 
   container.querySelectorAll(".sub-filter-btn").forEach(btn => {
@@ -167,9 +218,10 @@ function handleSearch(e) {
 }
 
 function handleCategoryFilter(e) {
-  document.querySelectorAll(".filter-wipe:not(.sub-filter-btn)").forEach(btn => btn.classList.remove("active"));
-  e.target.classList.add("active");
-  currentFilter = e.target.dataset.category;
+  const btn = e.currentTarget;  // use currentTarget so clicks on child icon still work
+  document.querySelectorAll(".filter-wipe:not(.sub-filter-btn)").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  currentFilter = btn.dataset.category;
   currentSubFilter = "all";
   generateSubcategoryFilters(currentFilter);
   updateURLParams(currentFilter, currentSubFilter);
@@ -177,9 +229,10 @@ function handleCategoryFilter(e) {
 }
 
 function handleSubcategoryFilter(e) {
-  document.querySelectorAll(".sub-filter-btn").forEach(btn => btn.classList.remove("active"));
-  e.target.classList.add("active");
-  currentSubFilter = e.target.dataset.sub;
+  const btn = e.currentTarget;  // use currentTarget so clicks on child icon still work
+  document.querySelectorAll(".sub-filter-btn").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  currentSubFilter = btn.dataset.sub;
   updateURLParams(currentFilter, currentSubFilter);
   filterAndDisplayProducts();
 }

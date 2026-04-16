@@ -257,6 +257,30 @@
     margin-top: -20px;
   }
 
+  .filter-buttons {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 5px;
+    -webkit-mask-image: linear-gradient(to right, black calc(100% - 35px), transparent 100%);
+    mask-image: linear-gradient(to right, black calc(100% - 35px), transparent 100%);
+  }
+
+  .filter-buttons::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-wipe {
+    flex-shrink: 0;
+  }
+
+  .filter-buttons::after {
+    content: '';
+    flex: 0 0 30px;
+  }
+
   .filter-btn {
     padding: 6px 16px;
     font-size: 11px;

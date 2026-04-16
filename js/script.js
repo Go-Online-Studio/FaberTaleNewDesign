@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="footWrap">
         <div class="row gy-4">
           <!-- Brand -->
-          <div class="fCol1 col-md-6 " data-aos="fade-up">
+          <div class="fCol1 col-md-6 ">
             <a class="footer-brand" href="index.html">
               <img src="images/FaberTaleBrandLogoWhite.webp" alt="TheFaberTale">
             </a>
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
 
           <!-- Quick Links -->
-          <div class="fCol2 col-md-6 col-6 " data-aos="fade-up" data-aos-delay="50">
+          <div class="fCol2 col-md-6 col-6 ">
             <h5>Explore</h5>
             <ul class="footer-links">
               <li><a href="products.html">Products</a></li>
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
 
           <!-- Categories -->
-          <div class="fCol3 col-md-6 col-6 " data-aos="fade-up" data-aos-delay="100">
+          <div class="fCol3 col-md-6 col-6 ">
             <h5>Categories</h5>
             <ul class="footer-links">
               <li><a href="products.html?category=Beds">Beds</a></li>
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
 
           <!-- Contact Info -->
-          <div class="fCol4 col-md-6 " data-aos="fade-up" data-aos-delay="150">
+          <div class="fCol4 col-md-6 ">
             <h5>Get In Touch</h5>
             <ul class="contact-info">
               <li>
@@ -95,7 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ===== INJECT FAB BUTTONS =====
   const injectFABs = () => {
-    // Check if container already exists to avoid duplicates
     if (document.getElementById("dynamic-fabs")) return;
 
     const fabContainer = document.createElement("div");
@@ -141,8 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // ===== UPDATE WHATSAPP LINKS ON RESIZE (Optional) =====
-  // This handles any other .set-url-target elements that might be in the static HTML
+  // ===== UPDATE WHATSAPP LINKS ON RESIZE =====
   const updateStaticWhatsAppLinks = () => {
     const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     const targetLink = isMobile 
@@ -157,23 +155,69 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", updateStaticWhatsAppLinks);
   window.addEventListener("load", updateStaticWhatsAppLinks);
 
-// ===== INITIALIZE AOS =====
-  if (typeof AOS !== "undefined") {
-    AOS.init({
-      once: true,
-      duration: CONFIG.animationDuration,
-      offset: 80,
-      easing: "ease-out-cubic",
+  // ===== INITIALIZE GSAP SCROLL ANIMATIONS (replaces AOS) =====
+  // Uses CSS class convention: gsap-fade-up, gsap-fade-right, gsap-fade-left, gsap-zoom-in
+  function initGSAPAnimations() {
+    if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+    gsap.registerPlugin(ScrollTrigger);
+
+    const commonTrigger = { start: "top 88%", toggleActions: "play none none none" };
+
+    // fade-up elements
+    gsap.utils.toArray(".gsap-fade-up:not(.gsap-inited)").forEach((el, i) => {
+      el.classList.add("gsap-inited");
+      gsap.from(el, {
+        y: 40,
+        opacity: 0,
+        duration: 0.75,
+        ease: "power2.out",
+        delay: Math.min(i * 0.06, 0.3),
+        scrollTrigger: { trigger: el, ...commonTrigger }
+      });
     });
 
-    // When AOS is done setting up its initial states, tell GSAP to recalculate
-    setTimeout(() => {
-      AOS.refresh();
-      if (typeof ScrollTrigger !== "undefined") {
-        ScrollTrigger.refresh();
-      }
-    }, 300); // 300ms gives the DOM enough time to paint the AOS initial states
+    // fade-right elements
+    gsap.utils.toArray(".gsap-fade-right:not(.gsap-inited)").forEach((el) => {
+      el.classList.add("gsap-inited");
+      gsap.from(el, {
+        x: -60,
+        opacity: 0,
+        duration: 0.85,
+        ease: "power2.out",
+        scrollTrigger: { trigger: el, ...commonTrigger }
+      });
+    });
+
+    // fade-left elements
+    gsap.utils.toArray(".gsap-fade-left:not(.gsap-inited)").forEach((el) => {
+      el.classList.add("gsap-inited");
+      gsap.from(el, {
+        x: 60,
+        opacity: 0,
+        duration: 0.85,
+        ease: "power2.out",
+        scrollTrigger: { trigger: el, ...commonTrigger }
+      });
+    });
+
+    // zoom-in elements (gallery items)
+    gsap.utils.toArray(".gsap-zoom-in:not(.gsap-inited)").forEach((el, i) => {
+      el.classList.add("gsap-inited");
+      gsap.from(el, {
+        scale: 0.85,
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.out",
+        delay: (i % 4) * 0.07,
+        scrollTrigger: { trigger: el, ...commonTrigger }
+      });
+    });
   }
+
+  // Run after DOMContentLoaded for static elements
+  initGSAPAnimations();
+  // Run again after a short delay to catch dynamically injected footer content
+  setTimeout(initGSAPAnimations, 400);
 
   // ===== DEBOUNCE =====
   function debounce(func, wait) {
@@ -190,12 +234,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ===== RESIZE LISTENER =====
   const handleResize = debounce(function () {
-    if (typeof AOS !== "undefined") {
-      AOS.refresh(); // AOS recalculates first
-    }
-    // Then GSAP recalculates based on AOS's new layout
     if (typeof ScrollTrigger !== "undefined") {
-      ScrollTrigger.refresh(); 
+      ScrollTrigger.refresh();
     }
   }, CONFIG.debounceDelay);
 

@@ -228,16 +228,33 @@ function displayProducts(products) {
     grid.innerHTML = products.map(p => createProductCard(p)).join("");
   }
 
-  // ADD THESE LINES TO SYNC ANIMATIONS WITH DYNAMIC CONTENT
+  // Sync GSAP ScrollTrigger with dynamic content
   setTimeout(() => {
-    if (typeof AOS !== "undefined") AOS.refreshHard(); // refreshHard detects new DOM elements
-    if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh(); // Fixes the footer overlap
+    if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh();
+    // Animate newly added product cards
+    if (typeof gsap !== "undefined") {
+      gsap.utils.toArray(".col-lg-4.col-md-4.col-6:not(.gsap-animated)").forEach((el, i) => {
+        el.classList.add("gsap-animated");
+        gsap.from(el, {
+          y: 40,
+          opacity: 0,
+          duration: 0.7,
+          delay: (i % 4) * 0.08,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 90%",
+            toggleActions: "play none none none"
+          }
+        });
+      });
+    }
   }, 100);
 }
 
 function createProductCard(product) {
   return `
-    <div class="col-lg-4 col-md-4 col-6" data-aos="fade-up">
+    <div class="col-lg-4 col-md-4 col-6">
       <div class="productCard">
         <a class="anchorAbs" href="product-detail.html?id=${product.id}" aria-label="${product.name}"></a>
         <span class="quick-enquiry-badge">Quick Enquiry</span>

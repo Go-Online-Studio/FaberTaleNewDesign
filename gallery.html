@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -47,9 +47,9 @@
     <!-- Enhanced Page Header -->
     <section class="page-header">
       <div class="container-fluid px-4 px-md-5">
-        <p class="eyebrow" data-aos="fade-up">Portfolio</p>
-        <h1 data-aos="fade-up" data-aos-delay="100">Our Gallery</h1>
-        <p data-aos="fade-up" data-aos-delay="200">A visual exploration of our handcrafted furniture and décor collections. Click any image to view in detail.</p>
+        <p class="eyebrow gsap-fade-up">Portfolio</p>
+        <h1 class="gsap-fade-up">Our Gallery</h1>
+        <p class="gsap-fade-up">A visual exploration of our handcrafted furniture and décor collections. Click any image to view in detail.</p>
       </div>
     </section>
 
@@ -76,7 +76,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/product-manager.js"></script>
@@ -115,7 +115,7 @@
           // Render html
           if (allImages.length > 0) {
             grid.innerHTML = allImages.map((imgObj, i) => `
-              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="${(i % 4) * 50}">
+              <div class="gallery-item gsap-zoom-in">
                 <a href="${imgObj.src}" data-fancybox="full-gallery" data-caption="${imgObj.alt}">
                   <img src="${imgObj.src}" alt="${imgObj.alt}" loading="lazy">
                 </a>

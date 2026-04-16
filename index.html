@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="images/Fevicon.png">
@@ -47,7 +47,7 @@
     <section class="hero-static" id="heroSection">
       <img class="hero-static-bg" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1920&q=80" alt="Modern living room with artisan furniture">
       <div class="hero-static-overlay"></div>
-      <div class="hero-static-content" data-aos="fade-up">
+      <div class="hero-static-content gsap-fade-up">
         <p class="hero-static-eyebrow">Handcrafted Furniture & Décor</p>
         <h1>Make Your <span style="color:var(--accent)">Art</span> at Home</h1>
         <p class="hero-static-sub">Each piece tells a story of craftsmanship and natural elegance</p>
@@ -76,12 +76,12 @@
     <section class="about-strip" id="aboutStrip">
       <div class="container-fluid g-0">
         <div class="row align-items-center g-0">
-          <div class="col-lg-6" data-aos="fade-right">
+          <div class="col-lg-6 gsap-fade-right">
             <div class="about-strip-image">
               <img loading="lazy" src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=900&q=80" alt="Artisan crafting furniture">
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-left">
+          <div class="col-lg-6 gsap-fade-left">
             <div class="about-strip-content">
               <p class="eyebrow" style="color:var(--accent);">About TheFaberTale</p>
               <h2>Passionate About Furniture Design</h2>
@@ -99,126 +99,12 @@
   <footer id="footer" class="footer"></footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/product-manager.js"></script>
-
-  <!-- <script>
-  
-    if (history.scrollRestoration) {
-      history.scrollRestoration = "manual";
-    }
-  
-    const CATEGORY_IMAGES = {
-      "Beds": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
-      "Tables": "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
-      "Lights": "https://i.pinimg.com/736x/d7/31/84/d73184e9258f2ad5b2468ccb4d1ce5f0.jpg",
-      "Benches": "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg",
-      "Chairs": "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
-      "Mirrors": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80",
-      "Pots/Vases": "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg",
-      "Artifacts": "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
-      "Partitions": "https://i.pinimg.com/1200x/dc/1b/e9/dc1be9511d799fa04d63269281c85aa1.jpg"
-    };
-  
-    async function buildProductScroll() {
-      try {
-        const res = await fetch('products.json');
-        const data = await res.json();
-        const categories = data.categories;
-        const container = document.getElementById('scrollContainer');
-        const sidebarLinks = document.getElementById('scrollSidebarLinks');
-        if (!container || !sidebarLinks) return;
-  
-        sidebarLinks.innerHTML = categories.map(cat =>
-          `<li><a href="products.html?category=${encodeURIComponent(cat.name)}">${cat.name.toUpperCase()}</a></li>`
-        ).join('');
-  
-        container.innerHTML = categories.map(cat => {
-          const img = CATEGORY_IMAGES[cat.name] || '';
-          return `
-            <a class="scroll-card" href="products.html?category=${encodeURIComponent(cat.name)}" id="scroll-card-${cat.name.replace(/[^a-zA-Z]/g, '')}">
-              <div class="scroll-card-image" style="background-image:url('${img}');"></div>
-              <div class="scroll-card-content">
-                <h3>${cat.name.toUpperCase()}</h3>
-                <span class="scroll-card-explore">EXPLORE <iconify-icon icon="mdi:arrow-right"></iconify-icon></span>
-              </div>
-            </a>`;
-        }).join('');
-  
-        requestAnimationFrame(() => {
-          gsap.registerPlugin(ScrollTrigger);
-          
-  
-          ScrollTrigger.clearScrollMemory("manual");
-  
-          let mm = gsap.matchMedia();
-  
-          mm.add("(min-width: 769px)", () => {
-            gsap.to(container, {
-              x: () => -(container.scrollWidth - window.innerWidth) + "px",
-              ease: "none",
-              scrollTrigger: {
-                trigger: ".product-scroll-section",
-                pin: true,
-                start: "top 64px", 
-                scrub: 1,
-                invalidateOnRefresh: true, 
-                end: () => "+=" + (container.scrollWidth - window.innerWidth)
-              }
-            });
-          });
-  
-          mm.add("(max-width: 768px)", () => {
-            let cards = gsap.utils.toArray(".scroll-card");
-            cards.forEach(card => {
-              gsap.from(card, {
-                y: 50,
-                opacity: 0,
-                duration: 0.8,
-                scrollTrigger: {
-                  trigger: card,
-                  start: "top 85%",
-                  toggleActions: "play none none reverse"
-                }
-              });
-            });
-          });
-          
-  
-          ScrollTrigger.refresh();
-        });
-  
-      } catch (e) {
-        console.error('Error building product scroll:', e);
-      }
-    }
-  
-    buildProductScroll();
-  
-  
-    document.addEventListener("visibilitychange", () => {
-      if (!document.hidden) {
-  
-        setTimeout(() => ScrollTrigger.refresh(), 200);
-      }
-    });
-  
-  
-    window.addEventListener('load', () => {
-      ScrollTrigger.refresh();
-    });
-  
-  
-    let resizeTimer;
-    window.addEventListener('resize', () => {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(() => ScrollTrigger.refresh(), 500);
-    });
-  </script> -->
 
   <script>
   // 1. THE NUCLEAR SCROLL LOCK

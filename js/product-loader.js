@@ -4,7 +4,7 @@
    Used on products.html for listing page
    ======================================== */
 
-let currentFilter = "all";
+let currentFilter = "";
 let currentSubFilter = "all";
 let currentSearch = "";
 let allProducts = [];
@@ -47,6 +47,17 @@ async function loadProductsData() {
 }
 
 function initializePage() {
+  if (allProducts.length > 0 && !currentFilter) {
+    // Determine initial filter based on URL or first category
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get("category");
+    if (category) {
+      currentFilter = category;
+    } else {
+       currentFilter = [...new Set(allProducts.map(p => p.category))][0];
+    }
+  }
+
   generateCategoryFilters();
   checkURLParams();
   displayProducts(allProducts);
@@ -61,7 +72,7 @@ function checkURLParams() {
   if (category) {
     currentFilter = category;
     setTimeout(() => {
-      document.querySelectorAll(".filter-btn").forEach(btn => {
+      document.querySelectorAll(".filter-wipe").forEach(btn => {
         btn.classList.remove("active");
         if (btn.dataset.category === category) {
           btn.classList.add("active");
@@ -86,19 +97,19 @@ function checkURLParams() {
 }
 
 function generateCategoryFilters() {
-  const categories = ["all", ...new Set(allProducts.map(p => p.category))];
+  const categories = [...new Set(allProducts.map(p => p.category))];
   const container = document.getElementById("categoryFilters");
 
   if (container) {
     container.innerHTML = categories
       .map(cat =>
-        `<button class="filter-btn ${cat === "all" ? "active" : ""}" data-category="${cat}">
-          ${cat === "all" ? "All" : cat}
+        `<button class="filter-wipe ${cat === currentFilter ? 'active' : ''}" data-category="${cat}">
+          ${cat}
         </button>`
       )
       .join("");
 
-    container.querySelectorAll(".filter-btn").forEach(btn => {
+    container.querySelectorAll(".filter-wipe").forEach(btn => {
       btn.addEventListener("click", handleCategoryFilter);
     });
   }
@@ -108,7 +119,7 @@ function generateSubcategoryFilters(category) {
   const container = document.getElementById("subcategoryFilters");
   if (!container) return;
 
-  if (category === "all") {
+  if (!category) {
     container.innerHTML = "";
     currentSubFilter = "all";
     return;
@@ -134,8 +145,8 @@ function generateSubcategoryFilters(category) {
   container.innerHTML = `
     <label class="filter-label" style="margin-top:12px;">Subcategory:</label>
     <div class="filter-buttons">
-      <button class="sub-filter-btn filter-btn active" data-sub="all">All</button>
-      ${subs.map(s => `<button class="sub-filter-btn filter-btn ${currentSubFilter === s ? 'active' : ''}" data-sub="${s}">${s}</button>`).join('')}
+      <button class="sub-filter-btn filter-wipe active" data-sub="all">All</button>
+      ${subs.map(s => `<button class="sub-filter-btn filter-wipe ${currentSubFilter === s ? 'active' : ''}" data-sub="${s}">${s}</button>`).join('')}
     </div>`;
 
   container.querySelectorAll(".sub-filter-btn").forEach(btn => {
@@ -156,7 +167,7 @@ function handleSearch(e) {
 }
 
 function handleCategoryFilter(e) {
-  document.querySelectorAll(".filter-btn:not(.sub-filter-btn)").forEach(btn => btn.classList.remove("active"));
+  document.querySelectorAll(".filter-wipe:not(.sub-filter-btn)").forEach(btn => btn.classList.remove("active"));
   e.target.classList.add("active");
   currentFilter = e.target.dataset.category;
   currentSubFilter = "all";
@@ -193,7 +204,7 @@ function updateURLParams(category, sub) {
 function filterAndDisplayProducts() {
   let filtered = allProducts;
 
-  if (currentFilter !== "all") {
+  if (currentFilter) {
     filtered = filtered.filter(p => p.category === currentFilter);
   }
 
@@ -254,7 +265,7 @@ function displayProducts(products) {
 
 function createProductCard(product) {
   return `
-    <div class="col-lg-4 col-md-4 col-6">
+    <div class="col-lg-4 col-md-4 col-12">
       <div class="productCard">
         <a class="anchorAbs" href="product-detail.html?id=${product.id}" aria-label="${product.name}"></a>
         <span class="quick-enquiry-badge">Quick Enquiry</span>

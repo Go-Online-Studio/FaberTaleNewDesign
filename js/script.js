@@ -214,10 +214,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Run after DOMContentLoaded for static elements
-  initGSAPAnimations();
-  // Run again after a short delay to catch dynamically injected footer content
-  setTimeout(initGSAPAnimations, 400);
+  // Run after GSAP is loaded for static elements
+  if (typeof GSAPLoader !== "undefined") {
+    GSAPLoader.init().then(() => {
+      initGSAPAnimations();
+      // Run again after a short delay to catch dynamically injected footer content
+      setTimeout(initGSAPAnimations, 400);
+    });
+  } else {
+    initGSAPAnimations();
+    setTimeout(initGSAPAnimations, 400);
+  }
 
   // ===== DEBOUNCE =====
   function debounce(func, wait) {

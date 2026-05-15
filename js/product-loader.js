@@ -294,23 +294,27 @@ function displayProducts(products) {
 
   // Sync GSAP ScrollTrigger with dynamic content
   setTimeout(() => {
-    if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh();
-    // Animate newly added product cards
-    if (typeof gsap !== "undefined") {
-      gsap.utils.toArray(".col-lg-4.col-md-4.col-6:not(.gsap-animated)").forEach((el, i) => {
-        el.classList.add("gsap-animated");
-        gsap.from(el, {
-          y: 40,
-          opacity: 0,
-          duration: 0.7,
-          delay: (i % 4) * 0.08,
-          ease: "power2.out",
-          scrollTrigger: {
-            trigger: el,
-            start: "top 90%",
-            toggleActions: "play none none none"
-          }
-        });
+    if (typeof GSAPLoader !== "undefined") {
+      GSAPLoader.init().then(() => {
+        if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh();
+        // Animate newly added product cards
+        if (typeof gsap !== "undefined") {
+          gsap.utils.toArray(".col-lg-4.col-md-4.col-12:not(.gsap-animated)").forEach((el, i) => {
+            el.classList.add("gsap-animated");
+            gsap.from(el, {
+              y: 40,
+              opacity: 0,
+              duration: 0.7,
+              delay: (i % 4) * 0.08,
+              ease: "power2.out",
+              scrollTrigger: {
+                trigger: el,
+                start: "top 90%",
+                toggleActions: "play none none none"
+              }
+            });
+          });
+        }
       });
     }
   }, 100);

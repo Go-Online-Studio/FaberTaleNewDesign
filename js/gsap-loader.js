@@ -5,69 +5,79 @@
    ======================================== */
 
 const GSAPLoader = (function () {
-  let isLoaded = false;
-  let loadingPromise = null;
+  "use strict";
 
-  const GSAP_URL = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js";
-  const SCROLLTRIGGER_URL = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js";
+  let _ready = false;
+  let _promise = null;
 
-  function loadScript(src) {
-    return new Promise((resolve, reject) => {
-      const existingScript = document.querySelector(`script[src="${src}"]`);
-      if (existingScript) {
-        // If it's already in the DOM, wait for it to load if it hasn't already
-        if (existingScript.getAttribute('data-loaded') === 'true') {
-          resolve();
-        } else {
-          existingScript.addEventListener("load", resolve, { once: true });
-          existingScript.addEventListener("error", reject, { once: true });
-        }
+  const GSAP_CDN = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js";
+  const ST_CDN   = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js";
+
+  /**
+   * Inject a <script> tag and return a Promise that resolves when loaded.
+   * Prevents duplicates if the script is already in the DOM.
+   */
+  function _loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      // Already in the DOM?
+      var existing = document.querySelector('script[src="' + src + '"]');
+      if (existing) {
+        if (existing.dataset.loaded === "true") return resolve();
+        existing.addEventListener("load", resolve, { once: true });
+        existing.addEventListener("error", function () {
+          reject(new Error("Script load failed: " + src));
+        }, { once: true });
         return;
       }
 
-      const script = document.createElement("script");
-      script.src = src;
-      script.async = true;
-      script.defer = true;
-
-      script.onload = () => {
-        script.setAttribute('data-loaded', 'true');
-        resolve();
-      };
-      script.onerror = () => {
-        console.error(`Failed to load script: ${src}`);
-        reject(new Error(`Script load error for ${src}`));
-      };
-
-      document.head.appendChild(script);
+      var s = document.createElement("script");
+      s.src = src;
+      s.async = true;
+      s.onload = function () { s.dataset.loaded = "true"; resolve(); };
+      s.onerror = function () { reject(new Error("Script load failed: " + src)); };
+      document.head.appendChild(s);
     });
   }
 
+  /**
+   * Load GSAP core, then ScrollTrigger, register the plugin, and resolve.
+   * Safe to call multiple times — deduplicates automatically.
+   * Returns a Promise that resolves when GSAP + ScrollTrigger are ready.
+   */
   function init() {
-    if (isLoaded) return Promise.resolve();
+    if (_ready && typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
+      return Promise.resolve();
+    }
 
-    if (!loadingPromise) {
-      loadingPromise = loadScript(GSAP_URL)
-        .then(() => loadScript(SCROLLTRIGGER_URL))
-        .then(() => {
-          if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
-            gsap.registerPlugin(ScrollTrigger);
-            isLoaded = true;
-          } else {
-            throw new Error("GSAP or ScrollTrigger failed to initialize globally.");
+    if (!_promise) {
+      _promise = _loadScript(GSAP_CDN)
+        .then(function () { return _loadScript(ST_CDN); })
+        .then(function () {
+          if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {
+            throw new Error("GSAP globals not found after script load.");
           }
+          gsap.registerPlugin(ScrollTrigger);
+          _ready = true;
         })
-        .catch((error) => {
-          console.error("GSAP Loader Error:", error);
-          // Allow retry on failure
-          loadingPromise = null;
+        .catch(function (err) {
+          console.error("[GSAPLoader]", err);
+          _promise = null;   // allow retry on next call
+          _ready = false;
+          return Promise.reject(err);   // propagate so callers can handle
         });
     }
 
-    return loadingPromise;
+    return _promise;
   }
 
-  return { init };
+  /**
+   * Check if GSAP is loaded and ready synchronously.
+   */
+  function isReady() {
+    return _ready;
+  }
+
+  return { init: init, isReady: isReady };
 })();
 
 window.GSAPLoader = GSAPLoader;

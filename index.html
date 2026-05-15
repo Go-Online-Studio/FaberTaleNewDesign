@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TheFaberTale | Handcrafted Furniture & Décor Artifacts</title>
-  <meta name="description" content="Discover handcrafted furniture and decorative artifacts at TheFaberTale. Premium tables, beds, lights, benches, chairs, mirrors, pots, and artisan pieces from Vadodara.">
+  <meta name="description"
+    content="Discover handcrafted furniture and decorative artifacts at TheFaberTale. Premium tables, beds, lights, benches, chairs, mirrors, pots, and artisan pieces from Vadodara.">
   <meta name="robots" content="index, follow">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,10 +18,12 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" href="images/Fevicon.png">
 </head>
+
 <body>
   <header>
     <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation"></nav>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel"></div>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+    </div>
   </header>
   <script src="js/critical.js"></script>
 
@@ -33,7 +37,8 @@
         </div>
         <div class="modal-body">
           <div class="search-input-wrap" style="position:relative;">
-            <input type="text" id="searchInput" placeholder="Search by name, category, or tags..." aria-label="Search products">
+            <input type="text" id="searchInput" placeholder="Search by name, category, or tags..."
+              aria-label="Search products">
             <iconify-icon class="search-icon" icon="mdi:magnify"></iconify-icon>
             <div id="searchResults"></div>
           </div>
@@ -45,13 +50,16 @@
   <main>
     <!-- ===== STATIC HERO BANNER ===== -->
     <section class="hero-static" id="heroSection">
-      <img class="hero-static-bg" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1920&q=80" alt="Modern living room with artisan furniture">
+      <img class="hero-static-bg"
+        src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1920&q=80"
+        alt="Modern living room with artisan furniture">
       <div class="hero-static-overlay"></div>
       <div class="hero-static-content gsap-fade-up">
         <p class="hero-static-eyebrow">Handcrafted Furniture & Décor</p>
         <h1>Make Your <span style="color:var(--accent)">Art</span> at Home</h1>
         <p class="hero-static-sub">Each piece tells a story of craftsmanship and natural elegance</p>
-        <a href="products.html" class="hero-cta">Explore Collection <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+        <a href="products.html" class="hero-cta">Explore Collection <iconify-icon
+            icon="mdi:arrow-right"></iconify-icon></a>
       </div>
     </section>
 
@@ -78,15 +86,19 @@
         <div class="row align-items-center g-0">
           <div class="col-lg-6 gsap-fade-right">
             <div class="about-strip-image">
-              <img loading="lazy" src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=900&q=80" alt="Artisan crafting furniture">
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=900&q=80"
+                alt="Artisan crafting furniture">
             </div>
           </div>
           <div class="col-lg-6 gsap-fade-left">
             <div class="about-strip-content">
               <p class="eyebrow" style="color:var(--accent);">About TheFaberTale</p>
               <h2>Passionate About Furniture Design</h2>
-              <p>At TheFaberTale, we believe every piece of furniture should tell a story. Our artisans transform raw natural materials into functional art that brings warmth and character to your home.</p>
-              <p>From live-edge dining tables to papermesh lamps, every creation is handcrafted with love in Vadodara, Gujarat.</p>
+              <p>At TheFaberTale, we believe every piece of furniture should tell a story. Our artisans transform raw
+                natural materials into functional art that brings warmth and character to your home.</p>
+              <p>From live-edge dining tables to papermesh lamps, every creation is handcrafted with love in Vadodara,
+                Gujarat.</p>
             </div>
           </div>
         </div>
@@ -94,7 +106,8 @@
     </section>
   </main>
 
-  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><iconify-icon icon="mdi:chevron-up"></iconify-icon></a>
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><iconify-icon
+      icon="mdi:chevron-up"></iconify-icon></a>
 
   <footer id="footer" class="footer"></footer>
 
@@ -106,155 +119,199 @@
   <script src="js/product-manager.js"></script>
 
   <script>
-  // 1. THE NUCLEAR SCROLL LOCK
-  // Forces the page to the top on refresh to prevent race conditions with async JSON fetching
-  if (history.scrollRestoration) {
-    history.scrollRestoration = "manual";
-  }
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  };
+    // ── Scroll-position lock on refresh ──
+    if (history.scrollRestoration) history.scrollRestoration = "manual";
+    window.onbeforeunload = function () { window.scrollTo(0, 0); };
 
-  // ===== CATEGORY IMAGES & DESCRIPTIONS =====
-  const CATEGORY_IMAGES = {
-    "Beds": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
-    "Tables": "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
-    "Lights": "https://i.pinimg.com/736x/d7/31/84/d73184e9258f2ad5b2468ccb4d1ce5f0.jpg",
-    "Benches": "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg",
-    "Chairs": "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
-    "Mirrors": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80",
-    "Pots/Vases": "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg",
-    "Artifacts": "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
-    "Partitions": "https://i.pinimg.com/1200x/dc/1b/e9/dc1be9511d799fa04d63269281c85aa1.jpg"
-  };
+    // ── Category images ──
+    var CATEGORY_IMAGES = {
+      "Beds": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "Tables": "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
+      "Lights": "https://i.pinimg.com/736x/d7/31/84/d73184e9258f2ad5b2468ccb4d1ce5f0.jpg",
+      "Benches": "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg",
+      "Chairs": "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
+      "Mirrors": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=800&q=80",
+      "Pots/Vases": "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg",
+      "Artifacts": "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
+      "Partitions": "https://i.pinimg.com/1200x/dc/1b/e9/dc1be9511d799fa04d63269281c85aa1.jpg"
+    };
 
-  async function buildProductScroll() {
-    try {
-      const res = await fetch('products.json');
-      const data = await res.json();
-      const categories = data.categories;
-      const container = document.getElementById('scrollContainer');
-      const sidebarLinks = document.getElementById('scrollSidebarLinks');
-      if (!container || !sidebarLinks) return;
+    // ── Stored references for tab-switch recovery ──
+    var _scrollTween = null;
+    var _scrollTriggerInstance = null;
+    var _matchMediaInstance = null;
 
-      sidebarLinks.innerHTML = categories.map(cat =>
-        `<li><a href="products.html?category=${encodeURIComponent(cat.name)}">${cat.name.toUpperCase()}</a></li>`
-      ).join('');
+    // ── Helper: get actual navbar height ──
+    function getNavHeight() {
+      var nav = document.getElementById("mainNavbar");
+      return nav ? nav.offsetHeight : 72;
+    }
 
-      container.innerHTML = categories.map(cat => {
-        const img = CATEGORY_IMAGES[cat.name] || '';
-        return `
-          <a class="scroll-card" href="products.html?category=${encodeURIComponent(cat.name)}" id="scroll-card-${cat.name.replace(/[^a-zA-Z]/g, '')}">
-            <div class="scroll-card-image" style="background-image:url('${img}');"></div>
-            <div class="scroll-card-content">
-              <h3>${cat.name.toUpperCase()}</h3>
-              <span class="scroll-card-explore">EXPLORE <iconify-icon icon="mdi:arrow-right"></iconify-icon></span>
-            </div>
-          </a>`;
-      }).join('');
+    // ── Helper: calculate how far to scroll horizontally ──
+    function getScrollAmount() {
+      var container = document.getElementById("scrollContainer");
+      if (!container) return 0;
+      return -(container.scrollWidth - window.innerWidth);
+    }
 
-      // Wait a tiny fraction for the DOM to paint the new HTML before applying GSAP
-      requestAnimationFrame(() => {
-        if (typeof GSAPLoader !== "undefined") {
-          GSAPLoader.init().then(() => {
-            gsap.registerPlugin(ScrollTrigger);
-            ScrollTrigger.clearScrollMemory("manual");
+    // ── Helper: lock scroll section height to hard pixels ──
+    function lockSectionHeight() {
+      var section = document.querySelector(".product-scroll-section");
+      if (section && window.innerWidth > 991) {
+        section.style.height = (window.innerHeight - getNavHeight()) + "px";
+      }
+    }
 
-            const scrollSection = document.querySelector('.product-scroll-section');
-            let mm = gsap.matchMedia();
+    // ── Create the horizontal scroll animation (following temp.html pattern) ──
+    function initHorizontalScroll() {
+      var container = document.getElementById("scrollContainer");
+      var scrollSection = document.querySelector(".product-scroll-section");
+      if (!container || !scrollSection) return;
 
-            mm.add("(min-width: 992px)", () => {
-              // 2. THE 100VH COLLAPSE FIX
-              // Lock the height in hard pixels so the browser cannot collapse it when the tab is hidden
-              if (scrollSection) {
-                scrollSection.style.height = (window.innerHeight - 92) + "px";
-              }
+      // Kill any existing animation and trigger before re-creating
+      if (_scrollTriggerInstance) {
+        _scrollTriggerInstance.kill();
+        _scrollTriggerInstance = null;
+      }
+      if (_scrollTween) {
+        _scrollTween.kill();
+        _scrollTween = null;
+      }
+      if (_matchMediaInstance) {
+        _matchMediaInstance.revert();
+        _matchMediaInstance = null;
+      }
 
-              gsap.to(container, {
-                x: () => -(container.scrollWidth - window.innerWidth) + "px",
-                ease: "none",
-                scrollTrigger: {
-                  trigger: ".product-scroll-section",
-                  pin: true,
-                  anticipatePin: 1, // Tells GSAP to grab the element earlier to prevent jumping
-                  start: "top 92px",
-                  scrub: 1,
-                  invalidateOnRefresh: true,
-                  end: () => "+=" + (container.scrollWidth - window.innerWidth)
-                }
-              });
-            });
+      // Reset inline transforms that GSAP may have applied
+      gsap.set(container, { clearProps: "x" });
+      gsap.set(scrollSection, { clearProps: "all" });
 
-            mm.add("(max-width: 991px)", () => {
-              // Release height lock on mobile
-              if (scrollSection) scrollSection.style.height = "auto";
+      _matchMediaInstance = gsap.matchMedia();
 
-              let cards = gsap.utils.toArray(".scroll-card");
-              cards.forEach(card => {
-                gsap.from(card, {
-                  y: 50,
-                  opacity: 0,
-                  duration: 0.8,
-                  scrollTrigger: {
-                    trigger: card,
-                    start: "top 85%",
-                    toggleActions: "play none none reverse"
-                  }
-                });
-              });
-            });
-            
-            ScrollTrigger.refresh();
+      // ── Desktop: horizontal pinned scroll (separated tween + trigger) ──
+      _matchMediaInstance.add("(min-width: 992px)", function () {
+        lockSectionHeight();
+
+        // 1. Create tween FIRST (like temp.html)
+        _scrollTween = gsap.to(container, {
+          x: getScrollAmount,
+          ease: "none"
+        });
+
+        // 2. Create ScrollTrigger instance SEPARATELY
+        _scrollTriggerInstance = ScrollTrigger.create({
+          trigger: ".product-scroll-section",
+          start: function () { return "top " + getNavHeight() + "px"; },
+          end: function () { return "+=" + (getScrollAmount() * -1); },
+          pin: true,
+          animation: _scrollTween,
+          scrub: 1,
+          anticipatePin: 1,
+          invalidateOnRefresh: true
+        });
+      });
+
+      // ── Mobile: stacked cards with fade-in ──
+      _matchMediaInstance.add("(max-width: 991px)", function () {
+        scrollSection.style.height = "auto";
+
+        gsap.utils.toArray(".scroll-card").forEach(function (card) {
+          gsap.from(card, {
+            y: 50,
+            opacity: 0,
+            duration: 0.8,
+            scrollTrigger: {
+              trigger: card,
+              start: "top 85%",
+              toggleActions: "play none none reverse"
+            }
           });
-        }
+        });
       });
 
-    } catch (e) {
-      console.error('Error building product scroll:', e);
-    }
-  }
-
-  buildProductScroll();
-
-  // Resize listener to update the hard-pixel height lock if the user resizes the window
-  window.addEventListener("resize", () => {
-    const scrollSection = document.querySelector('.product-scroll-section');
-    if (scrollSection && window.innerWidth > 991) {
-      scrollSection.style.height = (window.innerHeight - 92) + "px";
-    }
-  });
-
-  // 3. THE TRIPLE-TICK TAB WAKER
-  // Browsers heavily throttle background tabs. We fire 3 sequential refreshes to guarantee 
-  // GSAP recalculates only after the browser has fully repainted the DOM.
-  document.addEventListener("visibilitychange", () => {
-    if (!document.hidden && typeof ScrollTrigger !== "undefined") {
-      ScrollTrigger.refresh();
-      setTimeout(() => ScrollTrigger.refresh(), 100);
-      setTimeout(() => ScrollTrigger.refresh(), 350);
-    }
-  });
-
-  // Final catch-all for when all images and fonts have fully loaded
-  window.addEventListener('load', () => {
-    if (typeof ScrollTrigger !== "undefined") {
-       ScrollTrigger.refresh();
-    }
-  });
-
-  // Modern layout shift observer
-  const scrollSectionObj = document.querySelector('.product-scroll-section');
-  if (typeof ResizeObserver !== 'undefined') {
-    const ro = new ResizeObserver(() => {
-      requestAnimationFrame(() => {
-        if (typeof ScrollTrigger !== "undefined") {
-          ScrollTrigger.refresh();
-        }
+      // Let the browser paint, then refresh
+      requestAnimationFrame(function () {
+        ScrollTrigger.refresh();
       });
+    }
+
+    // ── Build the product scroll section ──
+    async function buildProductScroll() {
+      try {
+        var res = await fetch("products.json");
+        var data = await res.json();
+        var categories = data.categories;
+        var container = document.getElementById("scrollContainer");
+        var sidebarLinks = document.getElementById("scrollSidebarLinks");
+        if (!container || !sidebarLinks) return;
+
+        // Render sidebar links
+        sidebarLinks.innerHTML = categories.map(function (cat) {
+          return '<li><a href="products.html?category=' + encodeURIComponent(cat.name) + '">' + cat.name.toUpperCase() + '</a></li>';
+        }).join("");
+
+        // Render scroll cards
+        container.innerHTML = categories.map(function (cat) {
+          var img = CATEGORY_IMAGES[cat.name] || "";
+          return '<a class="scroll-card" href="products.html?category=' + encodeURIComponent(cat.name) + '" id="scroll-card-' + cat.name.replace(/[^a-zA-Z]/g, "") + '">'
+            + '<div class="scroll-card-image" style="background-image:url(\'' + img + '\');"></div>'
+            + '<div class="scroll-card-content">'
+            + '<h3>' + cat.name.toUpperCase() + '</h3>'
+            + '<span class="scroll-card-explore">EXPLORE <iconify-icon icon="mdi:arrow-right"></iconify-icon></span>'
+            + '</div></a>';
+        }).join("");
+
+        // ── Now load GSAP, then initialise ──
+        if (typeof GSAPLoader === "undefined") return;
+
+        GSAPLoader.init().then(function () {
+          if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+          gsap.registerPlugin(ScrollTrigger);
+          ScrollTrigger.clearScrollMemory("manual");
+
+          initHorizontalScroll();
+
+        }).catch(function (err) {
+          console.warn("[Index] GSAP failed to load — animations skipped.", err);
+        });
+
+      } catch (e) {
+        console.error("Error building product scroll:", e);
+      }
+    }
+
+    buildProductScroll();
+
+    // ── Resize: re-lock height + refresh ──
+    var _resizeTimer;
+    window.addEventListener("resize", function () {
+      clearTimeout(_resizeTimer);
+      _resizeTimer = setTimeout(function () {
+        lockSectionHeight();
+        if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh();
+      }, 200);
     });
-    if (scrollSectionObj) ro.observe(scrollSectionObj);
-    ro.observe(document.body);
-  }
-</script>
+
+    // ── Tab-switch recovery: kill and fully rebuild the trigger ──
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) return;
+      if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
+
+      lockSectionHeight();
+
+      // Rebuild the entire trigger from scratch — this is the nuclear fix
+      // for the pin-spacer height getting out of sync when tabs are switched
+      initHorizontalScroll();
+    });
+
+    // ── Full-load catch-all ──
+    window.addEventListener("load", function () {
+      if (typeof ScrollTrigger !== "undefined") {
+        lockSectionHeight();
+        ScrollTrigger.refresh();
+      }
+    });
+  </script>
 </body>
+
 </html>

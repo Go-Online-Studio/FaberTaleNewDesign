@@ -441,9 +441,6 @@
   }
 
   /* Navbar */
-  #mainNavbar .navbar-brand img {
-    height: 34px;
-  }
   #mainNavbar .navbar-brand {
     margin: auto;
     position: relative;

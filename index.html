@@ -143,8 +143,8 @@
 
     // ── Helper: get actual navbar height ──
     function getNavHeight() {
-      var nav = document.getElementById("mainNavbar");
-      return nav ? nav.offsetHeight : 72;
+      // Desktop matches CSS --nav-height (68px). Mobile matches responsive.css (64px)
+      return window.innerWidth > 991 ? 68 : 64;
     }
 
     // ── Helper: calculate how far to scroll horizontally ──
@@ -152,14 +152,6 @@
       var container = document.getElementById("scrollContainer");
       if (!container) return 0;
       return -(container.scrollWidth - window.innerWidth);
-    }
-
-    // ── Helper: lock scroll section height to hard pixels ──
-    function lockSectionHeight() {
-      var section = document.querySelector(".product-scroll-section");
-      if (section && window.innerWidth > 991) {
-        section.style.height = (window.innerHeight - getNavHeight()) + "px";
-      }
     }
 
     // ── Create the horizontal scroll animation (following temp.html pattern) ──
@@ -190,8 +182,6 @@
 
       // ── Desktop: horizontal pinned scroll (separated tween + trigger) ──
       _matchMediaInstance.add("(min-width: 992px)", function () {
-        lockSectionHeight();
-
         // 1. Create tween FIRST (like temp.html)
         _scrollTween = gsap.to(container, {
           x: getScrollAmount,
@@ -287,7 +277,6 @@
     window.addEventListener("resize", function () {
       clearTimeout(_resizeTimer);
       _resizeTimer = setTimeout(function () {
-        lockSectionHeight();
         if (typeof ScrollTrigger !== "undefined") ScrollTrigger.refresh();
       }, 200);
     });
@@ -297,8 +286,6 @@
       if (document.hidden) return;
       if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") return;
 
-      lockSectionHeight();
-
       // Rebuild the entire trigger from scratch — this is the nuclear fix
       // for the pin-spacer height getting out of sync when tabs are switched
       initHorizontalScroll();
@@ -307,7 +294,6 @@
     // ── Full-load catch-all ──
     window.addEventListener("load", function () {
       if (typeof ScrollTrigger !== "undefined") {
-        lockSectionHeight();
         ScrollTrigger.refresh();
       }
     });

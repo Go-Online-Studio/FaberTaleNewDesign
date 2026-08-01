@@ -2036,6 +2036,7 @@ section {
   height: 56px;
   border-radius: 50%;
   background: var(--dark);
+  color: var(--white);
   box-shadow: var(--shadow-md);
   transition: all var(--transition);
   border: 0.6px solid var(--light);
@@ -2044,11 +2045,13 @@ section {
 .Call-fab-container a:hover {
   transform: scale(1.1);
   background: var(--accent);
+  color: var(--white);
 }
 
-.Call-fab-container iconify-icon {
+.Call-fab-container iconify-icon,
+.Call-fab-container svg {
   font-size: 1.5rem;
-  color: var(--white);
+  color: inherit;
 }
 
 @keyframes fabPulse {

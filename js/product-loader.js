@@ -69,7 +69,12 @@ async function loadProductsData() {
     }
 
     if (data && data.products) {
-      allProducts = data.products;
+      allProducts = data.products.map(p => {
+        if (p.images && Array.isArray(p.images)) {
+          p.images = p.images.map(img => typeof img === "string" && img.startsWith("/") ? img.replace(/^\/+/, "") : img);
+        }
+        return p;
+      });
       allCategories = data.categories || [];
       initializePage();
     } else {

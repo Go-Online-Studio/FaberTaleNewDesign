@@ -45,10 +45,10 @@
       "subcategory": "Canopy Bed",
       "description": "A majestic canopy bed frame handcrafted from solid teak wood with elegant carved posts and a warm natural finish. Designed to be the centrepiece of your bedroom.",
       "images": [
-        "/images/Beds/Bed1/Bed1_DSC00147_Image1.avif",
-        "/images/Beds/Bed1/Bed1_DSC09876_Image2.avif",
-        "/images/Beds/Bed1/Bed1_DSC09881_Image3.avif",
-        "/images/Beds/Bed1/Bed1_DSC09911_Image4.avif"
+        "images/Beds/Bed1/Bed1_DSC00147_Image1.avif",
+        "images/Beds/Bed1/Bed1_DSC09876_Image2.avif",
+        "images/Beds/Bed1/Bed1_DSC09881_Image3.avif",
+        "images/Beds/Bed1/Bed1_DSC09911_Image4.avif"
       ],
       "tags": ["canopy", "teak", "bedroom", "handcrafted"]
     },
@@ -59,10 +59,10 @@
       "subcategory": "Canopy Bed",
       "description": "A rustic canopy bed made from reclaimed wood with a beautifully weathered patina. Raw natural beauty meets comfortable modern living.",
       "images": [
-        "/images/Beds/Bed2/Bed2_DSC00164_Image1.avif",
-        "/images/Beds/Bed2/Bed2_DSC09922_Image2.avif",
-        "/images/Beds/Bed2/Bed2_DSC09954_Image3.avif",
-        "/images/Beds/Bed2/Bed2_DSC09956_Image4.avif"
+        "images/Beds/Bed2/Bed2_DSC00164_Image1.avif",
+        "images/Beds/Bed2/Bed2_DSC09922_Image2.avif",
+        "images/Beds/Bed2/Bed2_DSC09954_Image3.avif",
+        "images/Beds/Bed2/Bed2_DSC09956_Image4.avif"
       ],
       "tags": ["canopy", "rustic", "reclaimed", "bedroom"]
     },
@@ -73,10 +73,10 @@
       "subcategory": "Dining Table",
       "description": "A stunning live-edge dining table featuring a vibrant turquoise resin river flowing through naturally contoured walnut slabs. Seats six comfortably.",
       "images": [
-        "/images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09720_Image1.avif",
-        "/images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09730_Image2.avif",
-        "/images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09748_Image3.avif",
-        "/images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09759_Image4.avif"
+        "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09720_Image1.avif",
+        "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09730_Image2.avif",
+        "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09748_Image3.avif",
+        "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09759_Image4.avif"
       ],
       "tags": ["resin", "dining", "walnut", "live-edge", "epoxy"]
     },
@@ -87,10 +87,10 @@
       "subcategory": "Dining Table",
       "description": "A classic solid wood dining table crafted from premium sheesham with a hand-rubbed oil finish that highlights exquisite grain patterns.",
       "images": [
-        "/images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09831_image1.avif",
-        "/images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC00182_Image2.avif",
-        "/images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09853_image3.avif",
-        "/images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09833_image4.avif"
+        "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09831_image1.avif",
+        "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC00182_Image2.avif",
+        "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09853_image3.avif",
+        "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09833_image4.avif"
       ],
       "tags": ["dining", "sheesham", "solid-wood", "classic"]
     },
@@ -101,10 +101,10 @@
       "subcategory": "Center Table",
       "description": "An elegant center table with a natural marble top set on a sculptural wooden base. The contrast of stone and wood creates a sophisticated focal point.",
       "images": [
-        "/images/Tables/Center Table/Center Table 1/CenterTable1_DSC00004_Image1.avif",
-        "/images/Tables/Center Table/Center Table 1/CenterTable1_DSC00001_Image2.avif",
-        "/images/Tables/Center Table/Center Table 1/CenterTable1_DSC00009_Image3.avif",
-        "/images/Tables/Center Table/Center Table 1/CenterTable1_DSC09971_Image4.avif"
+        "images/Tables/Center Table/Center Table 1/CenterTable1_DSC00004_Image1.avif",
+        "images/Tables/Center Table/Center Table 1/CenterTable1_DSC00001_Image2.avif",
+        "images/Tables/Center Table/Center Table 1/CenterTable1_DSC00009_Image3.avif",
+        "images/Tables/Center Table/Center Table 1/CenterTable1_DSC09971_Image4.avif"
       ],
       "tags": ["center-table", "marble", "wooden-base", "living-room"]
     },
@@ -115,10 +115,10 @@
       "subcategory": "Center Table",
       "description": "A mesmerizing round center table featuring deep blue and turquoise resin art encapsulated within a solid wood frame.",
       "images": [
-        "/images/Tables/Center Table/Center Table 2/CenterTable2_DSC09966_Image1.avif",
-        "/images/Tables/Center Table/Center Table 2/CenterTable2_DSC09969_Image2.avif",
-        "/images/Tables/Center Table/Center Table 2/CenterTable2_DSC09982_Image3.avif",
-        "/images/Tables/Center Table/Center Table 2/CenterTable2_DSC09987_Image4.avif"
+        "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09966_Image1.avif",
+        "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09969_Image2.avif",
+        "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09982_Image3.avif",
+        "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09987_Image4.avif"
       ],
       "tags": ["center-table", "resin", "round", "epoxy", "blue"]
     },
@@ -571,10 +571,10 @@
       "subcategory": "Dining Table",
       "description": "A beautiful round dining table in natural teak wood, featuring a central pedestal base and a sunburst grain pattern.",
       "images": [
-        "/images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09803_Image1.avif",
-        "/images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09780_Image2.avif",
-        "/images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09807_Image3.avif",
-        "/images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09781_Image4.avif"
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09803_Image1.avif",
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09780_Image2.avif",
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09807_Image3.avif",
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09781_Image4.avif"
       ],
       "tags": ["dining", "teak", "round", "pedestal"]
     },
@@ -598,10 +598,10 @@
       "subcategory": "Center Table",
       "description": "A versatile set of two nesting coffee tables handcrafted from acacia wood with slim metal frames. Space-saving and stylish.",
       "images": [
-        "/images/Tables/Center Table/Center Table 3/CenterTable3_DSC00026_image1.avif",
-        "/images/Tables/Center Table/Center Table 3/CenterTable3_DSC00021_image2.avif",
-        "/images/Tables/Center Table/Center Table 3/CenterTable3_DSC00019_image3.avif",
-        "/images/Tables/Center Table/Center Table 3/CenterTable3_DSC00030_image4.avif"
+        "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00026_image1.avif",
+        "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00021_image2.avif",
+        "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00019_image3.avif",
+        "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00030_image4.avif"
       ],
       "tags": ["center-table", "nesting", "acacia", "set"]
     },

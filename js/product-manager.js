@@ -31,7 +31,12 @@ class ProductManager {
       }
 
       if (data && data.products) {
-        this.products = data.products;
+        this.products = data.products.map(p => {
+          if (p.images && Array.isArray(p.images)) {
+            p.images = p.images.map(img => typeof img === "string" && img.startsWith("/") ? img.replace(/^\/+/, "") : img);
+          }
+          return p;
+        });
         return this.products;
       } else {
         console.error("No products data found");

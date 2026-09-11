@@ -150,8 +150,9 @@
           data.products.forEach(product => {
             if (product.images && Array.isArray(product.images)) {
               product.images.forEach(img => {
-                if (!allImages.includes(img)) {
-                  allImages.push({ src: img, alt: product.name });
+                const cleanImg = typeof img === "string" && img.startsWith("/") ? img.replace(/^\/+/, "") : img;
+                if (!allImages.some(item => item.src === cleanImg)) {
+                  allImages.push({ src: cleanImg, alt: product.name });
                 }
               });
             }

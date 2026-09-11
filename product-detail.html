@@ -225,6 +225,10 @@
           return;
         }
 
+        if (product.images && Array.isArray(product.images)) {
+          product.images = product.images.map(img => typeof img === "string" && img.startsWith("/") ? img.replace(/^\/+/, "") : img);
+        }
+
         // Update page
         document.title = `${product.name} | TheFaberTale`;
         document.getElementById("breadcrumbName").textContent = product.name;

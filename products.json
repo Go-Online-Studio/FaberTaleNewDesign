@@ -514,6 +514,60 @@
       "tags": ["copper", "hammered", "vase", "patina"]
     },
     {
+      "id": "artifact-1",
+      "name": "Artifact 1",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A captivating handcrafted sculptural artifact made with meticulous artisan detail. Each piece is a unique expression of form and natural material.",
+      "images": [
+        "images/Artifacts/Artifacts1_DSC00043_Image1_converted.avif",
+        "images/Artifacts/Artifacts1_DSC00044_Image2_converted.avif",
+        "images/Artifacts/Artifacts1_DSC00045_Image3_converted.avif"
+      ],
+      "tags": ["artifact", "sculpture", "handcrafted", "artisan"]
+    },
+    {
+      "id": "artifact-2",
+      "name": "Artifact 2",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A distinctive handcrafted artifact blending organic textures with refined sculptural form. A statement piece for collectors and connoisseurs.",
+      "images": [
+        "images/Artifacts/Artifacts2_DSC00049_Image1_converted.avif",
+        "images/Artifacts/Artifacts2_DSC00050_Image3_converted.avif"
+      ],
+      "tags": ["artifact", "sculpture", "organic", "handcrafted"]
+    },
+    {
+      "id": "artifact-3",
+      "name": "Artifact 3",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "An exquisite sculptural artifact showcasing the beauty of natural materials worked by skilled artisan hands into a timeless decorative object.",
+      "images": [
+        "images/Artifacts/Artifacts3_DSC09738_Image1_converted.avif",
+        "images/Artifacts/Artifacts3_DSC09740_Image2_converted.avif",
+        "images/Artifacts/Artifacts3_DSC09742_Image3_converted.avif",
+        "images/Artifacts/Artifacts3_DSC09743_Image4_converted.avif",
+        "images/Artifacts/Artifacts3_DSC09885_Image1_converted.avif",
+        "images/Artifacts/Artifacts3_DSC09913_Image2_converted.avif"
+      ],
+      "tags": ["artifact", "sculpture", "natural", "artisan"]
+    },
+    {
+      "id": "artifact-4",
+      "name": "Artifact 4",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A premium decorative artifact featuring elegant proportions and artisan craftsmanship, designed to elevate any interior space.",
+      "images": [
+        "images/Artifacts/Artifacts4_DSC09774_Image1_converted.avif",
+        "images/Artifacts/Artifacts4_DSC09772_Image2_converted.avif",
+        "images/Artifacts/Artifacts4_DSC09775_Image3_converted.avif"
+      ],
+      "tags": ["artifact", "decorative", "premium", "artisan"]
+    },
+    {
       "id": "partition-carved-teak",
       "name": "Carved Teak Partition",
       "category": "Partitions",
@@ -969,6 +1023,45 @@
         "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80"
       ],
       "tags": ["wooden", "hanging", "oak", "cube"]
+    },
+    {
+      "id": "lamp-1",
+      "name": "Lamp 1",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "A handcrafted wooden floor lamp with a distinctive artisan silhouette, casting a warm ambient glow that transforms any living space.",
+      "images": [
+        "images/Lamp/Lamp1_DSC00119_Image1.png",
+        "images/Lamp/Lamp1_DSC00120_Image2.png",
+        "images/Lamp/Lamp1_DSC00121_Image3.png",
+        "images/Lamp/Lamp1_DSC00125_Image4.png"
+      ],
+      "tags": ["lamp", "floor", "wooden", "handcrafted", "artisan"]
+    },
+    {
+      "id": "lamp-2",
+      "name": "Lamp 2",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "A sculpted wooden floor lamp with organic form, designed to bring natural warmth and dramatic lighting to interiors.",
+      "images": [
+        "images/Lamp/Lamp2_DSC00132_Image1.png",
+        "images/Lamp/Lamp2_DSC00127_Image3.png",
+        "images/Lamp/Lamp2_DSC00141_Image3.png"
+      ],
+      "tags": ["lamp", "floor", "wooden", "sculptural"]
+    },
+    {
+      "id": "lamp-3",
+      "name": "Lamp 3",
+      "category": "Lights",
+      "subcategory": "Wooden Floor",
+      "description": "An elegant handcrafted wooden floor lamp featuring refined proportions and a warm natural finish, ideal for living rooms and reading corners.",
+      "images": [
+        "images/Lamp/Lamp3_DSC00134_Image1.png",
+        "images/Lamp/Lamp3_DSC00137_Image2.png"
+      ],
+      "tags": ["lamp", "floor", "wooden", "elegant"]
     },
     {
       "id": "bench-papermesh-long",

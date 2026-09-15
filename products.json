@@ -1086,6 +1086,71 @@
       ],
       "tags": ["chair", "armchair", "walnut", "curved"]
     },
+        {
+      "id": "chair-1",
+      "name": "Chair 1",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "images": [
+        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
+        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
+        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+      ],
+      "tags": ["chair", "armchair", "walnut", "curved"]
+    },
+        {
+      "id": "chair-2",
+      "name": "Chair 2",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "images": [
+        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
+        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
+        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+      ],
+      "tags": ["chair", "armchair", "walnut", "curved"]
+    },
+        {
+      "id": "chair-3",
+      "name": "Chair 3",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "images": [
+        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
+        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
+        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+      ],
+      "tags": ["chair", "armchair", "walnut", "curved"]
+    },
+        {
+      "id": "chair-4",
+      "name": "Chair 4",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "images": [
+        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
+        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
+        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+      ],
+      "tags": ["chair", "armchair", "walnut", "curved"]
+    },
+        {
+      "id": "chair-",
+      "name": "Chair 1",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "images": [
+        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
+        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
+        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+      ],
+      "tags": ["chair", "armchair", "walnut", "curved"]
+    },
     {
       "id": "mirror-hanging-sunburst",
       "name": "Sunburst Teak Mirror",

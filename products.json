@@ -149,6 +149,20 @@
       "tags": ["side-table", "log", "carved", "natural"]
     },
     {
+      "id": "console-table-1",
+      "name": "Console Table 1",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "An exquisite artisan console table crafted from premium solid wood with natural organic grain patterns, ideal for entryways, hallways, or living spaces.",
+      "images": [
+        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00034_Image1.avif",
+        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00040_Image2.avif",
+        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00039_Image3.avif",
+        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00042_Image4.avif"
+      ],
+      "tags": ["console", "table", "handcrafted", "entryway", "solid-wood"]
+    },
+    {
       "id": "console-table-teak-root",
       "name": "Teak Root Console Table",
       "category": "Tables",
@@ -1086,70 +1100,104 @@
       ],
       "tags": ["chair", "armchair", "walnut", "curved"]
     },
-        {
+    {
       "id": "chair-1",
       "name": "Chair 1",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "description": "An artisanal accent chair handcrafted with sculptured solid wood contours, offering exceptional comfort and architectural elegance.",
       "images": [
-        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
-        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
-        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+        "images/Chairs/Chair 1/Chair1_DSC00051_Image1.avif",
+        "images/Chairs/Chair 1/Chair1_DSC00054_Image2.avif",
+        "images/Chairs/Chair 1/Chair1_DSC00058_Image3.avif",
+        "images/Chairs/Chair 1/Chair1_DSC00061_Image4.avif"
       ],
-      "tags": ["chair", "armchair", "walnut", "curved"]
+      "tags": ["chair", "artisan", "solid-wood", "handcrafted"]
     },
-        {
+    {
       "id": "chair-2",
       "name": "Chair 2",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "description": "A refined wooden chair featuring organic lines and masterful craftsmanship, designed to bring natural warmth to modern spaces.",
       "images": [
-        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
-        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
-        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+        "images/Chairs/Chair 2/Chair2_DSC00064_Image1.avif",
+        "images/Chairs/Chair 2/Chair2_DSC00067_Image2.avif",
+        "images/Chairs/Chair 2/Chair2_DSC00068_Image3.avif",
+        "images/Chairs/Chair 2/Chair2_DSC00062_Image4.avif"
       ],
-      "tags": ["chair", "armchair", "walnut", "curved"]
+      "tags": ["chair", "wood", "handcrafted", "contemporary"]
     },
-        {
+    {
       "id": "chair-3",
       "name": "Chair 3",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "description": "A distinctive handcrafted armchair with fluid silhouette and sculpted wooden frame, pairing ergonomic comfort with sculptural presence.",
       "images": [
-        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
-        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
-        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+        "images/Chairs/Chair 3/Chair3_DSC00072_Image1.avif",
+        "images/Chairs/Chair 3/Chair3_DSC00074_Image2.avif",
+        "images/Chairs/Chair 3/Chair3_DSC00075_Image3.avif",
+        "images/Chairs/Chair 3/Chair3_DSC00070_Image4.avif"
       ],
-      "tags": ["chair", "armchair", "walnut", "curved"]
+      "tags": ["chair", "armchair", "sculptural", "wood"]
     },
-        {
+    {
       "id": "chair-4",
       "name": "Chair 4",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "description": "A bespoke solid wood chair with striking grain patterns and hand-finished surfaces, built for longevity and timeless appeal.",
       "images": [
-        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
-        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
-        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+        "images/Chairs/Chair 4/Chair4_DSC00080_Image1.avif",
+        "images/Chairs/Chair 4/Chair4_DSC00081_Image2.avif",
+        "images/Chairs/Chair 4/Chair4_DSC00083_Image3.avif",
+        "images/Chairs/Chair 4/Chair4_DSC00076_Image4.avif"
       ],
-      "tags": ["chair", "armchair", "walnut", "curved"]
+      "tags": ["chair", "solid-wood", "handcrafted", "bespoke"]
     },
-        {
-      "id": "chair-",
-      "name": "Chair 1",
+    {
+      "id": "chair-5",
+      "name": "Chair 5",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A sophisticated armchair featuring organic, sweeping curves in solid walnut. Upholstered in a premium neutral linen.",
+      "description": "A modern handcrafted chair balancing minimal geometry with rich organic timber textures for relaxed contemporary seating.",
       "images": [
-        "https://i.pinimg.com/1200x/4a/4c/0f/4a4c0f260883e6debe299ad9d155b2b5.jpg",
-        "https://i.pinimg.com/1200x/ba/d4/af/bad4af95815d6aaebbd50599defd4312.jpg",
-        "https://i.pinimg.com/736x/3a/2a/71/3a2a71da63875265f599982148e2ea47.jpg"
+        "images/Chairs/Chair 5/Chair5_DSC00087_Image1.avif",
+        "images/Chairs/Chair 5/Chair5_DSC00089_Image2.avif",
+        "images/Chairs/Chair 5/Chair5_DSC00090_Image3.avif",
+        "images/Chairs/Chair 5/Chair5_DSC00085_Image4.avif"
       ],
-      "tags": ["chair", "armchair", "walnut", "curved"]
+      "tags": ["chair", "minimalist", "timber", "artisan"]
+    },
+    {
+      "id": "chair-6",
+      "name": "Chair 6",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "An elegant handcrafted chair showcasing artisan joinery, sculpted armrests, and a natural tactile wood finish.",
+      "images": [
+        "images/Chairs/Chair 6/Chair6_DSC00094_Image1.avif",
+        "images/Chairs/Chair 6/Chair6_DSC00100_Image2.avif",
+        "images/Chairs/Chair 6/Chair6_DSC00098_Image3.avif",
+        "images/Chairs/Chair 6/Chair6_DSC00092_Image4.avif"
+      ],
+      "tags": ["chair", "joinery", "handcrafted", "wood"]
+    },
+    {
+      "id": "chair-7",
+      "name": "Chair 7",
+      "category": "Chairs",
+      "subcategory": "All Chairs",
+      "description": "A premium handcrafted statement chair defined by sculptural woodwork and refined architectural proportions.",
+      "images": [
+        "images/Chairs/Chair 7/Chair7_DSC00111_Image1.avif",
+        "images/Chairs/Chair 7/Chair7_DSC00112_Image2.avif",
+        "images/Chairs/Chair 7/Chair7_DSC00115_Image3.avif",
+        "images/Chairs/Chair 7/Chair7_DSC00116_Image4.avif",
+        "images/Chairs/Chair 7/Chair7_DSC00108_Image5.avif"
+      ],
+      "tags": ["chair", "statement", "sculptural", "premium"]
     },
     {
       "id": "mirror-hanging-sunburst",

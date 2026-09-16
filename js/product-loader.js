@@ -20,7 +20,8 @@ const CATEGORY_ICONS = {
   "Mirrors":     "mdi:mirror",
   "Pots/Vases":  "mdi:flower-tulip-outline",
   "Artifacts":   "mdi:diamond-stone",
-  "Partitions":  "mdi:view-column-outline"
+  "Partitions":  "mdi:view-column-outline",
+  "Lamps":       "mdi:lamp"
 };
 
 const SUBCATEGORY_ICONS = {
@@ -41,7 +42,8 @@ const SUBCATEGORY_ICONS = {
   "Hanging":          "fluent-emoji-high-contrast:mirror",
   "Floor":            "icon-park-twotone:mirror-two",
   "All Artifacts":    "mdi:puzzle-star-outline",
-  "All Partitions":   "mdi:view-column"
+  "All Partitions":   "mdi:view-column",
+  "All Lamps":        "mdi:lamp-outline"
 };
 
 function getIconTag(map, key) {

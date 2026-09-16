@@ -46,6 +46,10 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Partitions",
       subcategories: ["All Partitions"]
+    },
+    {
+      name: "Lamps",
+      subcategories: ["All Lamps"]
     }
   ];
 

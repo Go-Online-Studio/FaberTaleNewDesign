@@ -1,0 +1,248 @@
+{
+  "beds": [
+    {
+      "id": "canopy-bed-minimalist",
+      "name": "Minimalist Canopy Bed",
+      "category": "Beds",
+      "subcategory": "Canopy Bed",
+      "description": "A sleek, minimalist canopy bed with a slim black metal frame and a solid oak base. Modern elegance for a contemporary bedroom.",
+      "images": [
+        "https://i.pinimg.com/1200x/27/4a/45/274a45be237668732a6bbeeb8c315003.jpg",
+        "https://i.pinimg.com/736x/12/ad/da/12adda5d1e402584f9a4e1513c67569f.jpg",
+        "https://images.unsplash.com/photo-1505693314120-0d443867891c?w=600&q=80"
+      ],
+      "tags": ["canopy", "minimalist", "metal", "oak"]
+    },
+    {
+      "id": "canopy-bed-boho",
+      "name": "Bohemian Canopy Bed",
+      "category": "Beds",
+      "subcategory": "Canopy Bed",
+      "description": "A handcrafted bamboo canopy bed with woven rattan details. Bring a tropical, relaxed vibe to your sanctuary.",
+      "images": [
+        "https://i.pinimg.com/736x/c5/d5/5e/c5d55e19ded617a8ddeb274dc40b1299.jpg",
+        "https://i.pinimg.com/736x/84/26/fb/8426fb173644ec7d8819825b7ae7b042.jpg",
+        "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=600&q=80"
+      ],
+      "tags": ["canopy", "boho", "bamboo", "rattan"]
+    },
+    {
+      "id": "canopy-bed-vintage",
+      "name": "Vintage Mahogany Canopy Bed",
+      "category": "Beds",
+      "subcategory": "Canopy Bed",
+      "description": "An ornate mahogany canopy bed with hand-carved floral details and a polished antique finish. A timeless heirloom piece.",
+      "images": [
+        "https://i.pinimg.com/1200x/7e/85/fc/7e85fc552dfe7f7d4e17c827804b4e40.jpg",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&q=80",
+        "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&q=80"
+      ],
+      "tags": ["canopy", "mahogany", "vintage", "carved"]
+    }
+  ],
+  "tables": {
+    "dining table": [
+      {
+        "id": "dining-table-oak-classic",
+        "name": "Classic Oak Dining Table",
+        "category": "Tables",
+        "subcategory": "Dining Table",
+        "description": "A sturdy dining table made from thick slabs of solid European oak. Simple, functional, and built to last generations.",
+        "images": [
+          "https://i.pinimg.com/1200x/ff/cb/14/ffcb141be6abd22db09a844f6d430044.jpg",
+          "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
+          "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg"
+        ],
+        "tags": ["dining", "oak", "classic", "solid-wood"]
+      },
+      {
+        "id": "dining-table-industrial",
+        "name": "Industrial Reclaimed Table",
+        "category": "Tables",
+        "subcategory": "Dining Table",
+        "description": "A rugged dining table combining reclaimed factory wood with heavy-duty cast iron legs. Perfect for modern lofts.",
+        "images": [
+          "https://i.pinimg.com/1200x/31/c4/9d/31c49d810cd95c7f11d7bb8b72788625.jpg",
+          "https://i.pinimg.com/1200x/c1/69/1c/c1691cf04944b7113f14c512d425f779.jpg",
+          "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg"
+        ],
+        "tags": ["dining", "industrial", "reclaimed", "metal"]
+      }
+    ],
+    "center table": [
+            {
+      "id": "center-table-live-edge-small",
+      "name": "Petite Live Edge Coffee Table",
+      "category": "Tables",
+      "subcategory": "Center Table",
+      "description": "A small live-edge coffee table made from a cross-section of a cedar log, featuring natural cracks filled with gold resin.",
+      "images": [
+        "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg",
+        "https://i.pinimg.com/1200x/d7/12/d1/d712d1d61519cf020a0a41ad73e00147.jpg",
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80"
+      ],
+      "tags": ["center-table", "live-edge", "cedar", "gold-resin"]
+    },
+    {
+      "id": "center-table-concrete-wood",
+      "name": "Concrete & Wood Center Table",
+      "category": "Tables",
+      "subcategory": "Center Table",
+      "description": "A modern center table featuring a polished concrete top set into a warm walnut wood frame. A bold mix of materials.",
+      "images": [
+        "https://i.pinimg.com/1200x/53/08/f0/5308f02a8640cb723d75bb3afcdcc8d9.jpg",
+        "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=600&q=80",
+        "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg"
+      ],
+      "tags": ["center-table", "concrete", "walnut", "modern"]
+    }
+    ],
+    "console table": [
+            {
+      "id": "console-table-rustic",
+      "name": "Rustic Console Table",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A beautifully weathered console table featuring reclaimed wood with a natural patina, supported by hand-forged iron legs.",
+      "images": [
+        "https://i.pinimg.com/1200x/3c/bd/a4/3cbda44e11b8fed5a46e3b569288c18d.jpg",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80"
+      ],
+      "tags": ["console", "rustic", "reclaimed", "iron-legs"]
+    },
+        {
+      "id": "console-table-sculptural",
+      "name": "Sculptural Root Console",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A console table featuring an intricately twisted driftwood base with a thick tempered glass top. Nature's sculpture for your hallway.",
+      "images": [
+        "https://i.pinimg.com/1200x/ed/a2/4d/eda24d87160324b5f17a0b3516aede05.jpg",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80"
+      ],
+      "tags": ["console", "driftwood", "glass-top", "hallway"]
+    },
+    {
+      "id": "console-table-modern-linear",
+      "name": "Linear Walnut Console",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A minimalist console table with clean lines and a floating shelf design. Handcrafted from premium American walnut with a satin finish.",
+      "images": [
+        "https://i.pinimg.com/1200x/2f/c2/d9/2fc2d943c469989967cc4dda33ac7e73.jpg",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0?w=600&q=80",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
+      ],
+      "tags": ["console", "walnut", "minimalist", "linear"]
+    },
+    {
+      "id": "console-table-bone-inlay",
+      "name": "Bone Inlay Console Table",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "A stunning console table featuring traditional bone inlay in a classic chevron pattern. A luxurious statement piece for any entryway.",
+      "images": [
+        "https://i.pinimg.com/1200x/70/73/39/707339293cdd3ffe5b9f6bde2a0b61b8.jpg",
+        "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
+        "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80"
+      ],
+      "tags": ["console", "bone-inlay", "chevron", "entryway"]
+    }
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "artifact-bronze-abstract",
+      "name": "Abstract Bronze Sculpture",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A contemporary abstract sculpture cast in solid bronze with a rich patina finish. Its fluid, organic form creates a captivating focal point.",
+      "images": [
+        "https://i.pinimg.com/736x/14/33/a0/1433a05099d597ad84d87bfff221918a.jpg",
+        "https://i.pinimg.com/736x/df/30/d1/df30d1079a9556776bc44cd3b51aaec1.jpg",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80"
+      ],
+      "tags": ["bronze", "abstract", "sculpture", "patina"]
+    },
+    {
+      "id": "artifact-stone-figure",
+      "name": "Hand Carved Stone Figure",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "An exquisite hand-carved stone sculpture depicting an abstract human form. Crafted from natural sandstone with unique textural variations.",
+      "images": [
+        "https://i.pinimg.com/1200x/f9/4d/4c/f94d4c7e795c4931e96e15d0196777f6.jpg",
+        "https://i.pinimg.com/736x/59/11/a4/5911a4c6bada3ca765b43c4e38f1f2a9.jpg",
+        "https://i.pinimg.com/1200x/b1/9f/d0/b19fd093ce46cbe22fb0b3fd20e7e1c3.jpg"
+      ],
+      "tags": ["stone", "carved", "figure", "sandstone"]
+    },
+    {
+      "id": "artifact-ceramic-tower",
+      "name": "Ceramic Tower Sculpture",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A striking ceramic tower sculpture with stacked geometric forms, finished in matte charcoal glaze. Bridges art and décor for modern spaces.",
+      "images": [
+        "https://i.pinimg.com/736x/0b/c6/94/0bc694cddaec142c3f7198e9ece3b897.jpg",
+        "https://i.pinimg.com/1200x/0e/1a/de/0e1ade87cb0c66be125d69bc853265f1.jpg",
+        "https://i.pinimg.com/1200x/36/e1/08/36e108b6c445a5f051da92d080c13bb2.jpg"
+      ],
+      "tags": ["ceramic", "tower", "geometric", "modern"]
+    },
+    {
+      "id": "artifact-macrame-wall",
+      "name": "Macramé Wall Hanging",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A large handwoven macramé wall hanging crafted from natural cotton rope, featuring intricate knot patterns and flowing fringe details.",
+      "images": [
+        "https://i.pinimg.com/1200x/bf/1a/fb/bf1afbb8eb8028b12db98f679536264d.jpg",
+        "https://i.pinimg.com/736x/77/b1/e2/77b1e2258435ad56642606b45cd7828b.jpg",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80"
+      ],
+      "tags": ["macrame", "wall-hanging", "cotton", "handwoven"]
+    },
+    {
+      "id": "artifact-crystal-bookends",
+      "name": "Crystal Agate Bookends",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A pair of natural agate crystal bookends with polished faces revealing stunning internal banding patterns in warm amber and white tones.",
+      "images": [
+        "https://i.pinimg.com/1200x/08/79/54/0879549cce156db1c2e8869ae68e8a61.jpg",
+        "https://i.pinimg.com/736x/45/5a/0c/455a0ce90666e7674cbede198a3f2590.jpg",
+        "https://i.pinimg.com/1200x/b1/9f/d0/b19fd093ce46cbe22fb0b3fd20e7e1c3.jpg"
+      ],
+      "tags": ["crystal", "agate", "bookends", "natural"]
+    },
+    {
+      "id": "artifact-driftwood-wall",
+      "name": "Driftwood Wall Art",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A stunning wall art installation made from collected driftwood pieces, arranged in an organic flowing pattern. Naturally weathered coastal beauty.",
+      "images": [
+        "https://i.pinimg.com/1200x/0f/89/61/0f8961340bbcf0fb57ac21d11e35a68c.jpg",
+        "https://i.pinimg.com/1200x/d7/f3/1e/d7f31e5e8be6dd852447bd580e4ce8a2.jpg",
+        "https://i.pinimg.com/1200x/36/e1/08/36e108b6c445a5f051da92d080c13bb2.jpg"
+      ],
+      "tags": ["driftwood", "wall-art", "coastal", "installation"]
+    },
+    {
+      "id": "artifact-hammered-copper-vase",
+      "name": "Hammered Copper Vase",
+      "category": "Artifacts",
+      "subcategory": "All Artifacts",
+      "description": "A hand-hammered copper vase with a rich patina that develops beautifully over time. Warm golden reflections add artisan character.",
+      "images": [
+        "https://i.pinimg.com/1200x/d2/4b/24/d24b24158287ba5aa8f29cc768424b9d.jpg",
+        "https://i.pinimg.com/736x/a0/d7/d0/a0d7d06fbaf0b2a5ed0186f488be9de4.jpg",
+        "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=600&q=80"
+      ],
+      "tags": ["copper", "hammered", "vase", "patina"]
+    }
+  ]
+}

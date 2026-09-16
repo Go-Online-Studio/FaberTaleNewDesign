@@ -35,6 +35,10 @@
     {
       "name": "Partitions",
       "subcategories": ["All Partitions"]
+    },
+    {
+      "name": "Lamps",
+      "subcategories": ["All Lamps"]
     }
   ],
   "products": [
@@ -93,6 +97,34 @@
         "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09833_image4.avif"
       ],
       "tags": ["dining", "sheesham", "solid-wood", "classic"]
+    },
+    {
+      "id": "dining-table-3",
+      "name": "Dining Table 3",
+      "category": "Tables",
+      "subcategory": "Dining Table",
+      "description": "A beautifully crafted solid wood dining table with a warm natural finish and expertly jointed construction, making it a centrepiece for family gatherings.",
+      "images": [
+        "https://i.pinimg.com/1200x/ff/cb/14/ffcb141be6abd22db09a844f6d430044.jpg",
+        "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
+        "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
+        "https://i.pinimg.com/1200x/31/c4/9d/31c49d810cd95c7f11d7bb8b72788625.jpg"
+      ],
+      "tags": ["dining", "solid-wood", "handcrafted", "natural"]
+    },
+    {
+      "id": "dining-table-4",
+      "name": "Dining Table 4",
+      "category": "Tables",
+      "subcategory": "Dining Table",
+      "description": "A stunning artisan dining table showcasing the finest grain patterns and meticulous craftsmanship, designed to be the ultimate statement piece for any dining room.",
+      "images": [
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09803_Image1.avif",
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09780_Image2.avif",
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09807_Image3.avif",
+        "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09781_Image4.avif"
+      ],
+      "tags": ["dining", "artisan", "statement", "solid-wood"]
     },
     {
       "id": "center-table-marble-top",
@@ -1027,8 +1059,8 @@
     {
       "id": "lamp-1",
       "name": "Lamp 1",
-      "category": "Lights",
-      "subcategory": "Wooden Floor",
+      "category": "Lamps",
+      "subcategory": "All Lamps",
       "description": "A handcrafted wooden floor lamp with a distinctive artisan silhouette, casting a warm ambient glow that transforms any living space.",
       "images": [
         "images/Lamp/Lamp1_DSC00119_Image1.png",
@@ -1041,8 +1073,8 @@
     {
       "id": "lamp-2",
       "name": "Lamp 2",
-      "category": "Lights",
-      "subcategory": "Wooden Floor",
+      "category": "Lamps",
+      "subcategory": "All Lamps",
       "description": "A sculpted wooden floor lamp with organic form, designed to bring natural warmth and dramatic lighting to interiors.",
       "images": [
         "images/Lamp/Lamp2_DSC00132_Image1.png",
@@ -1054,8 +1086,8 @@
     {
       "id": "lamp-3",
       "name": "Lamp 3",
-      "category": "Lights",
-      "subcategory": "Wooden Floor",
+      "category": "Lamps",
+      "subcategory": "All Lamps",
       "description": "An elegant handcrafted wooden floor lamp featuring refined proportions and a warm natural finish, ideal for living rooms and reading corners.",
       "images": [
         "images/Lamp/Lamp3_DSC00134_Image1.png",
@@ -1512,6 +1544,6 @@
         "https://i.pinimg.com/1200x/61/99/23/61992396acff44233e4dd868937a874f.jpg"
       ],
       "tags": ["partition", "carved", "sunburst", "mango-wood"]
-    }
+    },
   ]
 }

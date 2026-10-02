@@ -1413,6 +1413,46 @@
         "hammered-brass",
         "walnut-wood"
       ]
+    },
+    {
+      "id": "mirror-walnut-wood",
+      "name": "Walnut Wood",
+      "category": "Mirrors",
+      "subcategory": "Floor",
+      "description": "This full body mirror features a 3-way LED touch-sensitive light makeup mirror complete with a puffy seating arrangement. Finished with an exterior PU polish, it is available in custom sizes and shapes to perfectly suit your space.",
+      "images": [
+        "images/Mirrors/Mirror 7/1-5.webp",
+        "images/Mirrors/Mirror 7/2-5.webp",
+        "images/Mirrors/Mirror 7/3-5.webp",
+        "images/Mirrors/Mirror 7/4-5.webp"
+      ],
+      "tags": [
+        "mirror",
+        "walnut-wood",
+        "full-body",
+        "makeup",
+        "led"
+      ]
+    },
+    {
+      "id": "mirror-teak-wood",
+      "name": "Teak Wood",
+      "category": "Mirrors",
+      "subcategory": "Floor",
+      "description": "Designed as a full body mirror, this teak wood piece includes a buffed brass pipe for clothes hanging and two convenient drawers. It is beautifully finished with an exterior PU polish for lasting elegance.",
+      "images": [
+        "images/Mirrors/Mirror 8/1-6.webp",
+        "images/Mirrors/Mirror 8/2-6.webp",
+        "images/Mirrors/Mirror 8/3-6.webp",
+        "images/Mirrors/Mirror 8/4-6.webp"
+      ],
+      "tags": [
+        "mirror",
+        "teak-wood",
+        "full-body",
+        "hanger",
+        "drawers"
+      ]
     }
   ]
 }

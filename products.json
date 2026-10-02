@@ -2,125 +2,186 @@
   "categories": [
     {
       "name": "Beds",
-      "subcategories": ["Canopy Bed"]
+      "subcategories": [
+        "Canopy Bed"
+      ]
     },
     {
       "name": "Tables",
-      "subcategories": ["Dining Table", "Center Table", "Side Table", "Console Table", "Live Edge"]
+      "subcategories": [
+        "Dining Table",
+        "Center Table",
+        "Side Table",
+        "Console Table",
+        "Live Edge"
+      ]
     },
     {
       "name": "Lights",
-      "subcategories": ["Papermesh Floor", "Papermesh Hanging", "Wooden Floor", "Wooden Hanging", "open"]
+      "subcategories": [
+        "Papermesh Floor",
+        "Papermesh Hanging",
+        "Wooden Floor",
+        "Wooden Hanging",
+        "open"
+      ]
     },
     {
       "name": "Benches",
-      "subcategories": ["Papermesh", "Wood"]
+      "subcategories": [
+        "Papermesh",
+        "Wood"
+      ]
     },
     {
       "name": "Chairs",
-      "subcategories": ["All Chairs"]
+      "subcategories": [
+        "All Chairs"
+      ]
     },
     {
       "name": "Mirrors",
-      "subcategories": ["Hanging", "Floor"]
+      "subcategories": [
+        "Hanging",
+        "Floor"
+      ]
     },
     {
       "name": "Pots/Vases",
-      "subcategories": ["Papermesh", "Wood"]
+      "subcategories": [
+        "Papermesh",
+        "Wood"
+      ]
     },
     {
       "name": "Artifacts",
-      "subcategories": ["All Artifacts"]
+      "subcategories": [
+        "All Artifacts"
+      ]
     },
     {
       "name": "Partitions",
-      "subcategories": ["All Partitions"]
+      "subcategories": [
+        "All Partitions"
+      ]
     }
   ],
   "products": [
     {
       "id": "canopy-bed-teak",
-      "name": "Teak Canopy Bed",
+      "name": "Walnut Wood Poster Bed",
       "category": "Beds",
       "subcategory": "Canopy Bed",
-      "description": "A majestic canopy bed frame handcrafted from solid teak wood with elegant carved posts and a warm natural finish. Designed to be the centrepiece of your bedroom.",
+      "description": "Crafted with high density particle board and a walnut wood bed back, this poster bed features matching side tables with two convenient drawers each. Finished with an elegant exterior PU polish, it is available in custom sizes and designs to perfectly suit your space.",
       "images": [
         "images/Beds/Bed1/Bed1_DSC00147_Image1.avif",
         "images/Beds/Bed1/Bed1_DSC09876_Image2.avif",
         "images/Beds/Bed1/Bed1_DSC09881_Image3.avif",
         "images/Beds/Bed1/Bed1_DSC09911_Image4.avif"
       ],
-      "tags": ["canopy", "teak", "bedroom", "handcrafted"]
+      "tags": [
+        "canopy",
+        "teak",
+        "bedroom",
+        "handcrafted"
+      ]
     },
     {
       "id": "canopy-bed-rustic",
-      "name": "Rustic Canopy Bed",
+      "name": "Teak Wood Poster Bed",
       "category": "Beds",
       "subcategory": "Canopy Bed",
-      "description": "A rustic canopy bed made from reclaimed wood with a beautifully weathered patina. Raw natural beauty meets comfortable modern living.",
+      "description": "This poster bed features an antique brass textured bed back with a soft, cushioned backrest for ultimate comfort. Complete with perfectly matched side tables and an exterior PU polish, it brings a luxurious feel to your bedroom.",
       "images": [
         "images/Beds/Bed2/Bed2_DSC00164_Image1.avif",
         "images/Beds/Bed2/Bed2_DSC09922_Image2.avif",
         "images/Beds/Bed2/Bed2_DSC09954_Image3.avif",
         "images/Beds/Bed2/Bed2_DSC09956_Image4.avif"
       ],
-      "tags": ["canopy", "rustic", "reclaimed", "bedroom"]
+      "tags": [
+        "canopy",
+        "rustic",
+        "reclaimed",
+        "bedroom"
+      ]
     },
     {
       "id": "dining-table-resin-river",
-      "name": "Resin River Dining Table",
+      "name": "Traditional Indian Style Floor Seating Dining Table",
       "category": "Tables",
       "subcategory": "Dining Table",
-      "description": "A stunning live-edge dining table featuring a vibrant turquoise resin river flowing through naturally contoured walnut slabs. Seats six comfortably.",
+      "description": "Made from premium walnut wood, this traditional Indian style floor seating dining table features elegant fluted legs and an exterior PU polish. Available in custom sizes and designs, it is perfect for creating an authentic dining experience.",
       "images": [
         "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09720_Image1.avif",
         "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09730_Image2.avif",
         "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09748_Image3.avif",
         "images/Tables/Dining Table/Dining Table 1/DiningTable1_DSC09759_Image4.avif"
       ],
-      "tags": ["resin", "dining", "walnut", "live-edge", "epoxy"]
+      "tags": [
+        "resin",
+        "dining",
+        "walnut",
+        "live-edge",
+        "epoxy"
+      ]
     },
     {
       "id": "dining-table-solid-wood",
-      "name": "Solid Wood Dining Table",
+      "name": "Walnut Wood and Epoxy Resin dining table",
       "category": "Tables",
       "subcategory": "Dining Table",
-      "description": "A classic solid wood dining table crafted from premium sheesham with a hand-rubbed oil finish that highlights exquisite grain patterns.",
+      "description": "This stunning dining table features exquisite brass inlay and textured brass totem legs, protected by a durable Rubio Monocoat oil coating finish. It can be fully customized in size and design to anchor your dining room.",
       "images": [
         "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09831_image1.avif",
         "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC00182_Image2.avif",
         "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09853_image3.avif",
         "images/Tables/Dining Table/Dining Table 2/DiningTable2_DSC09833_image4.avif"
       ],
-      "tags": ["dining", "sheesham", "solid-wood", "classic"]
+      "tags": [
+        "dining",
+        "sheesham",
+        "solid-wood",
+        "classic"
+      ]
     },
     {
       "id": "center-table-marble-top",
-      "name": "Marble Top Center Table",
+      "name": "WhiteAsh Wood Centre Table set of 3",
       "category": "Tables",
       "subcategory": "Center Table",
-      "description": "An elegant center table with a natural marble top set on a sculptural wooden base. The contrast of stone and wood creates a sophisticated focal point.",
+      "description": "A versatile set of three center tables finished with a sleek PU polish. Custom sizing and design options are available, allowing you to tailor the set to your unique interior style.",
       "images": [
         "images/Tables/Center Table/Center Table 1/CenterTable1_DSC00004_Image1.avif",
         "images/Tables/Center Table/Center Table 1/CenterTable1_DSC00001_Image2.avif",
         "images/Tables/Center Table/Center Table 1/CenterTable1_DSC00009_Image3.avif",
         "images/Tables/Center Table/Center Table 1/CenterTable1_DSC09971_Image4.avif"
       ],
-      "tags": ["center-table", "marble", "wooden-base", "living-room"]
+      "tags": [
+        "center-table",
+        "marble",
+        "wooden-base",
+        "living-room"
+      ]
     },
     {
       "id": "center-table-round-resin",
-      "name": "Round Resin Center Table",
+      "name": "Teak Wood Center Tables set of two",
       "category": "Tables",
       "subcategory": "Center Table",
-      "description": "A mesmerizing round center table featuring deep blue and turquoise resin art encapsulated within a solid wood frame.",
+      "description": "This set of two center tables showcases a striking conical shaped brass textured base, finished with a premium exterior PU polish. Custom sizes and designs are available to seamlessly integrate into your living area.",
       "images": [
         "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09966_Image1.avif",
         "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09969_Image2.avif",
         "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09982_Image3.avif",
         "images/Tables/Center Table/Center Table 2/CenterTable2_DSC09987_Image4.avif"
       ],
-      "tags": ["center-table", "resin", "round", "epoxy", "blue"]
+      "tags": [
+        "center-table",
+        "resin",
+        "round",
+        "epoxy",
+        "blue"
+      ]
     },
     {
       "id": "side-table-petrified",
@@ -133,7 +194,12 @@
         "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
         "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg"
       ],
-      "tags": ["side-table", "petrified", "fossil", "rare"]
+      "tags": [
+        "side-table",
+        "petrified",
+        "fossil",
+        "rare"
+      ]
     },
     {
       "id": "side-table-log-stool",
@@ -146,7 +212,12 @@
         "https://i.pinimg.com/1200x/02/b5/ce/02b5ce9fae4197af38e7404d21a11b0e.jpg",
         "https://i.pinimg.com/736x/ac/9f/2c/ac9f2cb40e999caaa00c42fbf64fb69a.jpg"
       ],
-      "tags": ["side-table", "log", "carved", "natural"]
+      "tags": [
+        "side-table",
+        "log",
+        "carved",
+        "natural"
+      ]
     },
     {
       "id": "console-table-teak-root",
@@ -155,14 +226,18 @@
       "subcategory": "Console Table",
       "description": "A dramatic console table crafted from a naturally formed teak root system, mounted on a sleek metal base. Each piece is a unique sculptural statement.",
       "images": [
-         "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00034_Image1.avif",
+        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00034_Image1.avif",
         "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00040_Image2.avif",
         "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00039_Image3.avif",
         "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00042_Image4.avif"
       ],
-      "tags": ["console", "teak-root", "sculptural", "entryway"]
+      "tags": [
+        "console",
+        "teak-root",
+        "sculptural",
+        "entryway"
+      ]
     },
-
     {
       "id": "live-edge-slab-table",
       "name": "Live Edge Slab Table",
@@ -174,46 +249,67 @@
         "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
         "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg"
       ],
-      "tags": ["live-edge", "slab", "teak", "natural", "organic"]
+      "tags": [
+        "live-edge",
+        "slab",
+        "teak",
+        "natural",
+        "organic"
+      ]
     },
     {
       "id": "light-1",
-      "name": "Light 1",
+      "name": "Walnut Wood and hammered brass textured Chandelier",
       "category": "Lights",
       "subcategory": "open",
-      "description": "A statement floor lamp wrapped in hand-layered papier-mâché with intricate texture work. Emits a warm, diffused glow through the organic surface.",
+      "description": "Combining walnut wood with a hammered brass texture and an exterior PU polish, this chandelier offers a variety of light options. It includes a professional hanging accessories kit and is available in custom sizes and designs.",
       "images": [
         "images/Lights/Light1/Light1_DSC00119_Image1.png",
         "images/Lights/Light1/Light1_DSC00120_Image2.png",
         "images/Lights/Light1/Light1_DSC00121_Image3.png",
         "images/Lights/Light1/Light1_DSC00125_Image4.png"
       ],
-      "tags": ["papermesh", "floor-lamp", "handmade", "textured"]
+      "tags": [
+        "papermesh",
+        "floor-lamp",
+        "handmade",
+        "textured"
+      ]
     },
     {
       "id": "light-2",
-      "name": "Light 2",
+      "name": "Paper Mache Sculpted Chandelier",
       "category": "Lights",
       "subcategory": "open",
-      "description": "A sculpted wooden floor lamp with organic form, designed to bring natural warmth and dramatic lighting to interiors.",
+      "description": "Designed as a highly durable piece, this sculpted chandelier comes with a professional hanging accessories kit and multiple lighting options. It offers custom sizes, shapes, and on-demand paint jobs to perfectly match your decor.",
       "images": [
         "images/Lights/Light2/Light2_DSC00132_Image1.png",
         "images/Lights/Light2/Light2_DSC00127_Image3.png",
         "images/Lights/Light2/Light2_DSC00141_Image3.png"
       ],
-      "tags": ["lamp", "floor", "wooden", "sculptural"]
+      "tags": [
+        "lamp",
+        "floor",
+        "wooden",
+        "sculptural"
+      ]
     },
     {
       "id": "light-3",
-      "name": "Light 3",
+      "name": "Live Edge Branch Chandelier",
       "category": "Lights",
       "subcategory": "open",
-      "description": "An elegant handcrafted wooden floor lamp featuring refined proportions and a warm natural finish, ideal for living rooms and reading corners.",
+      "description": "This unique chandelier features an exterior PU polish and includes a professional hanging accessories kit for easy installation. With various light options and customizable sizes and shapes, it adds a bespoke touch to any room.",
       "images": [
         "images/Lights/Light3/Light3_DSC00134_Image1.png",
         "images/Lights/Light3/Light3_DSC00137_Image2.png"
       ],
-      "tags": ["lamp", "floor", "wooden", "elegant"]
+      "tags": [
+        "lamp",
+        "floor",
+        "wooden",
+        "elegant"
+      ]
     },
     {
       "id": "bench-papermesh",
@@ -226,7 +322,12 @@
         "https://i.pinimg.com/1200x/18/1b/68/181b684a2fcfa473aa90fc9f2fc984ae.jpg",
         "https://i.pinimg.com/1200x/e1/c6/06/e1c606b142c06bb3499356f128a8b162.jpg"
       ],
-      "tags": ["papermesh", "bench", "accent", "sculpted"]
+      "tags": [
+        "papermesh",
+        "bench",
+        "accent",
+        "sculpted"
+      ]
     },
     {
       "id": "bench-wood-rustic",
@@ -239,7 +340,13 @@
         "https://i.pinimg.com/1200x/32/ab/f3/32abf3159afc2ea18b38243cab59cb58.jpg",
         "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
       ],
-      "tags": ["wood", "bench", "rustic", "reclaimed", "railway-sleeper"]
+      "tags": [
+        "wood",
+        "bench",
+        "rustic",
+        "reclaimed",
+        "railway-sleeper"
+      ]
     },
     {
       "id": "bench-wood-live-edge",
@@ -252,7 +359,12 @@
         "https://i.pinimg.com/1200x/92/ee/45/92ee45cb4c84233d7220ee61598054d0.jpg",
         "https://i.pinimg.com/1200x/e8/aa/db/e8aadb9ba20ef8147f66a5e0badad9d7.jpg"
       ],
-      "tags": ["live-edge", "bench", "acacia", "metal-legs"]
+      "tags": [
+        "live-edge",
+        "bench",
+        "acacia",
+        "metal-legs"
+      ]
     },
     {
       "id": "mirror-hanging-round",
@@ -265,7 +377,13 @@
         "https://i.pinimg.com/1200x/1a/77/88/1a778852f3156a6a5e96ec6ba170dc16.jpg",
         "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
       ],
-      "tags": ["mirror", "hanging", "round", "brass", "wall"]
+      "tags": [
+        "mirror",
+        "hanging",
+        "round",
+        "brass",
+        "wall"
+      ]
     },
     {
       "id": "mirror-hanging-arched",
@@ -278,7 +396,13 @@
         "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
         "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
       ],
-      "tags": ["mirror", "hanging", "arched", "carved", "wooden"]
+      "tags": [
+        "mirror",
+        "hanging",
+        "arched",
+        "carved",
+        "wooden"
+      ]
     },
     {
       "id": "mirror-floor-full",
@@ -291,7 +415,12 @@
         "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
         "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80"
       ],
-      "tags": ["mirror", "floor", "full-length", "reclaimed"]
+      "tags": [
+        "mirror",
+        "floor",
+        "full-length",
+        "reclaimed"
+      ]
     },
     {
       "id": "pot-papermesh-sculptural",
@@ -304,7 +433,12 @@
         "https://i.pinimg.com/736x/c3/8e/a2/c38ea23a8817300e527c7458d2a0175e.jpg",
         "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
       ],
-      "tags": ["papermesh", "vase", "sculptural", "tall"]
+      "tags": [
+        "papermesh",
+        "vase",
+        "sculptural",
+        "tall"
+      ]
     },
     {
       "id": "pot-papermesh-round",
@@ -317,7 +451,13 @@
         "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
         "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg"
       ],
-      "tags": ["papermesh", "pot", "round", "planter", "matte"]
+      "tags": [
+        "papermesh",
+        "pot",
+        "round",
+        "planter",
+        "matte"
+      ]
     },
     {
       "id": "vase-wood-turned",
@@ -330,7 +470,12 @@
         "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg",
         "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg"
       ],
-      "tags": ["wood", "vase", "turned", "mango-wood"]
+      "tags": [
+        "wood",
+        "vase",
+        "turned",
+        "mango-wood"
+      ]
     },
     {
       "id": "vase-wood-root",
@@ -343,7 +488,13 @@
         "https://i.pinimg.com/1200x/08/cd/5a/08cd5a0adc736f3cb8fe4a39491dafce.jpg",
         "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
       ],
-      "tags": ["wood", "vase", "root", "teak", "organic"]
+      "tags": [
+        "wood",
+        "vase",
+        "root",
+        "teak",
+        "organic"
+      ]
     },
     {
       "id": "artifact-1",
@@ -356,7 +507,12 @@
         "images/Artifacts/Artifacts 1/Artifacts1_DSC00044_Image2_converted.avif",
         "images/Artifacts/Artifacts 1/Artifacts1_DSC00045_Image3_converted.avif"
       ],
-      "tags": ["artifact", "sculpture", "handcrafted", "artisan"]
+      "tags": [
+        "artifact",
+        "sculpture",
+        "handcrafted",
+        "artisan"
+      ]
     },
     {
       "id": "artifact-2",
@@ -368,7 +524,12 @@
         "images/Artifacts/Artifacts 2/Artifacts2_DSC00049_Image1_converted.avif",
         "images/Artifacts/Artifacts 2/Artifacts2_DSC00050_Image3_converted.avif"
       ],
-      "tags": ["artifact", "sculpture", "organic", "handcrafted"]
+      "tags": [
+        "artifact",
+        "sculpture",
+        "organic",
+        "handcrafted"
+      ]
     },
     {
       "id": "artifact-3",
@@ -382,7 +543,12 @@
         "images/Artifacts/Artifacts 3/Artifacts3_DSC09742_Image3_converted.avif",
         "images/Artifacts/Artifacts 3/Artifacts3_DSC09743_Image4_converted.avif"
       ],
-      "tags": ["artifact", "sculpture", "natural", "artisan"]
+      "tags": [
+        "artifact",
+        "sculpture",
+        "natural",
+        "artisan"
+      ]
     },
     {
       "id": "artifact-4",
@@ -395,7 +561,12 @@
         "images/Artifacts/Artifacts 4/Artifacts4_DSC09772_Image2_converted.avif",
         "images/Artifacts/Artifacts 4/Artifacts4_DSC09775_Image3_converted.avif"
       ],
-      "tags": ["artifact", "decorative", "premium", "artisan"]
+      "tags": [
+        "artifact",
+        "decorative",
+        "premium",
+        "artisan"
+      ]
     },
     {
       "id": "artifact-5",
@@ -407,7 +578,12 @@
         "images/Artifacts/Artifacts 5/Artifacts5_DSC09885_Image1_converted.avif",
         "images/Artifacts/Artifacts 5/Artifacts5_DSC09913_Image2_converted.avif"
       ],
-      "tags": ["artifact", "decorative", "premium", "artisan"]
+      "tags": [
+        "artifact",
+        "decorative",
+        "premium",
+        "artisan"
+      ]
     },
     {
       "id": "partition-carved-teak",
@@ -420,7 +596,12 @@
         "https://i.pinimg.com/736x/38/f3/0f/38f30f3b0cdf068432f964bb1f303b70.jpg",
         "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80"
       ],
-      "tags": ["partition", "teak", "carved", "room-divider"]
+      "tags": [
+        "partition",
+        "teak",
+        "carved",
+        "room-divider"
+      ]
     },
     {
       "id": "dining-table-round-teak",
@@ -434,7 +615,12 @@
         "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09807_Image3.avif",
         "images/Tables/Dining Table/Dining Table 4/DiningTable4_DSC09781_Image4.avif"
       ],
-      "tags": ["dining", "teak", "round", "pedestal"]
+      "tags": [
+        "dining",
+        "teak",
+        "round",
+        "pedestal"
+      ]
     },
     {
       "id": "center-table-nesting-wood",
@@ -448,7 +634,12 @@
         "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00019_image3.avif",
         "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00030_image4.avif"
       ],
-      "tags": ["center-table", "nesting", "acacia", "set"]
+      "tags": [
+        "center-table",
+        "nesting",
+        "acacia",
+        "set"
+      ]
     },
     {
       "id": "side-table-geometric",
@@ -461,7 +652,12 @@
         "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80",
         "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg"
       ],
-      "tags": ["side-table", "carved", "geometric", "ebony"]
+      "tags": [
+        "side-table",
+        "carved",
+        "geometric",
+        "ebony"
+      ]
     },
     {
       "id": "side-table-brass-inlay",
@@ -474,7 +670,12 @@
         "https://i.pinimg.com/1200x/f4/75/b0/f475b06178e8969183c39cd537b9dd21.jpg",
         "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80"
       ],
-      "tags": ["side-table", "brass-inlay", "sheesham", "botanical"]
+      "tags": [
+        "side-table",
+        "brass-inlay",
+        "sheesham",
+        "botanical"
+      ]
     },
     {
       "id": "side-table-terrazzo",
@@ -487,7 +688,12 @@
         "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?w=600&q=80",
         "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=600&q=80"
       ],
-      "tags": ["side-table", "terrazzo", "oak", "tripod"]
+      "tags": [
+        "side-table",
+        "terrazzo",
+        "oak",
+        "tripod"
+      ]
     },
     {
       "id": "live-edge-dining-slab",
@@ -500,7 +706,12 @@
         "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg",
         "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg"
       ],
-      "tags": ["live-edge", "mahogany", "dining", "statement"]
+      "tags": [
+        "live-edge",
+        "mahogany",
+        "dining",
+        "statement"
+      ]
     },
     {
       "id": "live-edge-desk",
@@ -513,7 +724,12 @@
         "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
         "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80"
       ],
-      "tags": ["live-edge", "desk", "walnut", "workspace"]
+      "tags": [
+        "live-edge",
+        "desk",
+        "walnut",
+        "workspace"
+      ]
     },
     {
       "id": "live-edge-entry-table",
@@ -526,7 +742,12 @@
         "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&q=80",
         "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg"
       ],
-      "tags": ["live-edge", "cherry", "entryway", "pin-legs"]
+      "tags": [
+        "live-edge",
+        "cherry",
+        "entryway",
+        "pin-legs"
+      ]
     },
     {
       "id": "live-edge-bar-counter",
@@ -539,7 +760,12 @@
         "https://i.pinimg.com/1200x/57/cf/5d/57cf5da80282d2960d95bf2e271fc4e3.jpg",
         "https://i.pinimg.com/1200x/ce/4e/ff/ce4eff08ece65a961c3ca557b01ded71.jpg"
       ],
-      "tags": ["live-edge", "reclaimed", "bar", "rustic"]
+      "tags": [
+        "live-edge",
+        "reclaimed",
+        "bar",
+        "rustic"
+      ]
     },
     {
       "id": "bench-papermesh-long",
@@ -552,7 +778,12 @@
         "https://i.pinimg.com/1200x/e1/5e/85/e15e85673750d96cd59257a7569bb54f.jpg",
         "https://i.pinimg.com/1200x/e1/c6/06/e1c606b142c06bb3499356f128a8b162.jpg"
       ],
-      "tags": ["papermesh", "bench", "long", "gallery"]
+      "tags": [
+        "papermesh",
+        "bench",
+        "long",
+        "gallery"
+      ]
     },
     {
       "id": "bench-papermesh-curve",
@@ -565,7 +796,12 @@
         "https://i.pinimg.com/1200x/ef/24/06/ef24069dc35f267501e9b58a1f9221c2.jpg",
         "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
       ],
-      "tags": ["papermesh", "bench", "curved", "organic"]
+      "tags": [
+        "papermesh",
+        "bench",
+        "curved",
+        "organic"
+      ]
     },
     {
       "id": "bench-papermesh-tufted",
@@ -578,7 +814,12 @@
         "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
         "https://i.pinimg.com/1200x/e8/aa/db/e8aadb9ba20ef8147f66a5e0badad9d7.jpg"
       ],
-      "tags": ["papermesh", "bench", "tufted", "texture"]
+      "tags": [
+        "papermesh",
+        "bench",
+        "tufted",
+        "texture"
+      ]
     },
     {
       "id": "bench-papermesh-compact",
@@ -591,7 +832,12 @@
         "https://i.pinimg.com/1200x/e8/aa/db/e8aadb9ba20ef8147f66a5e0badad9d7.jpg",
         "https://i.pinimg.com/1200x/e1/c6/06/e1c606b142c06bb3499356f128a8b162.jpg"
       ],
-      "tags": ["papermesh", "stool", "compact", "versatile"]
+      "tags": [
+        "papermesh",
+        "stool",
+        "compact",
+        "versatile"
+      ]
     },
     {
       "id": "bench-wood-oak",
@@ -604,7 +850,12 @@
         "https://i.pinimg.com/1200x/e1/c6/06/e1c606b142c06bb3499356f128a8b162.jpg",
         "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80"
       ],
-      "tags": ["wood", "bench", "oak", "entryway"]
+      "tags": [
+        "wood",
+        "bench",
+        "oak",
+        "entryway"
+      ]
     },
     {
       "id": "bench-wood-slat",
@@ -617,7 +868,12 @@
         "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?w=600&q=80",
         "https://i.pinimg.com/1200x/e8/aa/db/e8aadb9ba20ef8147f66a5e0badad9d7.jpg"
       ],
-      "tags": ["wood", "bench", "teak", "slat"]
+      "tags": [
+        "wood",
+        "bench",
+        "teak",
+        "slat"
+      ]
     },
     {
       "id": "bench-wood-upholstered",
@@ -630,98 +886,133 @@
         "https://i.pinimg.com/1200x/e8/aa/db/e8aadb9ba20ef8147f66a5e0badad9d7.jpg",
         "https://i.pinimg.com/1200x/e1/c6/06/e1c606b142c06bb3499356f128a8b162.jpg"
       ],
-      "tags": ["wood", "bench", "linen", "walnut"]
+      "tags": [
+        "wood",
+        "bench",
+        "linen",
+        "walnut"
+      ]
     },
     {
       "id": "chair-1",
-      "name": "Chair 1",
+      "name": "Cylinder Back Support Chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "An artisanal accent chair handcrafted with sculptured solid wood contours, offering exceptional comfort and architectural elegance.",
+      "description": "Crafted from premium teak wood, this chair provides unique cylinder back support and is protected by an exterior PU polish. With various fabric choices and custom size and design options, it offers both comfort and versatility.",
       "images": [
         "images/Chairs/Chair 1/Chair1_DSC00051_Image1.avif",
         "images/Chairs/Chair 1/Chair1_DSC00054_Image2.avif",
         "images/Chairs/Chair 1/Chair1_DSC00058_Image3.avif",
         "images/Chairs/Chair 1/Chair1_DSC00061_Image4.avif"
       ],
-      "tags": ["chair", "artisan", "solid-wood", "handcrafted"]
+      "tags": [
+        "chair",
+        "artisan",
+        "solid-wood",
+        "handcrafted"
+      ]
     },
     {
       "id": "chair-2",
-      "name": "Chair 2",
+      "name": "Hammered Brass Back Chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A refined wooden chair featuring organic lines and masterful craftsmanship, designed to bring natural warmth to modern spaces.",
+      "description": "This distinctive chair features a hammered brass back with an antique finish and an exterior PU polish. It offers a selection of seating fabric options and can be tailored with custom sizes and designs.",
       "images": [
         "images/Chairs/Chair 2/Chair2_DSC00064_Image1.avif",
         "images/Chairs/Chair 2/Chair2_DSC00067_Image2.avif",
         "images/Chairs/Chair 2/Chair2_DSC00068_Image3.avif",
         "images/Chairs/Chair 2/Chair2_DSC00062_Image4.avif"
       ],
-      "tags": ["chair", "wood", "handcrafted", "contemporary"]
+      "tags": [
+        "chair",
+        "wood",
+        "handcrafted",
+        "contemporary"
+      ]
     },
     {
       "id": "chair-3",
-      "name": "Chair 3",
+      "name": "WhiteAsh Wood dining chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A distinctive handcrafted armchair with fluid silhouette and sculpted wooden frame, pairing ergonomic comfort with sculptural presence.",
+      "description": "Showcasing high-quality craftsmanship, this dining chair features elegant leather lining work and a protective exterior PU polish. It is available in custom sizes on demand to complement any dining space perfectly.",
       "images": [
         "images/Chairs/Chair 3/Chair3_DSC00072_Image1.avif",
         "images/Chairs/Chair 3/Chair3_DSC00074_Image2.avif",
         "images/Chairs/Chair 3/Chair3_DSC00075_Image3.avif",
         "images/Chairs/Chair 3/Chair3_DSC00070_Image4.avif"
       ],
-      "tags": ["chair", "armchair", "sculptural", "wood"]
+      "tags": [
+        "chair",
+        "armchair",
+        "sculptural",
+        "wood"
+      ]
     },
     {
       "id": "chair-4",
-      "name": "Chair 4",
+      "name": "Walnut Wood Dining Chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A bespoke solid wood chair with striking grain patterns and hand-finished surfaces, built for longevity and timeless appeal.",
+      "description": "Featuring a robust thick legs design and a large backrest for added comfort, this dining chair is finished with an exterior PU polish. Custom sizes, as well as various fabric and leather options, are available on demand.",
       "images": [
         "images/Chairs/Chair 4/Chair4_DSC00080_Image1.avif",
         "images/Chairs/Chair 4/Chair4_DSC00081_Image2.avif",
         "images/Chairs/Chair 4/Chair4_DSC00083_Image3.avif",
         "images/Chairs/Chair 4/Chair4_DSC00076_Image4.avif"
       ],
-      "tags": ["chair", "solid-wood", "handcrafted", "bespoke"]
+      "tags": [
+        "chair",
+        "solid-wood",
+        "handcrafted",
+        "bespoke"
+      ]
     },
     {
       "id": "chair-5",
-      "name": "Chair 5",
+      "name": "Restaurant/Cafe Chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A modern handcrafted chair balancing minimal geometry with rich organic timber textures for relaxed contemporary seating.",
+      "description": "Constructed from durable teak wood and finished with an exterior PU polish, this chair is ideal for restaurant or cafe settings. It offers custom fabric or leather choices along with customizable sizes and designs.",
       "images": [
         "images/Chairs/Chair 5/Chair5_DSC00087_Image1.avif",
         "images/Chairs/Chair 5/Chair5_DSC00089_Image2.avif",
         "images/Chairs/Chair 5/Chair5_DSC00090_Image3.avif",
         "images/Chairs/Chair 5/Chair5_DSC00085_Image4.avif"
       ],
-      "tags": ["chair", "minimalist", "timber", "artisan"]
+      "tags": [
+        "chair",
+        "minimalist",
+        "timber",
+        "artisan"
+      ]
     },
     {
       "id": "chair-6",
-      "name": "Chair 6",
+      "name": "Walnut Wood Aram chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "An elegant handcrafted chair showcasing artisan joinery, sculpted armrests, and a natural tactile wood finish.",
+      "description": "This aram chair is crafted with premium foam, high-quality stitching, and a soft leather neck rest for optimal support. Finished with an exterior PU polish, it can be customized in size and design to fit your needs.",
       "images": [
         "images/Chairs/Chair 6/Chair6_DSC00094_Image1.avif",
         "images/Chairs/Chair 6/Chair6_DSC00100_Image2.avif",
         "images/Chairs/Chair 6/Chair6_DSC00098_Image3.avif",
         "images/Chairs/Chair 6/Chair6_DSC00092_Image4.avif"
       ],
-      "tags": ["chair", "joinery", "handcrafted", "wood"]
+      "tags": [
+        "chair",
+        "joinery",
+        "handcrafted",
+        "wood"
+      ]
     },
     {
       "id": "chair-7",
-      "name": "Chair 7",
+      "name": "Textured Wooden Lounge chair",
       "category": "Chairs",
       "subcategory": "All Chairs",
-      "description": "A premium handcrafted statement chair defined by sculptural woodwork and refined architectural proportions.",
+      "description": "Relax in this lounge chair featuring thick, soft cushioning and an exterior PU polish. With high-quality fabric choices and custom size and design options available, it provides both exceptional comfort and personalized style.",
       "images": [
         "images/Chairs/Chair 7/Chair7_DSC00111_Image1.avif",
         "images/Chairs/Chair 7/Chair7_DSC00112_Image2.avif",
@@ -729,7 +1020,12 @@
         "images/Chairs/Chair 7/Chair7_DSC00116_Image4.avif",
         "images/Chairs/Chair 7/Chair7_DSC00108_Image5.avif"
       ],
-      "tags": ["chair", "statement", "sculptural", "premium"]
+      "tags": [
+        "chair",
+        "statement",
+        "sculptural",
+        "premium"
+      ]
     },
     {
       "id": "mirror-hanging-sunburst",
@@ -742,7 +1038,12 @@
         "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
         "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
       ],
-      "tags": ["mirror", "hanging", "sunburst", "teak"]
+      "tags": [
+        "mirror",
+        "hanging",
+        "sunburst",
+        "teak"
+      ]
     },
     {
       "id": "mirror-hanging-bamboo",
@@ -755,7 +1056,12 @@
         "https://i.pinimg.com/1200x/20/6a/cc/206acc101f7bda008188365004e14ff5.jpg",
         "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
       ],
-      "tags": ["mirror", "hanging", "bamboo", "woven"]
+      "tags": [
+        "mirror",
+        "hanging",
+        "bamboo",
+        "woven"
+      ]
     },
     {
       "id": "mirror-hanging-oval-brass",
@@ -768,7 +1074,12 @@
         "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80",
         "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80"
       ],
-      "tags": ["mirror", "hanging", "oval", "brass"]
+      "tags": [
+        "mirror",
+        "hanging",
+        "oval",
+        "brass"
+      ]
     },
     {
       "id": "mirror-floor-arched",
@@ -781,7 +1092,12 @@
         "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80",
         "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
       ],
-      "tags": ["mirror", "floor", "arched", "oak"]
+      "tags": [
+        "mirror",
+        "floor",
+        "arched",
+        "oak"
+      ]
     },
     {
       "id": "mirror-floor-minimalist",
@@ -794,7 +1110,12 @@
         "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80",
         "https://images.unsplash.com/photo-1618220179428-22790b461013?w=600&q=80"
       ],
-      "tags": ["mirror", "floor", "minimalist", "timber"]
+      "tags": [
+        "mirror",
+        "floor",
+        "minimalist",
+        "timber"
+      ]
     },
     {
       "id": "mirror-floor-rustic-live-edge",
@@ -807,7 +1128,12 @@
         "https://i.pinimg.com/736x/14/88/b1/1488b1b302177ca379b20856750f5822.jpg",
         "https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=600&q=80"
       ],
-      "tags": ["mirror", "floor", "live-edge", "walnut"]
+      "tags": [
+        "mirror",
+        "floor",
+        "live-edge",
+        "walnut"
+      ]
     },
     {
       "id": "mirror-floor-vintage-gold",
@@ -820,7 +1146,12 @@
         "https://i.pinimg.com/736x/d5/43/31/d543315369717d1aa80e9b1be9e83922.jpg",
         "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=600&q=80"
       ],
-      "tags": ["mirror", "floor", "vintage", "gold-leaf"]
+      "tags": [
+        "mirror",
+        "floor",
+        "vintage",
+        "gold-leaf"
+      ]
     },
     {
       "id": "pot-papermesh-tall-fluted",
@@ -833,7 +1164,12 @@
         "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
         "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
       ],
-      "tags": ["papermesh", "vase", "fluted", "botanical"]
+      "tags": [
+        "papermesh",
+        "vase",
+        "fluted",
+        "botanical"
+      ]
     },
     {
       "id": "pot-papermesh-mini-set",
@@ -846,7 +1182,12 @@
         "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80",
         "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg"
       ],
-      "tags": ["papermesh", "pot", "set", "mini"]
+      "tags": [
+        "papermesh",
+        "pot",
+        "set",
+        "mini"
+      ]
     },
     {
       "id": "pot-papermesh-textured-bowl",
@@ -859,7 +1200,12 @@
         "https://i.pinimg.com/1200x/f1/0b/85/f10b8517db8192fbf20c15d7b32147ce.jpg",
         "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg"
       ],
-      "tags": ["papermesh", "bowl", "textured", "center-piece"]
+      "tags": [
+        "papermesh",
+        "bowl",
+        "textured",
+        "center-piece"
+      ]
     },
     {
       "id": "vase-wood-ebony-tall",
@@ -872,7 +1218,12 @@
         "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg",
         "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=600&q=80"
       ],
-      "tags": ["wood", "vase", "ebony", "teak"]
+      "tags": [
+        "wood",
+        "vase",
+        "ebony",
+        "teak"
+      ]
     },
     {
       "id": "vase-wood-carved-floral",
@@ -885,7 +1236,12 @@
         "https://i.pinimg.com/1200x/41/0c/bc/410cbca0d9291b9b58cd2f637f83a155.jpg",
         "https://i.pinimg.com/1200x/75/59/25/755925673c98d7c4fce535a3317e2b66.jpg"
       ],
-      "tags": ["wood", "pot", "carved", "floral"]
+      "tags": [
+        "wood",
+        "pot",
+        "carved",
+        "floral"
+      ]
     },
     {
       "id": "vase-wood-asymmetrical",
@@ -898,7 +1254,12 @@
         "https://i.pinimg.com/1200x/1c/08/3c/1c083c6d47e344de4f1e6bde0336a7d4.jpg",
         "https://i.pinimg.com/1200x/39/04/ee/3904eeb575ea510a63af9fb4b8e71051.jpg"
       ],
-      "tags": ["wood", "vase", "log", "asymmetrical"]
+      "tags": [
+        "wood",
+        "vase",
+        "log",
+        "asymmetrical"
+      ]
     },
     {
       "id": "partition-modern-slat",
@@ -911,7 +1272,12 @@
         "https://i.pinimg.com/736x/e6/c0/fc/e6c0fc8e1b30249930187064ac1d4849.jpg",
         "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=600&q=80"
       ],
-      "tags": ["partition", "slat", "modern", "room-divider"]
+      "tags": [
+        "partition",
+        "slat",
+        "modern",
+        "room-divider"
+      ]
     },
     {
       "id": "partition-rattan-boho",
@@ -924,7 +1290,12 @@
         "https://i.pinimg.com/1200x/c5/3f/39/c53f3993e8d92452c1f136837669f0e0.jpg",
         "https://i.pinimg.com/736x/11/2d/e2/112de2f812f2caa031b73045aab97ffa.jpg"
       ],
-      "tags": ["partition", "rattan", "boho", "woven"]
+      "tags": [
+        "partition",
+        "rattan",
+        "boho",
+        "woven"
+      ]
     },
     {
       "id": "partition-industrial-metal",
@@ -937,7 +1308,12 @@
         "https://i.pinimg.com/1200x/13/c7/c8/13c7c84fc704f5f481fcf0c0757558eb.jpg",
         "https://i.pinimg.com/1200x/61/99/23/61992396acff44233e4dd868937a874f.jpg"
       ],
-      "tags": ["partition", "industrial", "metal", "shelving"]
+      "tags": [
+        "partition",
+        "industrial",
+        "metal",
+        "shelving"
+      ]
     },
     {
       "id": "partition-carved-sun",
@@ -950,7 +1326,12 @@
         "https://i.pinimg.com/1200x/65/fb/fa/65fbfa0f635cd6c052bb28bfcd00ecb6.jpg",
         "https://i.pinimg.com/1200x/61/99/23/61992396acff44233e4dd868937a874f.jpg"
       ],
-      "tags": ["partition", "carved", "sunburst", "mango-wood"]
+      "tags": [
+        "partition",
+        "carved",
+        "sunburst",
+        "mango-wood"
+      ]
     }
   ]
 }

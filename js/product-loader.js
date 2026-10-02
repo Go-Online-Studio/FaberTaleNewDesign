@@ -21,7 +21,8 @@ const CATEGORY_ICONS = {
   "Pots/Vases":  "mdi:flower-tulip-outline",
   "Artifacts":   "mdi:diamond-stone",
   "Partitions":  "mdi:view-column-outline",
-  "Lamps":       "mdi:lamp"
+  "Lamps":       "mdi:lamp",
+  "Sofas":       "mdi:sofa-outline"
 };
 
 const SUBCATEGORY_ICONS = {

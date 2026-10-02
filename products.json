@@ -64,6 +64,12 @@
       "subcategories": [
         "All Partitions"
       ]
+    },
+    {
+      "name": "Sofas",
+      "subcategories": [
+        "Sofa"
+      ]
     }
   ],
   "products": [
@@ -226,10 +232,9 @@
       "subcategory": "Console Table",
       "description": "This elegant oval console is constructed from premium walnut wood and finished with a durable exterior PU polish. With custom sizing and design options available, it serves as a versatile and stylish addition to any entryway or living area.",
       "images": [
-        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00034_Image1.avif",
-        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00040_Image2.avif",
-        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00039_Image3.avif",
-        "images/Tables/Console Table/Console Table 1/ConsoleTable1_DSC00042_Image4.avif"
+        "images/Tables/Console Table/Console Table 1/1-2.webp",
+        "images/Tables/Console Table/Console Table 1/2-2.webp",
+        "images/Tables/Console Table/Console Table 1/3-2.webp"
       ],
       "tags": [
         "console",
@@ -625,8 +630,8 @@
     {
       "id": "center-table-nesting-wood",
       "name": "Walnut Wood outdoor seating sofa",
-      "category": "Tables",
-      "subcategory": "Center Table",
+      "category": "Sofas",
+      "subcategory": "Sofa",
       "description": "Crafted from highly durable walnut wood, this outdoor seating sofa is exceptionally resistant to atmospheric wear and tear. Finished with a protective exterior PU polish, it is available in custom sizes and designs to perfectly elevate your outdoor living space.",
       "images": [
         "images/Tables/Center Table/Center Table 3/CenterTable3_DSC00026_image1.avif",
@@ -1331,6 +1336,82 @@
         "carved",
         "sunburst",
         "mango-wood"
+      ]
+    },
+    {
+      "id": "sofa-chiseled",
+      "name": "Walnut Wood with handmade chiseled textures back design",
+      "category": "Sofas",
+      "subcategory": "Sofa",
+      "description": "Finished with an exterior PU polish, this beautifully crafted piece is available in custom sizes and designs to perfectly match your aesthetic.",
+      "images": [
+        "images/Sofas/Sofa 1/1.webp",
+        "images/Sofas/Sofa 1/2.webp",
+        "images/Sofas/Sofa 1/3.webp",
+        "images/Sofas/Sofa 1/4.webp"
+      ],
+      "tags": [
+        "sofa",
+        "walnut-wood",
+        "chiseled",
+        "handmade"
+      ]
+    },
+    {
+      "id": "sofa-teak",
+      "name": "Teak Wood sofa",
+      "category": "Sofas",
+      "subcategory": "Sofa",
+      "description": "This elegant teak wood sofa features various fabric options and an exterior PU polish. Custom sizes and designs are available to suit your needs.",
+      "images": [
+        "images/Sofas/Sofa 2/1-1.webp",
+        "images/Sofas/Sofa 2/2-1.webp",
+        "images/Sofas/Sofa 2/3-1.webp",
+        "images/Sofas/Sofa 2/4-1.webp"
+      ],
+      "tags": [
+        "sofa",
+        "teak-wood",
+        "fabric",
+        "custom"
+      ]
+    },
+    {
+      "id": "mirror-hammered-brass-walnut",
+      "name": "Hammered Brass, Walnut Wood and exposed concrete Frame Mirror",
+      "category": "Mirrors",
+      "subcategory": "Hanging",
+      "description": "This unique mirror features a hammered brass, walnut wood, and exposed concrete frame. It offers various fabric/material options, custom sizes and designing, and an exterior PU polish.",
+      "images": [
+        "images/Mirrors/Mirror 6/1-3.webp",
+        "images/Mirrors/Mirror 6/2-3.webp",
+        "images/Mirrors/Mirror 6/3-3.webp",
+        "images/Mirrors/Mirror 6/4-3.webp"
+      ],
+      "tags": [
+        "mirror",
+        "hammered-brass",
+        "walnut-wood",
+        "concrete"
+      ]
+    },
+    {
+      "id": "console-hammered-brass-3-drawers",
+      "name": "Hammered Brass antique Finish 3 drawers",
+      "category": "Tables",
+      "subcategory": "Console Table",
+      "description": "Constructed with a walnut wood box frame and a textured wooden geometric design base, these 3 drawers feature a hammered brass antique finish and exterior PU polish. Custom sizes and designs available.",
+      "images": [
+        "images/Tables/Console Table/Console Table 2/1-4.webp",
+        "images/Tables/Console Table/Console Table 2/2-4.webp",
+        "images/Tables/Console Table/Console Table 2/3-4.webp",
+        "images/Tables/Console Table/Console Table 2/4-4.webp"
+      ],
+      "tags": [
+        "drawers",
+        "console-table",
+        "hammered-brass",
+        "walnut-wood"
       ]
     }
   ]

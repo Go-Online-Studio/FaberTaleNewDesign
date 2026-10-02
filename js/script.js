@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <li><a href="products.html?category=Lights">Lights</a></li>
               <li><a href="products.html?category=Chairs">Chairs</a></li>
               <li><a href="products.html?category=Mirrors">Mirrors</a></li>
+              <li><a href="products.html?category=Sofas">Sofas</a></li>
             </ul>
           </div>
 

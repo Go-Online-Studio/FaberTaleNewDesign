@@ -48,6 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
       subcategories: ["All Partitions"]
     },
     {
+      name: "Sofas",
+      subcategories: ["Sofa"]
+    },
+    {
       name: "Lamps",
       subcategories: ["All Lamps"]
     }

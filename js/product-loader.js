@@ -101,7 +101,7 @@ function initializePage() {
     if (category) {
       currentFilter = category;
     } else {
-       currentFilter = [...new Set(allProducts.map(p => p.category))][0];
+       currentFilter = allCategories.length > 0 ? allCategories[0].name : "";
     }
   }
 
@@ -150,7 +150,7 @@ function checkURLParams() {
 }
 
 function generateCategoryFilters() {
-  const categories = [...new Set(allProducts.map(p => p.category))];
+  const categories = allCategories.map(c => c.name);
   const container = document.getElementById("categoryFilters");
 
   if (container) {
@@ -294,9 +294,17 @@ function displayProducts(products) {
   if (!grid) return;
 
   if (products.length === 0) {
-    // ... (your existing code)
+    grid.innerHTML = `
+      <div class="col-12 text-center" style="padding: 60px 20px; background: var(--off-white); border: 1px dashed var(--secondary-text); border-radius: 8px;">
+        <iconify-icon icon="mdi:tools" style="font-size: 3rem; color: var(--secondary-text); margin-bottom: 15px;"></iconify-icon>
+        <h3 style="font-family: var(--font-heading); color: var(--main-text);">Coming Soon</h3>
+        <p style="font-family: var(--font-text); color: var(--secondary-text); max-width: 400px; margin: 0 auto;">We are carefully curating new exquisite pieces for this collection. Please check back later.</p>
+      </div>`;
+    if (resultsCount) resultsCount.textContent = "0 Products";
+    if (noResults) noResults.style.display = "block";
   } else {
-    // ... (your existing code)
+    if (noResults) noResults.style.display = "none";
+    if (resultsCount) resultsCount.textContent = `${products.length} Products`;
     grid.innerHTML = products.map(p => createProductCard(p)).join("");
   }
 

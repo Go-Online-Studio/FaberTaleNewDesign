@@ -447,10 +447,10 @@
     },
     {
       "id": "artifact-1",
-      "name": "Artifact 1",
+      "name": "Asymmetrical Sculptural Vase",
       "category": "Artifacts",
       "subcategory": "All Artifacts",
-      "description": "A captivating handcrafted sculptural artifact made with meticulous artisan detail. Each piece is a unique expression of form and natural material.",
+      "description": "A striking large-scale asymmetrical vase featuring an angular silhouette and a spherical accent at its base. Handcrafted in a matte off-white finish, it serves as a bold modern centerpiece.",
       "images": [
         "images/Artifacts/Artifacts 1/Artifacts1_DSC00043_Image1_converted.avif",
         "images/Artifacts/Artifacts 1/Artifacts1_DSC00044_Image2_converted.avif",
@@ -465,10 +465,10 @@
     },
     {
       "id": "artifact-2",
-      "name": "Artifact 2",
+      "name": "Lotus Leaf Decorative Bowls",
       "category": "Artifacts",
       "subcategory": "All Artifacts",
-      "description": "A distinctive handcrafted artifact blending organic textures with refined sculptural form. A statement piece for collectors and connoisseurs.",
+      "description": "A pair of shallow decorative bowls intricately shaped like textured lotus leaves. Their delicate ribbed details and organic form make them a beautiful statement piece for any tabletop.",
       "images": [
         "images/Artifacts/Artifacts 2/Artifacts2_DSC00049_Image1_converted.avif",
         "images/Artifacts/Artifacts 2/Artifacts2_DSC00050_Image3_converted.avif"
@@ -482,10 +482,10 @@
     },
     {
       "id": "artifact-3",
-      "name": "Artifact 3",
+      "name": "Textured Ceramic Vase Collection",
       "category": "Artifacts",
       "subcategory": "All Artifacts",
-      "description": "An exquisite sculptural artifact showcasing the beauty of natural materials worked by skilled artisan hands into a timeless decorative object.",
+      "description": "A curated collection of artisan pots and vases showcasing a variety of earthy textures and neutral tones, perfect for adding a rustic yet refined aesthetic to your shelving.",
       "images": [
         "images/Artifacts/Artifacts 3/Artifacts3_DSC09738_Image1_converted.avif",
         "images/Artifacts/Artifacts 3/Artifacts3_DSC09740_Image2_converted.avif",
@@ -501,10 +501,10 @@
     },
     {
       "id": "artifact-4",
-      "name": "Artifact 4",
+      "name": "Scalloped Edge Display Bowl",
       "category": "Artifacts",
       "subcategory": "All Artifacts",
-      "description": "A premium decorative artifact featuring elegant proportions and artisan craftsmanship, designed to elevate any interior space.",
+      "description": "A low-profile decorative display bowl featuring an elegant scalloped edge. Its beautifully fluted design adds a touch of classic craftsmanship to any modern interior space.",
       "images": [
         "images/Artifacts/Artifacts 4/Artifacts4_DSC09774_Image1_converted.avif",
         "images/Artifacts/Artifacts 4/Artifacts4_DSC09772_Image2_converted.avif",
@@ -519,10 +519,10 @@
     },
     {
       "id": "artifact-5",
-      "name": "Artifact 5",
+      "name": "Ribbed Vase Trio",
       "category": "Artifacts",
       "subcategory": "All Artifacts",
-      "description": "A premium decorative artifact featuring elegant proportions and artisan craftsmanship, designed to elevate any interior space.",
+      "description": "A charming set of three ribbed vases in varying sizes, featuring beautiful off-white fluted bodies complemented by warm wooden accents. Perfect for displaying dried botanicals.",
       "images": [
         "images/Artifacts/Artifacts 5/Artifacts5_DSC09885_Image1_converted.avif",
         "images/Artifacts/Artifacts 5/Artifacts5_DSC09913_Image2_converted.avif"
